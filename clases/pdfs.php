@@ -1,0 +1,116 @@
+<?php
+//style="visibility:hidden";
+
+//$destinatario = $_POST['nombred'];
+//$direccion = $_POST['direccion'];
+//$region = $_POST['region'];
+//$comuna = $_POST['lista2'];
+//$cliente = $_POST['comuna'];
+//$rutuser = $_POST['rutuser'];
+//$tipoenvio = $_POST['tenvio'];
+//$cinterno = $_POST['codigoi'];
+/*
+$destinatario = "Juan Brisenuos";
+$direccion = "12 sur #97";
+$region = "Maule";
+$comuna = "Talca";
+$detalle = "encomienda fragil";
+$cliente = "Universidad Talca";
+$rutuser = "16650344-2";
+$tipoenvio = "Sobre";
+$cinterno = "132547838"; */
+
+
+require('fpdf/fpdf.php');
+include 'barcode.php';
+
+
+
+class PDF extends FPDF
+{
+
+
+    function TablaBasica($destinatario, $direccion,$region,$comuna,$detalle,$cliente,$rutuser,$tipoenvio,$cinterno)
+    {
+  
+        //$rest = substr(''.$rutuser.'', 0, -8);
+        $milisegundos = round(microtime(true) * 1000);
+        $fcad = date("YmdHi", time());
+        $facsfsegu = date("mYd", time());
+        $rest = substr(''.$milisegundos.'', 0, -3);
+        $code =$milisegundos.$fcad;
+        $nsiguimiento = $facsfsegu.$rest;
+        $dia = date("Y-m-d H:i:s", time());
+        $hora = date("Y-m-d H:i:s", time());
+        
+        barcode('clases/codigos/'.$code.'.png', $code, 20, 'horizontal', 'code128', true);
+        $ahora = date("Y-m-d H:i:s");
+
+        //Cabecera
+        //foreach($header as $col)
+        //$this->Cell(40,7,$col,1);
+    
+        // $this->Cell(20,70,'Destinatario :',0);
+        //$this->Image('logo/logo.jpg',10,20,50,0,'JPG');
+        //$this->Image('codigos/'.$code.'.png',10,40,50,0,'PNG');
+        $this->Cell(50,10, $this->Image('clases/codigos/'.$code.'.png', $this->GetX(), $this->GetY(),50,10),0);
+        $this->Cell(20,10,"Fecha y hora:",0);
+        $this->Cell(20,10,''.$ahora.'',0);
+        $this->Cell(20,10,"",0);  
+        $this->Cell(20,10,"",0);
+        $this->Cell(20,10,"",0);
+        $this->Cell(20,10,"",0); 
+        $this->Ln();
+        $this->Cell(50,5, $this->Image('clases/logo/logo.jpg', $this->GetX(), $this->GetY(),40,30),0);
+        $this->Cell(20,5,"Destinatario:",0);
+        $this->Cell(20,5,"".$destinatario."",0);
+        $this->Cell(20,5,"",0);
+        $this->Cell(20,5,"",0);  
+        $this->Cell(20,5,"",0);  
+        $this->Cell(20,5,"",0);
+        $this->Ln();
+        $this->Cell(50,5,"",0);
+        $this->Cell(20,5,"Direccion :",0);
+        $this->Cell(20,5,"".$direccion."",0);
+        $this->Cell(20,5,"",0);  
+        $this->Cell(20,5,"",0);
+        $this->Cell(20,5,"Region:",0);
+        $this->Cell(20,5,"".$region."",0);  
+        $this->Ln();
+        $this->Cell(50,5,"",0);
+        $this->Cell(20,5,"N. Seguimiento: ".$nsiguimiento."",0);  
+        $this->Cell(20,5,"",0);
+        $this->Cell(20,5,"",0);  
+        $this->Cell(20,5,"",0);
+        $this->Cell(20,5,"Comuna:",0);
+        $this->Cell(20,5,"".$comuna."",0);   
+        $this->Ln();   
+        $this->Cell(50,5,"",0);
+        $this->Cell(20,5,"Cliente :",0);
+        $this->Cell(20,5,"".$cliente."",0);
+        $this->Cell(20,5,"",0);  
+        $this->Cell(20,5,"",0);
+        $this->Cell(20,5,"Usuario:",0);
+        $this->Cell(20,5,"".$rutuser."",0); 
+        $this->Ln();
+        $this->Cell(50,5,"",0);
+        $this->Cell(20,5,"Tipo envio",0);  
+        $this->Cell(20,5,"".$tipoenvio."",0);
+        $this->Cell(20,5,"",0);  
+        $this->Cell(20,5,"",0);
+        $this->Cell(20,5,"C. Interno",0);
+        $this->Cell(20,5,"".$cinterno."",0); 
+        $this->Ln();
+        $this->Cell(50,5,"",0);
+        $this->Cell(20,5,"Detalle",0);  
+        $this->Cell(20,5,"".$detalle."",0);
+        $this->Cell(20,5,"",0);  
+        $this->Cell(20,5,"",0);
+        error_log($code);
+        $arrayData = array($code, $nsiguimiento, $hora, $dia);
+        return $arrayData;
+    }
+
+}
+
+?>

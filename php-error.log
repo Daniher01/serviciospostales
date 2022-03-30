@@ -1,0 +1,711 @@
+[29-Mar-2022 22:13:50 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:13:50 America/Santiago] app otra vista
+[29-Mar-2022 22:14:03 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:14:03 America/Santiago] app pdf
+[29-Mar-2022 22:14:03 America/Santiago] 1648602843276202203292214
+[29-Mar-2022 22:14:03 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 22:14:03 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 22:14:03 America/Santiago] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comuna' in 'field list' in C:\xampp\htdocs\serviciospostales\modelo\ClientesFrecuentesmodel.php:17
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\modelo\ClientesFrecuentesmodel.php(17): PDO->prepare('INSERT INTO cli...')
+#1 C:\xampp\htdocs\serviciospostales\controlador\PDFController.php(69): ClientesFrecuentesModel->insertClientesFrecuentes('daniel hernande...', '20 sur', ' 1 ', 1)
+#2 C:\xampp\htdocs\serviciospostales\libs\app.php(38): PDFController->GenerarPDF()
+#3 C:\xampp\htdocs\serviciospostales\libs\app.php(8): App->sesionIniciada()
+#4 C:\xampp\htdocs\serviciospostales\index.php(26): App->__construct()
+#5 {main}
+[29-Mar-2022 22:14:03 America/Santiago] PHP Notice:  Undefined variable: rs in C:\xampp\htdocs\serviciospostales\modelo\ClientesFrecuentesmodel.php on line 25
+[29-Mar-2022 22:14:46 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:14:46 America/Santiago] app pdf
+[29-Mar-2022 22:14:47 America/Santiago] 1648602887002202203292214
+[29-Mar-2022 22:14:47 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 22:14:47 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 22:14:47 America/Santiago] INSERT INTO cliente_frecuentes (nombre, direccion, comunas_idcomunas, usuario_idusuario)
+                        VALUES ('daniel hernandez', '20 sur',  1 , 1)
+[29-Mar-2022 22:21:38 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:21:38 America/Santiago] app otra vista
+[29-Mar-2022 22:21:40 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:21:40 America/Santiago] app otra vista
+[29-Mar-2022 22:22:01 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:22:01 America/Santiago] app otra vista
+[29-Mar-2022 22:22:08 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:22:08 America/Santiago] app otra vista
+[29-Mar-2022 22:37:28 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:37:28 America/Santiago] app otra vista
+[29-Mar-2022 22:38:41 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:38:41 America/Santiago] app otra vista
+[29-Mar-2022 22:38:44 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:38:44 America/Santiago] app otra vista
+[29-Mar-2022 22:38:49 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:38:49 America/Santiago] app otra vista
+[29-Mar-2022 22:38:49 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::pages() in C:\xampp\htdocs\serviciospostales\libs\app.php:79
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\libs\app.php(8): App->sesionIniciada()
+#1 C:\xampp\htdocs\serviciospostales\index.php(26): App->__construct()
+#2 {main}
+[29-Mar-2022 22:39:08 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:39:08 America/Santiago] app otra vista
+[29-Mar-2022 22:39:08 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::pages() in C:\xampp\htdocs\serviciospostales\libs\app.php:79
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\libs\app.php(8): App->sesionIniciada()
+#1 C:\xampp\htdocs\serviciospostales\index.php(26): App->__construct()
+#2 {main}
+[29-Mar-2022 22:39:11 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:39:11 America/Santiago] app otra vista
+[29-Mar-2022 22:39:14 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:39:14 America/Santiago] app otra vista
+[29-Mar-2022 22:39:41 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:39:41 America/Santiago] app otra vista
+[29-Mar-2022 22:39:44 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:39:44 America/Santiago] app otra vista
+[29-Mar-2022 22:41:35 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:41:35 America/Santiago] app otra vista
+[29-Mar-2022 22:41:39 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:41:39 America/Santiago] app otra vista
+[29-Mar-2022 22:41:55 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:41:55 America/Santiago] app otra vista
+[29-Mar-2022 22:42:14 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:42:14 America/Santiago] app otra vista
+[29-Mar-2022 22:43:58 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:43:58 America/Santiago] app otra vista
+[29-Mar-2022 22:44:37 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:44:37 America/Santiago] app otra vista
+[29-Mar-2022 22:46:42 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:46:42 America/Santiago] app otra vista
+[29-Mar-2022 22:46:56 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:46:56 America/Santiago] app otra vista
+[29-Mar-2022 22:47:33 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:47:33 America/Santiago] app otra vista
+[29-Mar-2022 22:48:34 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:48:34 America/Santiago] app otra vista
+[29-Mar-2022 22:49:03 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:49:03 America/Santiago] app otra vista
+[29-Mar-2022 22:49:42 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:49:42 America/Santiago] app otra vista
+[29-Mar-2022 22:49:51 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:49:51 America/Santiago] app otra vista
+[29-Mar-2022 22:50:03 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:50:03 America/Santiago] app otra vista
+[29-Mar-2022 22:50:17 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:50:17 America/Santiago] app otra vista
+[29-Mar-2022 22:50:23 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:50:23 America/Santiago] app otra vista
+[29-Mar-2022 22:51:30 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:51:30 America/Santiago] app otra vista
+[29-Mar-2022 22:51:52 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:51:52 America/Santiago] app otra vista
+[29-Mar-2022 22:54:27 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:54:27 America/Santiago] app otra vista
+[29-Mar-2022 22:57:42 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:57:42 America/Santiago] app otra vista
+[29-Mar-2022 22:59:04 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:59:04 America/Santiago] app otra vista
+[29-Mar-2022 22:59:43 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 22:59:43 America/Santiago] app otra vista
+[29-Mar-2022 23:00:48 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:00:48 America/Santiago] app otra vista
+[29-Mar-2022 23:01:00 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:01:00 America/Santiago] app pdf
+[29-Mar-2022 23:01:00 America/Santiago] PHP Notice:  Undefined index: checkbox in C:\xampp\htdocs\serviciospostales\controlador\PDFController.php on line 28
+[29-Mar-2022 23:01:00 America/Santiago] 1648605660793202203292301
+[29-Mar-2022 23:02:29 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:02:29 America/Santiago] app pdf
+[29-Mar-2022 23:02:29 America/Santiago] 1648605749774202203292302
+[29-Mar-2022 23:02:29 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:02:29 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:02:29 America/Santiago] INSERT INTO cliente_frecuentes (nombre, direccion, comunas_idcomunas, usuario_idusuario)
+                        VALUES ('daniel hernandez m', '20 sur b',  1 , 1)
+[29-Mar-2022 23:04:31 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:04:31 America/Santiago] app otra vista
+[29-Mar-2022 23:05:16 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:05:16 America/Santiago] app otra vista
+[29-Mar-2022 23:05:36 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:05:36 America/Santiago] app otra vista
+[29-Mar-2022 23:05:45 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:05:45 America/Santiago] app otra vista
+[29-Mar-2022 23:05:54 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:05:54 America/Santiago] app otra vista
+[29-Mar-2022 23:15:43 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:15:43 America/Santiago] app otra vista
+[29-Mar-2022 23:15:52 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:15:52 America/Santiago] app otra vista
+[29-Mar-2022 23:20:35 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:20:35 America/Santiago] app otra vista
+[29-Mar-2022 23:24:33 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:24:33 America/Santiago] app otra vista
+[29-Mar-2022 23:25:03 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:25:03 America/Santiago] app otra vista
+[29-Mar-2022 23:25:17 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:25:17 America/Santiago] app otra vista
+[29-Mar-2022 23:25:31 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:25:31 America/Santiago] app otra vista
+[29-Mar-2022 23:25:43 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:25:43 America/Santiago] app otra vista
+[29-Mar-2022 23:25:55 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:25:55 America/Santiago] app otra vista
+[29-Mar-2022 23:26:30 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:26:30 America/Santiago] app otra vista
+[29-Mar-2022 23:28:21 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:28:21 America/Santiago] app otra vista
+[29-Mar-2022 23:29:57 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:29:57 America/Santiago] app otra vista
+[29-Mar-2022 23:31:03 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:31:03 America/Santiago] app otra vista
+[29-Mar-2022 23:34:15 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:34:15 America/Santiago] APP::construct-> no hay controlador especificado
+[29-Mar-2022 23:34:18 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:34:18 America/Santiago] app otra vista
+[29-Mar-2022 23:35:01 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:35:01 America/Santiago] app otra vista
+[29-Mar-2022 23:36:56 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:36:56 America/Santiago] app otra vista
+[29-Mar-2022 23:36:56 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:36:56 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:36:56 America/Santiago] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.Rgiones_idRegiones' in 'on clause' in C:\xampp\htdocs\serviciospostales\modelo\ClientesFrecuentesmodel.php:36
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\modelo\ClientesFrecuentesmodel.php(36): PDO->query('SELECT * FROM C...')
+#1 C:\xampp\htdocs\serviciospostales\controlador\Correspondencia.php(54): ClientesFrecuentesModel->getClienesFrecuentes()
+#2 C:\xampp\htdocs\serviciospostales\libs\app.php(81): Correspondencia->generarNuevoCliente()
+#3 C:\xampp\htdocs\serviciospostales\libs\app.php(8): App->sesionIniciada()
+#4 C:\xampp\htdocs\serviciospostales\index.php(26): App->__construct()
+#5 {main}
+[29-Mar-2022 23:36:56 America/Santiago] PHP Notice:  Undefined variable: rs in C:\xampp\htdocs\serviciospostales\modelo\ClientesFrecuentesmodel.php on line 44
+[29-Mar-2022 23:37:40 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:37:40 America/Santiago] app otra vista
+[29-Mar-2022 23:37:40 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:37:40 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:37:40 America/Santiago] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.idreciones' in 'on clause' in C:\xampp\htdocs\serviciospostales\modelo\ClientesFrecuentesmodel.php:36
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\modelo\ClientesFrecuentesmodel.php(36): PDO->query('SELECT * FROM C...')
+#1 C:\xampp\htdocs\serviciospostales\controlador\Correspondencia.php(54): ClientesFrecuentesModel->getClienesFrecuentes()
+#2 C:\xampp\htdocs\serviciospostales\libs\app.php(81): Correspondencia->generarNuevoCliente()
+#3 C:\xampp\htdocs\serviciospostales\libs\app.php(8): App->sesionIniciada()
+#4 C:\xampp\htdocs\serviciospostales\index.php(26): App->__construct()
+#5 {main}
+[29-Mar-2022 23:37:40 America/Santiago] PHP Notice:  Undefined variable: rs in C:\xampp\htdocs\serviciospostales\modelo\ClientesFrecuentesmodel.php on line 44
+[29-Mar-2022 23:38:00 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:38:00 America/Santiago] app otra vista
+[29-Mar-2022 23:38:00 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:38:00 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:40:01 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:40:01 America/Santiago] app otra vista
+[29-Mar-2022 23:40:01 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:40:01 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:41:10 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:41:10 America/Santiago] app otra vista
+[29-Mar-2022 23:41:10 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:41:10 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:41:45 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:41:45 America/Santiago] app otra vista
+[29-Mar-2022 23:41:45 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:41:45 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:41:54 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:41:54 America/Santiago] app otra vista
+[29-Mar-2022 23:41:54 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:41:54 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:43:00 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:43:00 America/Santiago] app otra vista
+[29-Mar-2022 23:43:00 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:43:00 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:43:13 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:43:13 America/Santiago] app otra vista
+[29-Mar-2022 23:43:13 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:43:13 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:45:19 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:45:19 America/Santiago] app otra vista
+[29-Mar-2022 23:45:19 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:45:19 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:45:19 America/Santiago] APP::View Base-> ParseError: syntax error, unexpected '}' in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php:119
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\controlador\Correspondencia.php(57): View->render('correspondencia...')
+#1 C:\xampp\htdocs\serviciospostales\libs\app.php(81): Correspondencia->generarNuevoCliente()
+#2 C:\xampp\htdocs\serviciospostales\libs\app.php(8): App->sesionIniciada()
+#3 C:\xampp\htdocs\serviciospostales\index.php(26): App->__construct()
+#4 {main}
+[29-Mar-2022 23:45:33 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:45:33 America/Santiago] app otra vista
+[29-Mar-2022 23:45:33 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:45:33 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:48:26 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:48:26 America/Santiago] app otra vista
+[29-Mar-2022 23:48:26 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:48:26 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:48:26 America/Santiago] PHP Notice:  Undefined variable: d in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 107
+[29-Mar-2022 23:48:26 America/Santiago] PHP Notice:  Undefined variable: d in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 108
+[29-Mar-2022 23:48:26 America/Santiago] PHP Notice:  Undefined variable: d in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 109
+[29-Mar-2022 23:48:26 America/Santiago] PHP Notice:  Undefined variable: d in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 110
+[29-Mar-2022 23:48:38 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:48:38 America/Santiago] app otra vista
+[29-Mar-2022 23:48:38 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:48:38 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:48:38 America/Santiago] PHP Notice:  Undefined index: comuna in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 109
+[29-Mar-2022 23:48:38 America/Santiago] PHP Notice:  Undefined index: region in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 110
+[29-Mar-2022 23:49:02 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:49:02 America/Santiago] app otra vista
+[29-Mar-2022 23:49:02 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:49:02 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:49:16 America/Santiago] inicio de aplicacion web
+[29-Mar-2022 23:49:16 America/Santiago] app otra vista
+[29-Mar-2022 23:49:16 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[29-Mar-2022 23:49:16 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:00:56 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:00:56 America/Santiago] app otra vista
+[30-Mar-2022 00:00:56 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:00:56 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:06:02 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:06:02 America/Santiago] app otra vista
+[30-Mar-2022 00:06:02 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:06:02 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:06:30 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:06:30 America/Santiago] app otra vista
+[30-Mar-2022 00:06:30 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:06:30 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:07:29 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:07:29 America/Santiago] app otra vista
+[30-Mar-2022 00:07:39 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:07:39 America/Santiago] app pdf
+[30-Mar-2022 00:07:40 America/Santiago] 1648609660048202203300007
+[30-Mar-2022 00:07:40 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:07:40 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:07:40 America/Santiago] INSERT INTO cliente_frecuentes (nombre, direccion, comunas_idcomunas, usuario_idusuario)
+                        VALUES ('daniel hernandez', 'otra direccion',  2 , 1)
+[30-Mar-2022 00:07:46 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:07:46 America/Santiago] app otra vista
+[30-Mar-2022 00:07:46 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:07:46 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:08:19 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:08:19 America/Santiago] app otra vista
+[30-Mar-2022 00:08:19 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:08:19 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:09:09 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:09:09 America/Santiago] app otra vista
+[30-Mar-2022 00:09:09 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:09:09 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:10:29 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:10:29 America/Santiago] app otra vista
+[30-Mar-2022 00:10:29 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:10:29 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:10:29 America/Santiago] APP::View Base-> ParseError: syntax error, unexpected end of file in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php:139
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\controlador\Correspondencia.php(61): View->render('correspondencia...')
+#1 C:\xampp\htdocs\serviciospostales\libs\app.php(81): Correspondencia->generarNuevoCliente()
+#2 C:\xampp\htdocs\serviciospostales\libs\app.php(8): App->sesionIniciada()
+#3 C:\xampp\htdocs\serviciospostales\index.php(26): App->__construct()
+#4 {main}
+[30-Mar-2022 00:11:40 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:11:40 America/Santiago] app otra vista
+[30-Mar-2022 00:11:40 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:11:40 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:12:15 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:12:15 America/Santiago] app otra vista
+[30-Mar-2022 00:12:15 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:12:15 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:12:55 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:12:55 America/Santiago] app otra vista
+[30-Mar-2022 00:12:55 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:12:55 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:13:54 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:13:54 America/Santiago] app otra vista
+[30-Mar-2022 00:13:54 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:13:54 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:13:56 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:13:56 America/Santiago] app otra vista
+[30-Mar-2022 00:14:05 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:14:05 America/Santiago] app otra vista
+[30-Mar-2022 00:14:40 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:14:40 America/Santiago] app otra vista
+[30-Mar-2022 00:14:40 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:14:40 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:14:42 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:14:42 America/Santiago] app otra vista
+[30-Mar-2022 00:14:42 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:14:42 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:15:18 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:15:18 America/Santiago] app otra vista
+[30-Mar-2022 00:15:18 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:15:18 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:15:20 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:15:20 America/Santiago] app otra vista
+[30-Mar-2022 00:15:20 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:15:20 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:15:27 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:15:27 America/Santiago] app otra vista
+[30-Mar-2022 00:15:27 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:15:27 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:22:15 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:22:15 America/Santiago] APP::construct-> no hay controlador especificado
+[30-Mar-2022 00:22:20 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:22:20 America/Santiago] app otra vista
+[30-Mar-2022 00:22:20 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:22:20 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:22:23 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:22:23 America/Santiago] app otra vista
+[30-Mar-2022 00:22:23 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:22:23 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:22:25 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:22:25 America/Santiago] app otra vista
+[30-Mar-2022 00:22:25 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:22:25 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:22:31 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:22:31 America/Santiago] app otra vista
+[30-Mar-2022 00:22:31 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:22:31 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:22:32 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:22:32 America/Santiago] app otra vista
+[30-Mar-2022 00:22:32 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:22:32 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:22:33 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:22:33 America/Santiago] app otra vista
+[30-Mar-2022 00:22:33 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:22:33 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:22:48 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:22:48 America/Santiago] app otra vista
+[30-Mar-2022 00:22:48 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:22:48 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:22:52 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:22:52 America/Santiago] app otra vista
+[30-Mar-2022 00:22:52 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:22:52 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:22:54 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:22:54 America/Santiago] app otra vista
+[30-Mar-2022 00:22:54 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:22:54 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:23:48 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:23:48 America/Santiago] APP::construct-> no hay controlador especificado
+[30-Mar-2022 00:23:50 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:23:50 America/Santiago] app otra vista
+[30-Mar-2022 00:23:50 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:23:50 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:24:32 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:24:32 America/Santiago] app otra vista
+[30-Mar-2022 00:24:32 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:24:32 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:24:34 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:24:34 America/Santiago] app otra vista
+[30-Mar-2022 00:24:34 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:24:34 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:24:34 America/Santiago] PHP Fatal error:  Cannot declare class ClientesFrecuentesModel, because the name is already in use in C:\xampp\htdocs\serviciospostales\modelo\ClientesFrecuentesmodel.php on line 67
+[30-Mar-2022 00:26:40 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:26:40 America/Santiago] app otra vista
+[30-Mar-2022 00:26:40 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:26:40 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:26:42 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:26:42 America/Santiago] app otra vista
+[30-Mar-2022 00:26:42 America/Santiago] PHP Notice:  Undefined property: Correspondencia::$clientemodel in C:\xampp\htdocs\serviciospostales\controlador\Correspondencia.php on line 68
+[30-Mar-2022 00:26:42 America/Santiago] ERROR DE APLICACION: Error: Call to a member function getClienesFrecuentesId() on null in C:\xampp\htdocs\serviciospostales\controlador\Correspondencia.php:68
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\controlador\Correspondencia.php(41): Correspondencia->buscarClienteid()
+#1 C:\xampp\htdocs\serviciospostales\libs\app.php(81): Correspondencia->generarNuevoCliente()
+#2 C:\xampp\htdocs\serviciospostales\libs\app.php(8): App->sesionIniciada()
+#3 C:\xampp\htdocs\serviciospostales\index.php(26): App->__construct()
+#4 {main}
+[30-Mar-2022 00:28:53 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:28:53 America/Santiago] app otra vista
+[30-Mar-2022 00:28:53 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:28:53 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:29:34 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:29:34 America/Santiago] app otra vista
+[30-Mar-2022 00:29:34 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:29:34 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:29:36 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:29:36 America/Santiago] app otra vista
+[30-Mar-2022 00:29:36 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:29:36 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:29:39 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:29:39 America/Santiago] app otra vista
+[30-Mar-2022 00:29:39 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:29:39 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:29:42 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:29:42 America/Santiago] app otra vista
+[30-Mar-2022 00:29:42 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:29:42 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:29:48 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:29:48 America/Santiago] app otra vista
+[30-Mar-2022 00:29:48 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:29:48 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:30:40 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:30:40 America/Santiago] app otra vista
+[30-Mar-2022 00:30:40 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:30:40 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:31:06 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:31:06 America/Santiago] app otra vista
+[30-Mar-2022 00:31:06 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:31:06 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:39:31 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:39:31 America/Santiago] app otra vista
+[30-Mar-2022 00:39:31 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:39:31 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:42:22 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:42:22 America/Santiago] app otra vista
+[30-Mar-2022 00:42:22 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:42:22 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:42:33 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:42:33 America/Santiago] app otra vista
+[30-Mar-2022 00:42:33 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:42:33 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:42:37 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:42:37 America/Santiago] app otra vista
+[30-Mar-2022 00:42:37 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:42:37 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:43:55 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:43:55 America/Santiago] app otra vista
+[30-Mar-2022 00:43:55 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:43:55 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:43:55 America/Santiago] PHP Notice:  Undefined variable: c in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 43
+[30-Mar-2022 00:44:46 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:44:46 America/Santiago] app otra vista
+[30-Mar-2022 00:44:46 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:44:46 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:44:46 America/Santiago] PHP Notice:  Undefined variable: c in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 44
+[30-Mar-2022 00:45:10 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:45:10 America/Santiago] app otra vista
+[30-Mar-2022 00:45:10 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:45:10 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:45:43 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:45:43 America/Santiago] app otra vista
+[30-Mar-2022 00:45:43 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:45:43 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:45:45 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:45:45 America/Santiago] app pdf
+[30-Mar-2022 00:45:45 America/Santiago] ERROR DE APLICACION: Erro al llamar al generador de pdf
+[30-Mar-2022 00:50:36 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:50:36 America/Santiago] app otra vista
+[30-Mar-2022 00:50:36 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:50:36 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:50:36 America/Santiago] PHP Notice:  Undefined property: View::$nombre in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 19
+[30-Mar-2022 00:50:36 America/Santiago] PHP Notice:  Undefined variable: c in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 23
+[30-Mar-2022 00:50:36 America/Santiago] PHP Notice:  Undefined variable: c in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 27
+[30-Mar-2022 00:50:36 America/Santiago] PHP Notice:  Undefined variable: c in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 31
+[30-Mar-2022 00:50:36 America/Santiago] PHP Notice:  Undefined variable: c in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 40
+[30-Mar-2022 00:50:36 America/Santiago] PHP Notice:  Undefined property: View::$clientes in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 75
+[30-Mar-2022 00:50:36 America/Santiago] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 75
+[30-Mar-2022 00:51:46 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:51:46 America/Santiago] app otra vista
+[30-Mar-2022 00:51:46 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:51:46 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:51:46 America/Santiago] PHP Notice:  Undefined property: View::$nombre in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 19
+[30-Mar-2022 00:51:46 America/Santiago] PHP Notice:  Undefined variable: c in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 23
+[30-Mar-2022 00:51:46 America/Santiago] PHP Notice:  Undefined variable: c in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 27
+[30-Mar-2022 00:51:46 America/Santiago] PHP Notice:  Undefined variable: c in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 31
+[30-Mar-2022 00:51:46 America/Santiago] PHP Notice:  Undefined variable: c in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 40
+[30-Mar-2022 00:52:25 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:52:25 America/Santiago] app otra vista
+[30-Mar-2022 00:52:25 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:52:25 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:52:25 America/Santiago] PHP Notice:  Undefined property: View::$nombre in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 19
+[30-Mar-2022 00:52:25 America/Santiago] PHP Notice:  Undefined variable: c in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 23
+[30-Mar-2022 00:52:25 America/Santiago] PHP Notice:  Undefined variable: c in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 27
+[30-Mar-2022 00:52:25 America/Santiago] PHP Notice:  Undefined variable: c in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 31
+[30-Mar-2022 00:52:25 America/Santiago] PHP Notice:  Undefined variable: c in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 40
+[30-Mar-2022 00:53:33 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:53:33 America/Santiago] app otra vista
+[30-Mar-2022 00:53:33 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:53:33 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:53:33 America/Santiago] PHP Notice:  Undefined property: View::$nombre in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 19
+[30-Mar-2022 00:55:35 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:55:35 America/Santiago] app otra vista
+[30-Mar-2022 00:55:35 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:55:35 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:55:35 America/Santiago] PHP Notice:  Undefined property: View::$nombre in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 19
+[30-Mar-2022 00:55:35 America/Santiago] PHP Notice:  Undefined property: View::$clientes in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 75
+[30-Mar-2022 00:55:35 America/Santiago] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 75
+[30-Mar-2022 00:56:05 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:56:05 America/Santiago] app otra vista
+[30-Mar-2022 00:56:05 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:56:05 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:56:05 America/Santiago] PHP Notice:  Undefined property: View::$nombre in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 19
+[30-Mar-2022 00:56:37 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:56:37 America/Santiago] app otra vista
+[30-Mar-2022 00:56:37 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:56:37 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:56:37 America/Santiago] PHP Notice:  Undefined property: View::$nombre in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 19
+[30-Mar-2022 00:56:39 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:56:39 America/Santiago] app otra vista
+[30-Mar-2022 00:56:39 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:56:39 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:56:39 America/Santiago] PHP Notice:  Undefined property: Correspondencia::$clientesfrecuentes in C:\xampp\htdocs\serviciospostales\controlador\Correspondencia.php on line 59
+[30-Mar-2022 00:56:39 America/Santiago] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\serviciospostales\controlador\Correspondencia.php on line 59
+[30-Mar-2022 00:56:39 America/Santiago] PHP Notice:  Undefined property: View::$nombre in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 19
+[30-Mar-2022 00:57:25 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:57:25 America/Santiago] app otra vista
+[30-Mar-2022 00:57:25 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:57:25 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:57:25 America/Santiago] PHP Notice:  Undefined property: View::$nombre in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 19
+[30-Mar-2022 00:57:27 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:57:27 America/Santiago] app otra vista
+[30-Mar-2022 00:57:27 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:57:27 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:57:27 America/Santiago] PHP Notice:  Undefined property: View::$nombre in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 19
+[30-Mar-2022 00:57:29 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:57:29 America/Santiago] app otra vista
+[30-Mar-2022 00:57:29 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:57:29 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:57:29 America/Santiago] PHP Notice:  Undefined property: View::$nombre in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 19
+[30-Mar-2022 00:57:48 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:57:48 America/Santiago] app otra vista
+[30-Mar-2022 00:57:48 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:57:48 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:57:48 America/Santiago] PHP Notice:  Undefined property: View::$var_nombre in C:\xampp\htdocs\serviciospostales\vista\correspondencia\generar_clientefrecuente.php on line 19
+[30-Mar-2022 00:57:50 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:57:50 America/Santiago] app otra vista
+[30-Mar-2022 00:57:50 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:57:50 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:58:20 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 00:58:20 America/Santiago] app otra vista
+[30-Mar-2022 00:58:20 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 00:58:20 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 01:00:55 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 01:00:55 America/Santiago] app otra vista
+[30-Mar-2022 01:00:55 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 01:00:55 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 01:00:55 America/Santiago] PHP Notice:  Undefined property: Correspondencia::$tipo_encomiend in C:\xampp\htdocs\serviciospostales\controlador\Correspondencia.php on line 53
+[30-Mar-2022 01:00:55 America/Santiago] ERROR DE APLICACION: Error: Call to a member function getTipo_encomienda() on null in C:\xampp\htdocs\serviciospostales\controlador\Correspondencia.php:53
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\libs\app.php(81): Correspondencia->generarNuevoCliente()
+#1 C:\xampp\htdocs\serviciospostales\libs\app.php(8): App->sesionIniciada()
+#2 C:\xampp\htdocs\serviciospostales\index.php(26): App->__construct()
+#3 {main}
+[30-Mar-2022 01:01:36 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 01:01:36 America/Santiago] app otra vista
+[30-Mar-2022 01:01:36 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 01:01:36 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 01:01:43 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 01:01:43 America/Santiago] app otra vista
+[30-Mar-2022 01:01:43 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 01:01:43 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 01:01:48 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 01:01:48 America/Santiago] app pdf
+[30-Mar-2022 01:01:48 America/Santiago] PHP Notice:  Undefined index: region in C:\xampp\htdocs\serviciospostales\controlador\PDFController.php on line 20
+[30-Mar-2022 01:01:48 America/Santiago] PHP Notice:  Undefined index: comuna in C:\xampp\htdocs\serviciospostales\controlador\PDFController.php on line 21
+[30-Mar-2022 01:01:48 America/Santiago] PHP Notice:  Undefined index: checkbox in C:\xampp\htdocs\serviciospostales\controlador\PDFController.php on line 29
+[30-Mar-2022 01:01:48 America/Santiago] PHP Notice:  Undefined variable: comuna in C:\xampp\htdocs\serviciospostales\modelo\Comunasmodel.php on line 38
+[30-Mar-2022 01:01:48 America/Santiago] 1648612908305202203300101
+[30-Mar-2022 01:01:48 America/Santiago] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+[30-Mar-2022 01:01:48 America/Santiago] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pvilches_utalca`.`movimiento`, CONSTRAINT `fk_Movimiento_Correspondencia1` FOREIGN KEY (`Correspondencia_codigo_barras`) REFERENCES `correspondencia` (`codigo_barras`) ON DELETE NO ACTION ON )
+[30-Mar-2022 01:03:51 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 01:03:51 America/Santiago] app otra vista
+[30-Mar-2022 01:03:51 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 01:03:51 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 01:03:57 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 01:03:57 America/Santiago] app pdf
+[30-Mar-2022 01:03:57 America/Santiago] PHP Notice:  Undefined index: checkbox in C:\xampp\htdocs\serviciospostales\controlador\PDFController.php on line 29
+[30-Mar-2022 01:03:57 America/Santiago] PHP Notice:  Undefined variable: comuna in C:\xampp\htdocs\serviciospostales\modelo\Comunasmodel.php on line 38
+[30-Mar-2022 01:03:57 America/Santiago] 1648613037412202203300103
+[30-Mar-2022 01:03:57 America/Santiago] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Talca' in 'field list'
+[30-Mar-2022 01:03:57 America/Santiago] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pvilches_utalca`.`movimiento`, CONSTRAINT `fk_Movimiento_Correspondencia1` FOREIGN KEY (`Correspondencia_codigo_barras`) REFERENCES `correspondencia` (`codigo_barras`) ON DELETE NO ACTION ON )
+[30-Mar-2022 09:09:16 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:09:17 America/Santiago] APP::construct-> no hay controlador especificado
+[30-Mar-2022 09:09:39 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:09:39 America/Santiago] app otra vista
+[30-Mar-2022 09:09:39 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:09:39 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:09:55 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:09:55 America/Santiago] app otra vista
+[30-Mar-2022 09:09:55 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:09:55 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:10:02 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:10:02 America/Santiago] app otra vista
+[30-Mar-2022 09:10:02 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:10:02 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:12:08 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:12:08 America/Santiago] app otra vista
+[30-Mar-2022 09:12:08 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:12:08 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:12:17 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:12:17 America/Santiago] app otra vista
+[30-Mar-2022 09:12:17 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:12:17 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:12:22 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:12:22 America/Santiago] app pdf
+[30-Mar-2022 09:12:22 America/Santiago] PHP Notice:  Undefined index: checkbox in C:\xampp\htdocs\serviciospostales\controlador\PDFController.php on line 29
+[30-Mar-2022 09:12:22 America/Santiago] PHP Notice:  Undefined variable: comuna in C:\xampp\htdocs\serviciospostales\modelo\Comunasmodel.php on line 38
+[30-Mar-2022 09:12:22 America/Santiago] 1648642342665202203300912
+[30-Mar-2022 09:12:22 America/Santiago] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Talca' in 'field list'
+[30-Mar-2022 09:12:22 America/Santiago] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pvilches_utalca`.`movimiento`, CONSTRAINT `fk_Movimiento_Correspondencia1` FOREIGN KEY (`Correspondencia_codigo_barras`) REFERENCES `correspondencia` (`codigo_barras`) ON DELETE NO ACTION ON )
+[30-Mar-2022 09:13:21 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:13:21 America/Santiago] app otra vista
+[30-Mar-2022 09:13:21 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:13:21 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:13:25 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:13:25 America/Santiago] app pdf
+[30-Mar-2022 09:13:25 America/Santiago] PHP Notice:  Undefined index: checkbox in C:\xampp\htdocs\serviciospostales\controlador\PDFController.php on line 29
+[30-Mar-2022 09:13:25 America/Santiago] PHP Notice:  Undefined variable: comuna in C:\xampp\htdocs\serviciospostales\modelo\Comunasmodel.php on line 38
+[30-Mar-2022 09:13:25 America/Santiago] 1648642405464202203300913
+[30-Mar-2022 09:13:25 America/Santiago] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Curico' in 'field list'
+[30-Mar-2022 09:13:25 America/Santiago] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pvilches_utalca`.`movimiento`, CONSTRAINT `fk_Movimiento_Correspondencia1` FOREIGN KEY (`Correspondencia_codigo_barras`) REFERENCES `correspondencia` (`codigo_barras`) ON DELETE NO ACTION ON )
+[30-Mar-2022 09:14:26 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:14:26 America/Santiago] app otra vista
+[30-Mar-2022 09:14:26 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:14:26 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:14:39 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:14:39 America/Santiago] app pdf
+[30-Mar-2022 09:14:39 America/Santiago] PHP Notice:  Undefined index: checkbox in C:\xampp\htdocs\serviciospostales\controlador\PDFController.php on line 29
+[30-Mar-2022 09:14:39 America/Santiago] 1648642479915202203300914
+[30-Mar-2022 09:15:39 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:15:39 America/Santiago] app otra vista
+[30-Mar-2022 09:15:39 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:15:39 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:15:40 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:15:40 America/Santiago] app otra vista
+[30-Mar-2022 09:15:40 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:15:40 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:15:47 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:15:47 America/Santiago] app pdf
+[30-Mar-2022 09:15:47 America/Santiago] PHP Notice:  Undefined index: checkbox in C:\xampp\htdocs\serviciospostales\controlador\PDFController.php on line 29
+[30-Mar-2022 09:15:47 America/Santiago] PHP Notice:  Undefined variable: comuna in C:\xampp\htdocs\serviciospostales\modelo\Comunasmodel.php on line 38
+[30-Mar-2022 09:15:47 America/Santiago] 1648642547941202203300915
+[30-Mar-2022 09:15:47 America/Santiago] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Talca' in 'field list'
+[30-Mar-2022 09:15:47 America/Santiago] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pvilches_utalca`.`movimiento`, CONSTRAINT `fk_Movimiento_Correspondencia1` FOREIGN KEY (`Correspondencia_codigo_barras`) REFERENCES `correspondencia` (`codigo_barras`) ON DELETE NO ACTION ON )
+[30-Mar-2022 09:17:07 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:17:07 America/Santiago] app otra vista
+[30-Mar-2022 09:17:07 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:17:07 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:17:15 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:17:15 America/Santiago] app pdf
+[30-Mar-2022 09:17:15 America/Santiago] PHP Notice:  Undefined index: checkbox in C:\xampp\htdocs\serviciospostales\controlador\PDFController.php on line 29
+[30-Mar-2022 09:17:15 America/Santiago] PHP Notice:  Undefined variable: comuna in C:\xampp\htdocs\serviciospostales\modelo\Comunasmodel.php on line 38
+[30-Mar-2022 09:17:15 America/Santiago] 1648642635187202203300917
+[30-Mar-2022 09:17:15 America/Santiago] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Curico' in 'field list'
+[30-Mar-2022 09:17:15 America/Santiago] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pvilches_utalca`.`movimiento`, CONSTRAINT `fk_Movimiento_Correspondencia1` FOREIGN KEY (`Correspondencia_codigo_barras`) REFERENCES `correspondencia` (`codigo_barras`) ON DELETE NO ACTION ON )
+[30-Mar-2022 09:23:11 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:23:11 America/Santiago] app otra vista
+[30-Mar-2022 09:23:11 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:23:11 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:23:42 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:23:42 America/Santiago] app otra vista
+[30-Mar-2022 09:23:42 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:23:42 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:23:48 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:23:48 America/Santiago] app otra vista
+[30-Mar-2022 09:23:48 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:23:48 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:23:48 America/Santiago] PHP Notice:  Undefined index: idcomunas in C:\xampp\htdocs\serviciospostales\controlador\Correspondencia.php on line 69
+[30-Mar-2022 09:24:49 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:24:49 America/Santiago] app otra vista
+[30-Mar-2022 09:24:49 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:24:49 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:24:57 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:24:57 America/Santiago] app otra vista
+[30-Mar-2022 09:24:57 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:24:57 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:24:57 America/Santiago] PHP Notice:  Undefined index: idcomunas in C:\xampp\htdocs\serviciospostales\controlador\Correspondencia.php on line 69
+[30-Mar-2022 09:25:19 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:25:19 America/Santiago] app otra vista
+[30-Mar-2022 09:25:19 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:25:19 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:25:20 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:25:20 America/Santiago] app otra vista
+[30-Mar-2022 09:25:21 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:25:21 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:25:21 America/Santiago] PHP Notice:  Undefined index: Comunas_idComunas in C:\xampp\htdocs\serviciospostales\controlador\Correspondencia.php on line 69
+[30-Mar-2022 09:25:55 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:25:55 America/Santiago] app otra vista
+[30-Mar-2022 09:25:55 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:25:55 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:25:57 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:25:57 America/Santiago] app otra vista
+[30-Mar-2022 09:25:57 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:25:57 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[30-Mar-2022 09:26:01 America/Santiago] inicio de aplicacion web
+[30-Mar-2022 09:26:01 America/Santiago] app pdf
+[30-Mar-2022 09:26:01 America/Santiago] PHP Notice:  Undefined index: checkbox in C:\xampp\htdocs\serviciospostales\controlador\PDFController.php on line 29
+[30-Mar-2022 09:26:01 America/Santiago] 1648643161978202203300926
