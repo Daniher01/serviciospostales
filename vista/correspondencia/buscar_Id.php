@@ -14,7 +14,7 @@
         <div class="navbar-search-block">
           <form class="form-inline" action="<?php echo constant('URL');?>correspondencia/buscarid" action="GET">
             <div class="input-group input-group-sm">
-              <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search" name="n_correspondencia">
+              <input class="form-control form-control-navbar" type="search" required placeholder="Search" aria-label="Search" name="n_correspondencia">
               <div class="input-group-append">
                 <button class="btn btn-navbar" type="submit">
                   <i class="fas fa-search"></i>
@@ -31,44 +31,54 @@
   </nav>
   <!-- /.navbar -->
     <br>
-  <div class="card card-danger">
+    <div class="card card-primary">
         <div class="card-header">
-        <h3 class="card-title">Quick Example</h3>
+        <h3 class="card-title">Generar Correspondencia</h3>
         </div>
         <!-- /.card-header -->
         <!-- form start -->
-        <form>
+        <form action="#" method="POST" target="_blank">
         <div class="card-body">
             <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+            <label for="exampleInputEmail1">Destinatario</label>
+            <input type="text" class="form-control" readonly="readonly" name="destinatario" placeholder="Destinatario" value="<?php echo $this->destinatario ?>">
             </div>
             <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <label for="exampleInputEmail1">Direccion</label>
+            <input type="text" class="form-control" readonly="readonly" name="direccion" placeholder="Direccion" value="<?php echo $this->direccion?>">
             </div>
             <div class="form-group">
-            <label for="exampleInputFile">File input</label>
-            <div class="input-group">
-                <div class="custom-file">
-                <input type="file" class="custom-file-input" id="exampleInputFile">
-                <label class="custom-file-label" for="exampleInputFile">Choose file</label>
-                </div>
-                <div class="input-group-append">
-                <span class="input-group-text">Upload</span>
-                </div>
+            <label for="exampleInputEmail1">Codigo de Barras</label>
+            <input type="text" class="form-control" readonly="readonly" name="codigo_barras" placeholder="Codigo de Barras" value="<?php echo $this->codigo_barras?>">
             </div>
+            <div class="form-group">
+            <label for="exampleInputEmail1">Codigo Interno</label>
+            <input type="text" class="form-control" readonly="readonly" name="codigo_interno" placeholder="Codigo Interno" value="<?php echo $this->codigo_interno ?>">
             </div>
-            <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            <div class="form-group">
+            <label for="exampleInputEmail1">Numero de seguimiento</label>
+            <input type="text" class="form-control" readonly="readonly" name="numero_seguimiento" placeholder="Numero de seguimiento" value="<?php echo $this->numero_seguimiento ?>">
             </div>
-        </div>
-        <!-- /.card-body -->
+            <div class="form-group">
+            <label for="exampleInputEmail1">Usuario que la genero</label>
+            <input type="text" class="form-control" readonly="readonly" name="username" placeholder="Usuario" value="<?php echo $this->username ?>">
+            </div>
+            <div class="form-group">
+            <label for="exampleInputEmail1">Encomienda</label>
+            <input type="text" class="form-control" readonly="readonly" name="encomienda" placeholder="Encomienda" value="<?php echo $this->encomienda ?>">
+            </div>
+            <div class="form-group">
+            <label for="exampleInputEmail1">Comunas</label>
+            <input type="text" class="form-control" readonly="readonly" name="comunascol" placeholder="Comunas" value="<?php echo $this->comunascol ?>">
+            </div>
+            <div class="form-group">
+            <label for="exampleInputEmail1">Regiones</label>
+            <input type="text" class="form-control" readonly="readonly" name="regiones" placeholder="Regiones" value="<?php echo $this->regiones ?>">
+            </div>
 
-        <div class="card-footer">
-            <button type="submit" class="btn btn-danger">Submit</button>
-        </div>
+          </div>
+
+        <!-- /.card-body -->
         </form>
     </div>
 

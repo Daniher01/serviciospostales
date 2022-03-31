@@ -29,9 +29,6 @@
       <li class="nav-item d-none d-sm-inline-block">
         <a href="<?php echo constant('URL'); ?>" class="nav-link">Home</a>
       </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contact</a>
-      </li>
     </ul>
 
     
@@ -69,7 +66,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
               <p>
-                Generar Orden
+                Generar
                 <i class="fas fa-angle-left right"></i>
                 
               </p>
@@ -103,11 +100,11 @@
               <li class="nav-item">
                 <a href="<?php echo constant('URL'); ?>correspondencia/buscar" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>N° Orden</p>
+                  <p>N° Seguimiento</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
+                <a href="<?php echo constant('URL'); ?>correspondencia/fecha" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Fecha</p>
                 </a>

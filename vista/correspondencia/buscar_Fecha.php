@@ -2,48 +2,80 @@
 
 <div class="container">
 
-<p>asignar datos de fecha</p>
+<nav class="main-header navbar navbar-expand navbar-white navbar-light">
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Navbar Search -->
+      <li class="nav-item">
+        <div class="navbar">
+          <form class="form-inline" action="<?php echo constant('URL');?>correspondencia/buscarFecha" action="GET">
+            <div class="input-group input-group-sm">
+              <input class="form-control form-control-navbar" type="date" required placeholder="Search" aria-label="Search" name="fecha">
+              <div class="input-group-append">
+                <button class="btn btn-navbar" type="submit">
+                  <i class="fas fa-search"></i>
+                </button>
+
+              </div>
+            </div>
+          </form>
+        </div>
+      </li>
+    </ul>
+  </nav>
   <!-- /.navbar -->
     <br>
-  <div class="card card-danger">
-        <div class="card-header">
-        <h3 class="card-title">Quick Example</h3>
-        </div>
-        <!-- /.card-header -->
-        <!-- form start -->
-        <form>
-        <div class="card-body">
-            <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-            </div>
-            <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-            </div>
-            <div class="form-group">
-            <label for="exampleInputFile">File input</label>
-            <div class="input-group">
-                <div class="custom-file">
-                <input type="file" class="custom-file-input" id="exampleInputFile">
-                <label class="custom-file-label" for="exampleInputFile">Choose file</label>
-                </div>
-                <div class="input-group-append">
-                <span class="input-group-text">Upload</span>
-                </div>
-            </div>
-            </div>
-            <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-        </div>
-        <!-- /.card-body -->
+    <div class="card card-primary">
+    <div class="card card-success">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Correspondencia </h3>
+                <h3 class="card-title"> : <?php echo ' '. $this->fecha ?></h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body" id="example1_wrapper">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th >Destinatario</th>
+                      <th>Direccion</th>
+                      <th >Detalle</th>
+                      <th >Codigo Interno</th>
+                      <th >Numero Seguimiento</th>
+                      <th>Usuario Creador</th>
+                      <th>Tipo de encomienda</th>
+                      <th>Comuna</th>
+                      <th>Region</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <?php 
+                        foreach ($this->correspondencia  as $c){
+                        echo " <tr>    
+                                <td>".$c['destinatario']."</td>
+                                <td>".$c['direccion']."</td>
+                                <td>".$c['detalle']."</td>
+                                <td>".$c['codigo_interno']."</td>
+                                <td>".$c['numero_seguimiento']."</td>
+                                <td>".$c['username']."</td>
+                                <td>".$c['encomienda']."</td>
+                                <td>".$c['comunascol']."</td>
+                                <td>".$c['regiones']."</td>
+                                </tr>";  
+                        }
 
-        <div class="card-footer">
-            <button type="submit" class="btn btn-danger">Submit</button>
-        </div>
-        </form>
+                      
+                    ?>
+    
+                  </tbody>
+                </table>
+              </div>
+                <!-- /.card-body -->
+            </div>
     </div>
 
 </div>
+
+
+      

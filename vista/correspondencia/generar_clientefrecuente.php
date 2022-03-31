@@ -1,7 +1,8 @@
 <title>Generar</title>
 <!-- Main content -->
-<section class="content">
-    <div class="container-fluid">
+<section class="content ">
+    <br>
+    <div class="container-fluid card-header">
         <div class="row">
             <!-- left column -->
             <div class="col-md-6">
@@ -16,20 +17,20 @@
                 <div class="card-body">
                     <div class="form-group">
                     <label for="exampleInputEmail1">Destinatario</label>
-                        <input type="text" class="form-control" required name="destinatario" placeholder="Destinatario" value="<?php echo $this->var_nombre ?>">
+                        <input type="text" class="form-control" required name="destinatario" readonly="readonly" placeholder="Destinatario" value="<?php echo $this->var_nombre ?>">
                     </div>
                     <div class="form-group">
                     <label for="exampleInputPassword1">Direccion</label>
-                    <input type="text" class="form-control" required name="direccion" placeholder="Direccion" value="<?php echo  $this->var_direccion ?>">
+                    <input type="text" class="form-control" required name="direccion" readonly="readonly" placeholder="Direccion" value="<?php echo  $this->var_direccion ?>">
                     </div>
                     <div class="form-group">
                     <label for="exampleInputPassword1">Region</label>
-                    <input type="text" class="form-control" required name="region" placeholder="Region" value="<?php echo  $this->var_region ?>">
+                    <input type="text" class="form-control" required name="region" readonly="readonly" placeholder="Region" value="<?php echo  $this->var_region ?>">
                 </div>
                     <div class="form-group">
                     <label for="exampleInputPassword1">Comuna</label>
                     <input type="hidden" class="form-control" required name="comuna" placeholder="Comuna" value="<?php echo $this->var_comunaid ?>">
-                    <input type="text" class="form-control" required name="comunaNombre" placeholder="Comuna" value="<?php echo $this->var_comuna ?>">
+                    <input type="text" class="form-control" required name="comunaNombre" readonly="readonly" placeholder="Comuna" value="<?php echo $this->var_comuna ?>">
                     </div>
 
                     <div class="form-group">
@@ -100,17 +101,6 @@
                   </tbody>
                 </table>
               </div>
-              <!-- /.card-body -->
-              <div class="card-footer clearfix">
-                <ul class="pagination pagination-sm m-0 float-right">
-                  <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
-                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
-                </ul>
-              </div>
-            </div>
                 <!-- /.card-body -->
             </div>
             <!-- /.card -->              
