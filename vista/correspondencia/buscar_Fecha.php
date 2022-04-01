@@ -38,34 +38,28 @@
                 <table class="table table-bordered">
                   <thead>
                     <tr>
-                      <th >Destinatario</th>
-                      <th>Direccion</th>
-                      <th >Detalle</th>
+                      <th >Estado</th>
+                      <th>Destinatario</th>
+                      <th >Direccion</th>
+                      <th >Comuna</th>
+                      <th >Region</th>
+                      <th >Codigo de Barra</th>
                       <th >Codigo Interno</th>
-                      <th >Numero Seguimiento</th>
-                      <th>Usuario Creador</th>
-                      <th>Tipo de encomienda</th>
-                      <th>Comuna</th>
-                      <th>Region</th>
                     </tr>
                   </thead>
                   <tbody>
                     <?php 
                         foreach ($this->correspondencia  as $c){
                         echo " <tr>    
+                                <td>".$c['estado']."</td>
                                 <td>".$c['destinatario']."</td>
                                 <td>".$c['direccion']."</td>
-                                <td>".$c['detalle']."</td>
-                                <td>".$c['codigo_interno']."</td>
-                                <td>".$c['numero_seguimiento']."</td>
-                                <td>".$c['username']."</td>
-                                <td>".$c['encomienda']."</td>
                                 <td>".$c['comunascol']."</td>
                                 <td>".$c['regiones']."</td>
+                                <td>".$c['codigo_barras']."</td>
+                                <td>".$c['codigo_interno']."</td>
                                 </tr>";  
                         }
-
-                      
                     ?>
     
                   </tbody>

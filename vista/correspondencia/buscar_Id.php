@@ -30,56 +30,50 @@
     </ul>
   </nav>
   <!-- /.navbar -->
-    <br>
+  <br>
     <div class="card card-primary">
-        <div class="card-header">
-        <h3 class="card-title">Generar Correspondencia</h3>
-        </div>
-        <!-- /.card-header -->
-        <!-- form start -->
-        <form action="#" method="POST" target="_blank">
-        <div class="card-body">
-            <div class="form-group">
-            <label for="exampleInputEmail1">Destinatario</label>
-            <input type="text" class="form-control" readonly="readonly" name="destinatario" placeholder="Destinatario" value="<?php echo $this->destinatario ?>">
-            </div>
-            <div class="form-group">
-            <label for="exampleInputEmail1">Direccion</label>
-            <input type="text" class="form-control" readonly="readonly" name="direccion" placeholder="Direccion" value="<?php echo $this->direccion?>">
-            </div>
-            <div class="form-group">
-            <label for="exampleInputEmail1">Codigo de Barras</label>
-            <input type="text" class="form-control" readonly="readonly" name="codigo_barras" placeholder="Codigo de Barras" value="<?php echo $this->codigo_barras?>">
-            </div>
-            <div class="form-group">
-            <label for="exampleInputEmail1">Codigo Interno</label>
-            <input type="text" class="form-control" readonly="readonly" name="codigo_interno" placeholder="Codigo Interno" value="<?php echo $this->codigo_interno ?>">
-            </div>
-            <div class="form-group">
-            <label for="exampleInputEmail1">Numero de seguimiento</label>
-            <input type="text" class="form-control" readonly="readonly" name="numero_seguimiento" placeholder="Numero de seguimiento" value="<?php echo $this->numero_seguimiento ?>">
-            </div>
-            <div class="form-group">
-            <label for="exampleInputEmail1">Usuario que la genero</label>
-            <input type="text" class="form-control" readonly="readonly" name="username" placeholder="Usuario" value="<?php echo $this->username ?>">
-            </div>
-            <div class="form-group">
-            <label for="exampleInputEmail1">Encomienda</label>
-            <input type="text" class="form-control" readonly="readonly" name="encomienda" placeholder="Encomienda" value="<?php echo $this->encomienda ?>">
-            </div>
-            <div class="form-group">
-            <label for="exampleInputEmail1">Comunas</label>
-            <input type="text" class="form-control" readonly="readonly" name="comunascol" placeholder="Comunas" value="<?php echo $this->comunascol ?>">
-            </div>
-            <div class="form-group">
-            <label for="exampleInputEmail1">Regiones</label>
-            <input type="text" class="form-control" readonly="readonly" name="regiones" placeholder="Regiones" value="<?php echo $this->regiones ?>">
-            </div>
+    <div class="card card-success">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Correspondencia </h3>
+                <h3 class="card-title"> : <?php echo ' '. $this->fecha ?></h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body" id="example1_wrapper">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th >Estado</th>
+                      <th>Destinatario</th>
+                      <th >Direccion</th>
+                      <th >Comuna</th>
+                      <th >Region</th>
+                      <th >Codigo de Barra</th>
+                      <th >Codigo Interno</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <?php 
+                        foreach ($this->correspondencia  as $c){
+                        echo " <tr>    
+                                <td>".$c['estado']."</td>
+                                <td>".$c['destinatario']."</td>
+                                <td>".$c['direccion']."</td>
+                                <td>".$c['comunascol']."</td>
+                                <td>".$c['regiones']."</td>
+                                <td>".$c['codigo_barras']."</td>
+                                <td>".$c['codigo_interno']."</td>
+                                </tr>";  
+                        }
 
-          </div>
-
-        <!-- /.card-body -->
-        </form>
+                      
+                    ?>
+    
+                  </tbody>
+                </table>
+              </div>
+                <!-- /.card-body -->
+            </div>
     </div>
 
 </div>

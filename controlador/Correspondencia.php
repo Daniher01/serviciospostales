@@ -29,16 +29,14 @@ class Correspondencia extends Controller{
         $this->view->var_region ='';
 
         //variables para mostrar los datos de la correspondencia buscada
+        $this->view->estado = '';
         $this->view->destinatario = '';
         $this->view->direccion = '';
-        $this->view->codigo_barras = '';
-        $this->view->detalle = '';
-        $this->view->codigo_interno = '';
-        $this->view->numero_seguimiento = '';
-        $this->view->username = '';
-        $this->view->encomienda = '';
         $this->view->comunascol = '';
         $this->view->regiones = '';
+        $this->view->codigo_barras = '';
+        $this->view->codigo_interno = '';
+
 
         //mostrar los datos del excel
         $this->view->datosexcel = '';
@@ -103,19 +101,8 @@ class Correspondencia extends Controller{
     function buscarId(){
         if (isset($_GET['n_correspondencia'])){
             $n_correspondencia = (String)$_GET['n_correspondencia'];
-            $correspondencia = $this->model->buscarNumOrden($n_correspondencia);
-            foreach ($correspondencia as $c){
-                $this->view->destinatario = $c['destinatario'];
-                $this->view->direccion = $c['direccion'];
-                $this->view->codigo_barras = $c['codigo_barras'];
-                $this->view->detalle = $c['detalle'];
-                $this->view->codigo_interno = $c['codigo_interno'];
-                $this->view->numero_seguimiento = $c['numero_seguimiento'];
-                $this->view->username = $c['username'];
-                $this->view->encomienda = $c['encomienda'];
-                $this->view->comunascol = $c['comunascol'];
-                $this->view->regiones = $c['regiones'];
-            }
+            $this->view->correspondencia = $this->model->buscarNumOrden($n_correspondencia);
+           
         }
         //redirecciona la pagina
         $this->view->render('correspondencia/buscar_Id');

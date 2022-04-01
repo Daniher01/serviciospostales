@@ -45,11 +45,11 @@ class CorrespondenciaModel extends Model{
     public function buscarNumOrden($num_seguimiento){
         try{
 
-            $query = "SELECT destinatario, direccion, codigo_barras, detalle, codigo_interno,numero_seguimiento, username, encomienda, comunascol, regiones FROM Correspondencia as cor
-                        INNER JOIN usuario as u on u.idusuario = cor.Usuario_idusuario
+            $query = "SELECT  estado, destinatario, direccion, codigo_barras, codigo_interno, comunascol, regiones FROM movimiento as m
+                        INNER JOIN correspondencia as cor on m.correspondencia_codigo_barras = cor.codigo_barras
                         INNER JOIN comunas as c on c.idcomunas = cor.comunas_idcomunas
                         INNER JOIN Regiones as r on r.idregiones = c.regiones_idregiones
-                        INNER JOIN tipo_encomienda as e on e.idtipo_encomienda = cor.tipo_encomienda_idtipo_encomienda
+                        INNER JOIN estado as e on e.idestado = m.estado_idestado
                         WHERE numero_seguimiento = '$num_seguimiento'";
             $datos = $this->db->connect()->query($query);
             $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
@@ -65,12 +65,11 @@ class CorrespondenciaModel extends Model{
     public function buscarFecha($fecha){
         try{
 
-            $query = "SELECT destinatario, direccion, codigo_barras, detalle, codigo_interno,numero_seguimiento, username, encomienda, comunascol, regiones FROM movimiento as m
+            $query = "SELECT  estado, destinatario, direccion, codigo_barras, codigo_interno, comunascol, regiones FROM movimiento as m
                         INNER JOIN correspondencia as cor on m.correspondencia_codigo_barras = cor.codigo_barras
-                        INNER JOIN usuario as u on u.idusuario = cor.Usuario_idusuario
                         INNER JOIN comunas as c on c.idcomunas = cor.comunas_idcomunas
                         INNER JOIN Regiones as r on r.idregiones = c.regiones_idregiones
-                        INNER JOIN tipo_encomienda as e on e.idtipo_encomienda = cor.tipo_encomienda_idtipo_encomienda
+                        INNER JOIN estado as e on e.idestado = m.estado_idestado
                         WHERE fecha = '$fecha'";
             $datos = $this->db->connect()->query($query);
             $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
