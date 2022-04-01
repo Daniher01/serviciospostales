@@ -84,6 +84,12 @@
                   <p>Clientes Frecuentes</p>
                 </a>
               </li>
+              <li class="nav-item">
+                <a href="<?php echo constant('URL'); ?>Correspondencia/addExcel" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Agregar Masivamente</p>
+                </a>
+              </li>
             </ul>
           </li>
 

@@ -1,5 +1,9 @@
 <?php 
 
+require 'clases/vendor/autoload.php';
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Reader\Xlsx;
+
 class Correspondencia extends Controller{
 
     function __construct()
@@ -35,6 +39,9 @@ class Correspondencia extends Controller{
         $this->view->encomienda = '';
         $this->view->comunascol = '';
         $this->view->regiones = '';
+
+        //mostrar los datos del excel
+        $this->view->datosexcel = '';
     }
 
     function render(){
@@ -129,6 +136,23 @@ class Correspondencia extends Controller{
        
         //redirecciona la pagina
         $this->view->render('correspondencia/buscar_Fecha');
+    }
+
+    function addExcel(){
+        $this->view->render('correspondencia/correspondenciaMasiva');
+    }
+
+
+    function readExcel(){
+
+        $archivo = $_GET['archivo'];
+        //print_r($archivo);
+
+        $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($archivo);
+        $worksheet = $spreadsheet->getActiveSheet();
+        $this->view->datosexcel = $worksheet;
+
+        $this->view->render('correspondencia/correspondenciaMasiva');
     }
 
 
