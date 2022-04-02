@@ -53,7 +53,8 @@ class PDF extends FPDF
         // $this->Cell(20,70,'Destinatario :',0);
         //$this->Image('logo/logo.jpg',10,20,50,0,'JPG');
         //$this->Image('codigos/'.$code.'.png',10,40,50,0,'PNG');
-        $this->Cell(50,10, $this->Image('clases/codigos/'.$code.'.png', $this->GetX(), $this->GetY(),50,10),0);
+        //$this->Cell(50,10, $this->Image('clases/codigos/'.$code.'.png', $this->GetX(), $this->GetY(),50,10),0);
+        $this->Cell(20,10,"",0);
         $this->Cell(20,10,"Fecha y hora:",0);
         $this->Cell(20,10,''.$ahora.'',0);
         $this->Cell(20,10,"",0);  
@@ -106,6 +107,8 @@ class PDF extends FPDF
         $this->Cell(20,5,"".$detalle."",0);
         $this->Cell(20,5,"",0);  
         $this->Cell(20,5,"",0);
+        $this->Ln();
+        $this->Cell(50,10, $this->Image('clases/codigos/'.$code.'.png', $this->GetX(), $this->GetY(),120,30),0);
         error_log($code);
         $arrayData = array($code, $nsiguimiento, $hora, $dia);
         return $arrayData;
