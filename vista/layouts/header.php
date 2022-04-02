@@ -104,13 +104,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="<?php echo constant('URL'); ?>correspondencia/buscar" class="nav-link">
+                <a href="<?php echo constant('URL'); ?>Correspondencia/buscar" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>N° Seguimiento</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="<?php echo constant('URL'); ?>correspondencia/fecha" class="nav-link">
+                <a href="<?php echo constant('URL'); ?>Correspondencia/fecha" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Fecha</p>
                 </a>
@@ -120,7 +120,7 @@
 
           <li class="nav-header">Seguimiento</li>
           <li class="nav-item">
-            <a href="<?php echo constant('URL');?>correspondencia/generar" class="nav-link">
+            <a href="<?php echo constant('URL');?>Correspondencia/generar" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Buscar
@@ -130,7 +130,7 @@
 
           <li class="nav-header">Usuario</li>
           <li class="nav-item">
-            <a href="<?php echo constant('URL');?>correspondencia/generar" class="nav-link">
+            <a href="<?php echo constant('URL');?>Correspondencia/generar" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Datos del usuario

@@ -9,7 +9,7 @@
       <!-- Navbar Search -->
       <li class="nav-item">
         <div class="navbar">
-          <form class="form-inline" action="<?php echo constant('URL');?>correspondencia/buscarFecha" action="GET">
+          <form class="form-inline" action="<?php echo constant('URL');?>Correspondencia/buscarFecha" action="GET">
             <div class="input-group input-group-sm">
               <input class="form-control form-control-navbar" type="date" required placeholder="Search" aria-label="Search" name="fecha">
               <div class="input-group-append">
@@ -31,19 +31,40 @@
             <div class="card">
               <div class="card-header">
                 <h3 class="card-title">Correspondencia </h3>
-                <h3 class="card-title"> : <?php echo ' '. $this->fecha ?></h3>
               </div>
               <!-- /.card-header -->
               <div class="card-body" id="example1_wrapper">
+              <p>Paquete: <?php echo ' '. $this->codigo_barras ?> </p>
+              <table class="table table-bordered">
+
+                  <tr>
+                    <th>Destinatario: </th>
+                    <td><?php echo $this->destinatario?></td>
+                    <th>Direccion:</th>
+                    <td><?php echo $this->direccion ?></td>
+                  </tr>
+                  <tr>
+                    <th>Comuna:</th>
+                    <td><?php echo $this->comunascol ?></td>
+                    <th>Region:</th>
+                    <td><?php echo $this->regiones ?></td>
+                  </tr>  
+                  <tr>
+                    <th>Detalle:</th>
+                    <td><?php echo $this->detalle ?></td>
+                    <th>Tipo de Envio:</th>
+                    <td><?php echo $this->tipo_envio ?></td>
+                  </tr>
+                  
+                </table>
+                <br>
                 <table class="table table-bordered">
                   <thead>
                     <tr>
-                      <th >Estado</th>
-                      <th>Destinatario</th>
-                      <th >Direccion</th>
-                      <th >Comuna</th>
-                      <th >Region</th>
-                      <th >Codigo de Barra</th>
+                    <th >Estado</th>
+                      <th>Fecha</th>
+                      <th >Hora</th>
+                      <th >N° Seguimiento</th>
                       <th >Codigo Interno</th>
                     </tr>
                   </thead>
@@ -52,11 +73,9 @@
                         foreach ($this->correspondencia  as $c){
                         echo " <tr>    
                                 <td>".$c['estado']."</td>
-                                <td>".$c['destinatario']."</td>
-                                <td>".$c['direccion']."</td>
-                                <td>".$c['comunascol']."</td>
-                                <td>".$c['regiones']."</td>
-                                <td>".$c['codigo_barras']."</td>
+                                <td>".$c['fecha']."</td>
+                                <td>".$c['hora']."</td>
+                                <td>".$c['numero_seguimiento']."</td>
                                 <td>".$c['codigo_interno']."</td>
                                 </tr>";  
                         }

@@ -14,7 +14,7 @@ class ComunasModel extends Model{
     public function getComunas(){
         try{
 
-            $query = "SELECT * FROM Comunas";
+            $query = "SELECT * FROM comunas";
             $datos = $this->db->connect()->query($query);
             $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
 

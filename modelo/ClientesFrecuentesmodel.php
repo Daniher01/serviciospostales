@@ -29,10 +29,10 @@ class ClientesFrecuentesModel extends Model{
     public function getClienesFrecuentes(){
         try{
 
-            $query = "SELECT idcliente_frecuentes, nombre, direccion, idusuario, comunascol, regiones FROM Cliente_Frecuentes as cf
-                        INNER JOIN Usuario as u on cf.Usuario_idusuario = u.idusuario
-                        INNER JOIN Comunas as c on cf.Comunas_idComunas = c.idcomunas
-                        INNER JOIN Regiones as r on c.Regiones_idRegiones = r.idregiones";
+            $query = "SELECT idcliente_frecuentes, nombre, direccion, idusuario, comunascol, regiones FROM cliente_frecuentes as cf
+                        INNER JOIN usuario as u on cf.usuario_idusuario = u.idusuario
+                        INNER JOIN comunas as c on cf.comunas_idComunas = c.idcomunas
+                        INNER JOIN regiones as r on c.regiones_idRegiones = r.idregiones";
             $datos = $this->db->connect()->query($query);
             $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
 
@@ -48,10 +48,10 @@ class ClientesFrecuentesModel extends Model{
     public function getClienesFrecuentesId($id){
         try{
 
-            $query = "SELECT idcliente_frecuentes, nombre, direccion, idusuario, comunascol,Comunas_idComunas, regiones FROM Cliente_Frecuentes as cf
-                        INNER JOIN Usuario as u on cf.Usuario_idusuario = u.idusuario
-                        INNER JOIN Comunas as c on cf.Comunas_idComunas = c.idcomunas
-                        INNER JOIN Regiones as r on c.Regiones_idRegiones = r.idregiones
+            $query = "SELECT idcliente_frecuentes, nombre, direccion, idusuario, comunascol,Comunas_idComunas, regiones FROM cliente_frecuentes as cf
+                        INNER JOIN usuario as u on cf.usuario_idusuario = u.idusuario
+                        INNER JOIN comunas as c on cf.comunas_idComunas = c.idcomunas
+                        INNER JOIN regiones as r on c.regiones_idRegiones = r.idregiones
                         WHERE idcliente_frecuentes=$id";
             $datos = $this->db->connect()->query($query);
             $rs = $datos->fetchAll(PDO::FETCH_ASSOC);

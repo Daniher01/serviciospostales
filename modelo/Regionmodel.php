@@ -11,7 +11,7 @@ class RegionModel extends Model{
     public function getRegiones(){
         try{
 
-            $query = "SELECT * FROM Regiones";
+            $query = "SELECT * FROM regiones";
             $datos = $this->db->connect()->query($query);
             $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
 

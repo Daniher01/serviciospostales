@@ -12,7 +12,8 @@
             <form action="<?php echo constant('URL');?>Correspondencia/readExcel" action="POST">
             <div class="mb-3">
                 <input class="form-control" type="file" required name="archivo"  accept=".xls,.xlsx" enctype="multipart/form-data">
-                <input type="submit" value="Subir">
+                <br>
+                <button type="submit" class="btn btn-outline-primary">Cargar</button>
             </div>
             </form>
         </div>
@@ -23,13 +24,14 @@
     <br>
     <div class="card card-primary">
     <div class="card card-success">
+            <form action="<?php echo constant('URL');?>Correspondencia/generarMasiva" method="POST">
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">Correspondencia </h3>
+                <button type="submit" class="btn btn-outline-primary">Generar Correspondencias</button>
               </div>
               <!-- /.card-header -->
-              <div class="card-body" id="example1_wrapper">
-                <table class="table table-bordered">
+              <div class='card-body' >
+                <table class='table table-bordered'>
                   <thead>
                     <tr>
                       <th >Destinatario</th>
@@ -51,6 +53,7 @@
                         // De forma predeterminada, solo las celdas que tienen un valor
                         // se repetirá en la iteración.
                         foreach ($cellIterator as $cell) { ?>
+                        <input type='tex' name='exceldata' hidden value='<?php $cell->getValue() ?> '>
                         <td> <?php echo $cell->getValue() ?> </td>
                     <?php } ?>
                     </tr>
@@ -60,6 +63,7 @@
               </div>
                 <!-- /.card-body -->
             </div>
+            </form>
     </div>
 
 </div>

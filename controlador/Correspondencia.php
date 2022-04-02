@@ -29,13 +29,13 @@ class Correspondencia extends Controller{
         $this->view->var_region ='';
 
         //variables para mostrar los datos de la correspondencia buscada
-        $this->view->estado = '';
         $this->view->destinatario = '';
         $this->view->direccion = '';
         $this->view->comunascol = '';
         $this->view->regiones = '';
         $this->view->codigo_barras = '';
-        $this->view->codigo_interno = '';
+        $this->view->detalle = '';
+        $this->view->tipo_envio = '';
 
 
         //mostrar los datos del excel
@@ -95,14 +95,25 @@ class Correspondencia extends Controller{
 
     function Buscar(){
         //redirecciona la pagina
-        $this->view->render('correspondencia/buscar_id');
+        $this->view->render('correspondencia/buscar_Id');
     }
 
     function buscarId(){
         if (isset($_GET['n_correspondencia'])){
             $n_correspondencia = (String)$_GET['n_correspondencia'];
             $this->view->correspondencia = $this->model->buscarNumOrden($n_correspondencia);
-           
+            if (!empty($this->view->correspondencia)){
+                $this->view->destinatario = $this->view->correspondencia[0]['destinatario'];
+                $this->view->direccion = $this->view->correspondencia[0]['direccion'];
+                $this->view->comunascol = $this->view->correspondencia[0]['comunascol'];
+                $this->view->regiones = $this->view->correspondencia[0]['regiones'];
+                $this->view->codigo_barras = $this->view->correspondencia[0]['codigo_barras'];
+                $this->view->detalle = $this->view->correspondencia[0]['detalle'];
+                $this->view->tipo_envio = $this->view->correspondencia[0]['detalle'];
+            }
+            //print_r($this->view->destinatario );
+            
+           //print_r($this->view->correspondencia);
         }
         //redirecciona la pagina
         $this->view->render('correspondencia/buscar_Id');
@@ -110,14 +121,24 @@ class Correspondencia extends Controller{
 
     public function fecha(){
         //redirecciona la pagina
-        $this->view->render('correspondencia/buscar_fecha');
+        $this->view->render('correspondencia/buscar_Fecha');
     }
 
     function buscarFecha(){
         if (isset($_GET['fecha'])){
             $this->view->fecha = (String)$_GET['fecha'];
             $this->view->correspondencia  = $this->model->buscarFecha( $this->view->fecha);
-            //var_dump($this->view->correspondencia );
+            if (!empty($this->view->correspondencia)){
+                $this->view->destinatario = $this->view->correspondencia[0]['destinatario'];
+                $this->view->direccion = $this->view->correspondencia[0]['direccion'];
+                $this->view->comunascol = $this->view->correspondencia[0]['comunascol'];
+                $this->view->regiones = $this->view->correspondencia[0]['regiones'];
+                $this->view->codigo_barras = $this->view->correspondencia[0]['codigo_barras'];
+                $this->view->detalle = $this->view->correspondencia[0]['detalle'];
+                $this->view->tipo_envio = $this->view->correspondencia[0]['detalle'];
+            }
+
+            //print_r($this->view->destinatario );
 
         }
        
@@ -139,6 +160,12 @@ class Correspondencia extends Controller{
         $worksheet = $spreadsheet->getActiveSheet();
         $this->view->datosexcel = $worksheet;
 
+        $this->view->render('correspondencia/correspondenciaMasiva');
+    }
+
+    function generarMasiva(){
+        $exceldata = $_POST['exceldata'];
+        print_r($_POST);
         $this->view->render('correspondencia/correspondenciaMasiva');
     }
 
