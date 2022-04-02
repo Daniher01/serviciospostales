@@ -9,7 +9,7 @@
       <!-- Navbar Search -->
       <li class="nav-item">
         <div class="navbar">
-            <form action="<?php echo constant('URL');?>Correspondencia/readExcel" action="POST">
+            <form action="<?php echo constant('URL');?>Correspondencia/readExcel" action="GET">
             <div class="mb-3">
                 <input class="form-control" type="file" required name="archivo"  accept=".xls,.xlsx" enctype="multipart/form-data">
                 <br>

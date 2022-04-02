@@ -88,7 +88,7 @@
                               <td>".$d['direccion']."</td>
                               <td>".$d['comunascol']."</td>
                               <td>".$d['regiones']."</td>";
-                      echo    " <form action='". constant('URL')."Correspondencia/generarNuevoCliente' method='GET'>
+                      echo    " <form action='". constant('URL')."Correspondencia/generarNuevoCliente' method='POST'>
                               <td>
                               <input type='hidden' name='idcliente' value=".$d['idcliente_frecuentes'].">
                               <button type='submit' class='btn btn-outline-primary'>Agregar</button>

@@ -30,8 +30,26 @@
         <a href="<?php echo constant('URL'); ?>" class="nav-link">Home</a>
       </li>
     </ul>
+    <ul class="navbar-nav ml-auto">
+      <!-- Navbar Search -->
+      <li class="nav-item dropdown">
+        <span class="navbar">N° Seguimiento:</span>
+        </li>
+            
+        <li class="nav-item">
+          <form class="form-inline" action="<?php echo constant('URL'); ?>Correspondencia/buscarid" method="POST">
+            <div class="input-group ">
+              <input class="form-control form-control-navbar" type="search" required="" placeholder="Buscar" name="n_correspondencia">
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="submit">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+          </li>
+    </ul>
 
-    
   </nav>
   <!-- /.navbar -->
 

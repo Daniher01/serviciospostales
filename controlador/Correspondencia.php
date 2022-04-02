@@ -77,8 +77,8 @@ class Correspondencia extends Controller{
     }
 
     function buscarClienteid(){
-        if (isset($_GET['idcliente'])){
-            $idcliente = (String)$_GET['idcliente'];
+        if (isset($_POST['idcliente'])){
+            $idcliente = (String)$_POST['idcliente'];
             $this->view->clienteid =  $this->clientemodel->getClienesFrecuentesId($idcliente);
             foreach ( $this->view->clienteid  as $c){
                 $this->view->var_id = $c['idcliente_frecuentes'];
@@ -99,8 +99,8 @@ class Correspondencia extends Controller{
     }
 
     function buscarId(){
-        if (isset($_GET['n_correspondencia'])){
-            $n_correspondencia = (String)$_GET['n_correspondencia'];
+        if (isset($_POST['n_correspondencia'])){
+            $n_correspondencia = (String)$_POST['n_correspondencia'];
             $this->view->correspondencia = $this->model->buscarNumOrden($n_correspondencia);
             if (!empty($this->view->correspondencia)){
                 $this->view->destinatario = $this->view->correspondencia[0]['destinatario'];
@@ -109,7 +109,7 @@ class Correspondencia extends Controller{
                 $this->view->regiones = $this->view->correspondencia[0]['regiones'];
                 $this->view->codigo_barras = $this->view->correspondencia[0]['codigo_barras'];
                 $this->view->detalle = $this->view->correspondencia[0]['detalle'];
-                $this->view->tipo_envio = $this->view->correspondencia[0]['detalle'];
+                $this->view->tipo_envio = $this->view->correspondencia[0]['encomienda'];
             }
             //print_r($this->view->destinatario );
             
@@ -125,20 +125,13 @@ class Correspondencia extends Controller{
     }
 
     function buscarFecha(){
-        if (isset($_GET['fecha'])){
-            $this->view->fecha = (String)$_GET['fecha'];
-            $this->view->correspondencia  = $this->model->buscarFecha( $this->view->fecha);
-            if (!empty($this->view->correspondencia)){
-                $this->view->destinatario = $this->view->correspondencia[0]['destinatario'];
-                $this->view->direccion = $this->view->correspondencia[0]['direccion'];
-                $this->view->comunascol = $this->view->correspondencia[0]['comunascol'];
-                $this->view->regiones = $this->view->correspondencia[0]['regiones'];
-                $this->view->codigo_barras = $this->view->correspondencia[0]['codigo_barras'];
-                $this->view->detalle = $this->view->correspondencia[0]['detalle'];
-                $this->view->tipo_envio = $this->view->correspondencia[0]['detalle'];
-            }
+        if (isset($_POST['f_desde']) && isset($_POST['f_hasta'])){
+            $f_desde = (String)$_POST['f_desde'];
+            $f_hasta = (String)$_POST['f_hasta'];
+            $this->view->correspondencia  = $this->model->buscarFecha($f_desde, $f_hasta);
 
-            //print_r($this->view->destinatario );
+
+            //print_r( $this->view->correspondencia );
 
         }
        

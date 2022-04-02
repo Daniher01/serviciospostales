@@ -24,7 +24,7 @@
                 $cliente = "Universidad Talca";
                 $rutuser = isset($_SESSION) ? $_SESSION['rut'] :"16650344-2";
                 $cinterno = "132547838";
-                $usuario = isset($_SESSION) ? $_SESSION['idUsuario'] : 1;
+                $usuario = isset($_SESSION) ? $_SESSION['usuario'] : 1;
                 $estado = 1; //siemrpe el mismo estado
                 $checkbox = isset($_POST) ? $_POST['checkbox'] : NULL;
                 //llama al modelo para traer los datos faltantes

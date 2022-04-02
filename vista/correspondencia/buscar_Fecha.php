@@ -9,9 +9,12 @@
       <!-- Navbar Search -->
       <li class="nav-item">
         <div class="navbar">
-          <form class="form-inline" action="<?php echo constant('URL');?>Correspondencia/buscarFecha" action="GET">
+          <form class="form-inline" action="<?php echo constant('URL');?>Correspondencia/buscarFecha" method="POST">
             <div class="input-group input-group-sm">
-              <input class="form-control form-control-navbar" type="date" required placeholder="Search" aria-label="Search" name="fecha">
+              <span class="navbar">Desde:</span>
+              <input class="form-control form-control-navbar" type="date" required placeholder="Search" aria-label="Search" name="f_desde">
+              <span class="navbar">Hasta:</span>
+              <input class="form-control form-control-navbar" type="date" required placeholder="Search" aria-label="Search" name="f_hasta">
               <div class="input-group-append">
                 <button class="btn btn-navbar" type="submit">
                   <i class="fas fa-search"></i>
@@ -34,53 +37,39 @@
               </div>
               <!-- /.card-header -->
               <div class="card-body" id="example1_wrapper">
-              <p>Paquete: <?php echo ' '. $this->codigo_barras ?> </p>
-              <table class="table table-bordered">
 
-                  <tr>
-                    <th>Destinatario: </th>
-                    <td><?php echo $this->destinatario?></td>
-                    <th>Direccion:</th>
-                    <td><?php echo $this->direccion ?></td>
-                  </tr>
-                  <tr>
-                    <th>Comuna:</th>
-                    <td><?php echo $this->comunascol ?></td>
-                    <th>Region:</th>
-                    <td><?php echo $this->regiones ?></td>
-                  </tr>  
-                  <tr>
-                    <th>Detalle:</th>
-                    <td><?php echo $this->detalle ?></td>
-                    <th>Tipo de Envio:</th>
-                    <td><?php echo $this->tipo_envio ?></td>
-                  </tr>
-                  
-                </table>
-                <br>
                 <table class="table table-bordered">
                   <thead>
                     <tr>
-                    <th >Estado</th>
-                      <th>Fecha</th>
-                      <th >Hora</th>
+                      <th >Fecha</th>
+                      <th>Destinatario</th>
                       <th >N° Seguimiento</th>
                       <th >Codigo Interno</th>
+                      <th >Codigo Barras</th>
+                      <th >Estado</th>
+                      <th ></th>
                     </tr>
                   </thead>
                   <tbody>
                     <?php 
                         foreach ($this->correspondencia  as $c){
                         echo " <tr>    
-                                <td>".$c['estado']."</td>
                                 <td>".$c['fecha']."</td>
-                                <td>".$c['hora']."</td>
+                                <td>".$c['destinatario']."</td>
                                 <td>".$c['numero_seguimiento']."</td>
                                 <td>".$c['codigo_interno']."</td>
+                                <td>".$c['codigo_barras']."</td>
+                                <td>".$c['estado']."</td>
+                                <td>
+                                  <form action='". constant('URL')."Correspondencia/buscarId' method='POST'>
+                                  <input type='hidden' value='".$c['numero_seguimiento']."' name='n_correspondencia'>  
+                                  <button type='submit' class='btn btn-outline-primary'>ver Detalle</button>
+                                  </form>
+                                </td>
                                 </tr>";  
                         }
                     ?>
-    
+                    
                   </tbody>
                 </table>
               </div>

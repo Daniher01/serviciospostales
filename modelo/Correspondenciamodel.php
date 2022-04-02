@@ -63,7 +63,7 @@ class CorrespondenciaModel extends Model{
         }
     }
 
-    public function buscarFecha($fecha){
+    public function buscarFecha($f_desde, $f_hasta){
         try{
 
             $query = "SELECT  estado, destinatario, direccion, codigo_barras, codigo_interno, comunascol, regiones, detalle, encomienda, fecha, hora, numero_seguimiento FROM movimiento as m
@@ -72,10 +72,10 @@ class CorrespondenciaModel extends Model{
             INNER JOIN regiones as r on r.idregiones = c.regiones_idregiones
             INNER JOIN estado as e on e.idestado = m.estado_idestado
             INNER JOIN tipo_encomienda as te on te.idtipo_encomienda = cor.tipo_encomienda_idtipo_encomienda
-            WHERE fecha = '$fecha'";
+            WHERE fecha  BETWEEN '$f_desde' AND '$f_hasta '";
             $datos = $this->db->connect()->query($query);
             $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
-
+            
             return $rs;
 
         }catch (PDOException $e){
