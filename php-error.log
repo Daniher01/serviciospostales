@@ -1287,3 +1287,1246 @@ Stack trace:
 [05-Apr-2022 09:44:50 America/Santiago] Login::contruct -> LOGINCONTROLLER 
 [05-Apr-2022 09:44:50 America/Santiago] Construct::LoginModel
 [05-Apr-2022 09:44:50 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:37 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:37 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:37 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:37 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:37 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:43 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:43 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:43 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:43 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:43 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:43 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:43 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:43 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:43 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:43 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:43 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:43 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:43 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:43 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:43 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:43 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:43 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:43 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:43 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:43 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:43 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:43 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:43 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:43 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:43 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:43 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:43 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:43 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:43 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:43 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:43 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:43 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:43 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:43 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:43 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:43 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:43 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:43 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:43 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:43 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:43 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:43 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:43 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:43 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:43 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:43 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:43 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:43 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:43 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:43 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:43 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:43 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:43 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:43 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:43 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:43 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:43 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:43 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:43 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:43 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:43 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:43 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:43 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:43 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:43 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:43 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:43 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:43 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:43 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:43 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:43 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:43 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:43 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:43 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:43 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:43 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:43 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:43 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:43 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:43 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:43 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:43 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:43 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:43 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:43 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:43 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:43 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:43 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:43 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:43 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:43 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:43 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:43 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:43 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:43 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:43 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:43 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:43 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:43 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:43 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:43 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:43 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:43 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:43 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:43 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:43 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:43 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:43 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:43 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:43 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:43 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:43 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:43 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:43 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:43 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:43 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:43 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:43 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:45 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:45 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:45 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:45 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:45 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:45 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:45 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:45 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:45 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:45 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:45 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:45 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:45 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:45 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:45 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:45 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:45 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:45 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:45 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:45 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:45 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:45 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:45 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:45 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:45 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:45 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:45 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:45 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:45 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:45 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:45 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:45 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:45 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:45 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:45 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:45 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:45 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:45 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:45 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:45 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:45 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:45 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:45 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:45 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:45 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:45 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:45 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:45 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:45 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:45 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:45 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:45 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:45 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:45 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:45 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:45 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:45 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:45 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:45 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:45 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:45 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:45 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:45 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:45 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:45 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:45 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:45 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:45 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:45 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:45 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:45 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:45 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:45 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:45 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:45 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:45 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:45 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:45 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:45 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:45 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:45 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:45 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:45 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:45 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:45 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:45 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:45 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:45 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:45 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:45 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:45 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:45 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:45 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:45 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:45 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:45 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:45 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:45 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:45 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:45 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:47 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:47 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:47 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:47 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:47 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:47 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:47 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:47 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:47 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:47 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:47 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:47 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:47 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:47 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:47 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:47 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:47 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:47 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:47 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:47 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:47 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:47 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:47 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:47 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:47 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:48 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:48 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:48 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:48 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:48 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:48 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:48 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:48 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:48 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:48 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:48 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:48 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:48 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:48 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:48 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:48 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:48 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:48 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:48 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:48 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:48 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:48 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:48 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:48 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:48 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:48 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:48 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:48 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:48 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:48 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:48 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:48 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:48 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:48 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:48 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:48 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:48 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:48 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:48 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:48 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:48 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:48 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:48 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:48 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:48 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:48 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:48 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:48 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:48 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:48 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:48 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:48 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:49 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:49 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:49 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:49 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:49 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:49 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:49 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:49 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:49 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:49 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:49 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:49 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:49 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:49 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:49 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:49 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:49 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:49 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:49 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:49 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:49 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:49 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:49 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:49 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:49 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:49 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:49 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:49 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:49 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:49 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:49 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:49 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:49 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:49 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:49 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:49 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:49 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:49 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:49 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:49 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:49 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:49 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:49 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:49 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:49 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:49 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:49 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:49 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:49 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:49 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:49 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:49 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:49 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:49 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:49 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:49 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:49 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:49 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:49 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:49 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:49 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:49 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:49 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:49 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:49 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:49 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:49 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:49 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:49 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:49 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:49 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:49 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:49 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:49 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:49 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:54 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:54 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:54 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:54 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:54 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:54 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:54 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:54 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:54 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:54 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:54 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:54 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:54 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:54 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:54 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:54 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:54 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:54 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:54 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:54 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:54 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:54 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:54 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:54 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:54 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:54 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:54 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:54 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:54 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:54 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:54 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:54 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:54 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:54 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:54 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:54 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:54 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:54 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:54 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:54 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:54 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:54 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:54 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:54 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:54 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:54 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:54 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:54 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:54 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:54 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:54 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:54 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:54 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:54 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:54 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:54 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:54 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:54 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:54 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:54 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:54 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:54 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:54 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:54 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:54 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:54 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:54 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:54 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:54 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:54 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:54 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:54 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:54 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:54 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:54 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:54 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:54 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:54 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:54 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:54 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:54 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:54 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:54 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:54 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:54 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:54 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:54 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:54 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:54 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:54 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:54 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:54 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:54 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:54 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:54 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:23:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:23:54 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:23:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:23:54 America/Santiago] existe la sesion
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:23:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:23:54 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:23:54 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:23:54 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:24:24 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:24:24 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:24:24 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:24:24 America/Santiago] existe la sesion
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:24:24 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:24:24 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:24:24 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:24:24 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:24:24 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:24:24 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:24:24 America/Santiago] existe la sesion
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:24:24 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:24:24 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:24:24 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:24:24 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:24:24 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:24:24 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:24:24 America/Santiago] existe la sesion
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:24:24 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:24:24 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:24:24 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:24:24 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:24:24 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:24:24 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:24:24 America/Santiago] existe la sesion
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:24:24 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:24:24 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:24:24 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:24:24 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:24:24 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:24:24 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:24:24 America/Santiago] existe la sesion
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:24:24 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:24:24 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:24:24 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:24:24 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:24:24 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:24:24 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:24:24 America/Santiago] existe la sesion
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:24:24 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:24:24 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:24:24 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:24:24 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:24:24 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:24:24 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:24:24 America/Santiago] existe la sesion
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:24:24 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:24:24 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:24:24 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:24:24 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:24:24 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:24:24 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:24:24 America/Santiago] existe la sesion
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:24:24 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:24:24 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:24:24 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:24:24 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:24:25 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:24:25 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:24:25 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:24:25 America/Santiago] existe la sesion
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:24:25 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:24:25 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:24:25 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:24:25 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:24:25 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:24:25 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:24:25 America/Santiago] existe la sesion
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:24:25 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:24:25 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:24:25 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:24:25 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:24:25 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:24:25 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:24:25 America/Santiago] existe la sesion
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:24:25 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:24:25 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:24:25 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:24:25 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:24:25 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:24:25 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:24:25 America/Santiago] existe la sesion
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:24:25 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:24:25 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:24:25 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:24:25 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:24:25 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:24:25 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:24:25 America/Santiago] existe la sesion
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:24:25 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:24:25 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:24:25 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:24:25 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:24:25 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:24:25 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:24:25 America/Santiago] existe la sesion
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:24:25 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:24:25 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:24:25 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:24:25 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:24:25 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:24:25 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:24:25 America/Santiago] existe la sesion
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:24:25 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:24:25 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:24:25 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:24:25 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:24:25 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:24:25 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:24:25 America/Santiago] existe la sesion
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:24:25 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:24:25 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:24:25 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:24:25 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:24:25 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:24:25 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:24:25 America/Santiago] existe la sesion
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:24:25 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:24:25 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:24:25 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:24:25 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:24:25 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:24:25 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:24:25 America/Santiago] existe la sesion
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:24:25 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:24:25 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:24:25 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:24:25 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:24:25 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:24:25 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:24:25 America/Santiago] existe la sesion
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:24:25 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:24:25 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:24:25 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 15:24:25 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 15:24:25 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 15:24:25 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> 
+[05-Apr-2022 15:24:25 America/Santiago] existe la sesion
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 15:24:25 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 15:24:25 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 15:24:25 America/Santiago] Construct::LoginModel
+[05-Apr-2022 15:24:25 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 19:44:01 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 19:44:01 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 19:44:01 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 19:44:01 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 19:44:01 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 19:44:01 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 19:44:01 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[05-Apr-2022 19:44:01 America/Santiago] isPublic no existe la sesion
+[05-Apr-2022 19:44:01 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 19:44:01 America/Santiago] Construct::LoginModel
+[05-Apr-2022 19:44:01 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 19:44:07 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 19:44:07 America/Santiago] APP::construct-> no hay controlador especificado
+[05-Apr-2022 19:44:07 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 19:44:07 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 19:44:07 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 19:44:07 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 19:44:07 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Login
+[05-Apr-2022 19:44:07 America/Santiago] isPublic no existe la sesion
+[05-Apr-2022 19:44:07 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[05-Apr-2022 19:44:07 America/Santiago] Construct::LoginModel
+[05-Apr-2022 19:44:07 America/Santiago] Login::render -> carga el main de login
+[05-Apr-2022 19:44:07 America/Santiago] LOGIN::authenticate 
+[05-Apr-2022 19:44:08 America/Santiago] LoginModel::login->success
+[05-Apr-2022 19:44:08 America/Santiago] SESSIONCONTROLLER::inicialize 
+[05-Apr-2022 19:44:08 America/Santiago] hernandez
+[05-Apr-2022 19:44:08 America/Santiago] SESSIONCONTROLLER::autorizeAccess 
+[05-Apr-2022 19:44:08 America/Santiago] CONTROLLER:: redirect
+[05-Apr-2022 19:44:08 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 19:44:08 America/Santiago] app otra vista
+[05-Apr-2022 19:44:08 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 19:44:08 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 19:44:08 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 19:44:08 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 19:44:08 America/Santiago] existe la sesion
+[05-Apr-2022 19:44:08 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 19:44:08 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:44:08 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:44:08 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 19:44:08 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 19:44:08 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:44:08 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:44:08 America/Santiago] Contruct::CorrespondenciaModel
