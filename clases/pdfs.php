@@ -109,7 +109,7 @@ class PDF extends FPDF
         $this->Cell(20,5,"",0);
         $this->Ln();
         $this->Cell(50,10, $this->Image('clases/codigos/'.$code.'.png', $this->GetX(), $this->GetY(),120,30),0);
-        error_log($code);
+        
         $arrayData = array($code, $nsiguimiento, $hora, $dia);
         return $arrayData;
     }

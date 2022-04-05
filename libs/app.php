@@ -4,13 +4,7 @@ class App{
 
     function __construct()
     {
-
-        $this->sesionIniciada();
-
-        
-    }
-
-    function sesionIniciada(){
+    
         try{
             //verifica que exista la url 
             $url = isset($_GET['url']) ? $_GET['url']: null; 
@@ -42,20 +36,55 @@ class App{
             }
 
 
-            require_once 'vista/layouts/header.php';
+            
             //si la url esta vacia
-            if(empty($url[0])){
+            if(empty($url[0]) || $url[0] =='Login' ){
                 //require_once 'vista/layouts/header.php';
                 error_log('APP::construct-> no hay controlador especificado');
-                $archivoController = 'controlador/Main.php';
+                $archivoController = 'controlador/Login.php';
                 require_once $archivoController;
-                $controller = new Main();
-                $controller->loadModel('Main');  /* DEFINIR EL MAIN DE LA PAGINA */
+                $controller = new Login();
+                $controller->loadModel('Login');  /* DEFINIR EL MAIN DE LA PAGINA */
                 $controller->render();
-                require_once 'vista/layouts/footer.php';
+
+                $nparam = sizeof($url);
+
+                if($nparam > 1){
+                    if($nparam > 2){
+                        $param = [];
+                        for($i=2; $i<$nparam; $i++){
+                            array_push($param, $url[$i]);
+                        }
+                        $controller->{$url[1]}($param);
+                    }else{
+                        $controller->{$url[1]}();
+                    }
+                }
                 return false;
 
-            }elseif($url[0]!='PDFController'){
+            }elseif($url[0]=='PDFController'){
+                error_log('app pdf');
+                $archivoController = 'controlador/PDFController.php';
+                require_once $archivoController;
+                $controller = new PDFController;
+
+                $nparam = sizeof($url);
+
+                if($nparam > 1){
+                    if($nparam > 2){
+                        $param = [];
+                        for($i=2; $i<$nparam; $i++){
+                            array_push($param, $url[$i]);
+                        }
+                        $controller->{$url[1]}($param);
+                    }else{
+                        $controller->{$url[1]}();
+                    }
+                }
+
+
+            }elseif($url[0]!='PDFController' && $url[0] !='Login'){
+                //require_once 'vista/layouts/header.php';
                 error_log('app otra vista');
                 //cuando ya existe una url
                 $archivoController = 'controlador/'. $url[0] . '.php';
@@ -83,19 +112,19 @@ class App{
                     }else{
                         $controller->render();
                     }
-
+                require_once 'vista/layouts/footer.php';
                 }else{ //si no existe el controlador
 
                     $controller = new Errores('no existe el controlador');
                     
                 }
-                require_once 'vista/layouts/footer.php';
+                
             }
             
             
         }catch(Error $e){
             $controller = new Errores($e);
-            require_once 'vista/layouts/footer.php';
+            
         }
     }
 }

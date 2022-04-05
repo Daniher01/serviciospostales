@@ -1,3 +1,4 @@
+<?php require_once 'vista/layouts/header.php'; ?>
 <title>Generar</title>
 <!-- Main content -->
 <section class="content ">
@@ -47,7 +48,11 @@
                 <?php     
                     }
                 ?>
-            </select>
+                    </select>
+                    </div>
+                    <div class="form-group">
+                    <label for="exampleInputPassword1">Codigo Interno</label>
+                    <input type="text" class="form-control" required name="codigo_interno" placeholder="Codigo Interno">
                     </div>
 
                 <!-- /.card-body -->

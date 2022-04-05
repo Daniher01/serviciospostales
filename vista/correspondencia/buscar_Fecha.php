@@ -1,3 +1,4 @@
+<?php require_once 'vista/layouts/header.php'; ?>
 <title>Buscar</title>
 
 <div class="container">

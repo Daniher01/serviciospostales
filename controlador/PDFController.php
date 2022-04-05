@@ -2,7 +2,7 @@
 
     require('clases/pdfs.php');
     
-    class PDFController extends Controller{
+    class PDFController extends SessionController{
 
 
         function __construct()
@@ -22,11 +22,12 @@
                 $detalle = $_POST['detalle'];
                 $idtipoenvio = $_POST['encomienda'];
                 $cliente = "Universidad Talca";
-                $rutuser = isset($_SESSION) ? $_SESSION['rut'] :"16650344-2";
-                $cinterno = "132547838";
-                $usuario = isset($_SESSION) ? $_SESSION['usuario'] : 1;
+                $rutuser = $_SESSION['rut'];
+                $cinterno = $_POST['codigo_interno'];
+                $usuario = $_SESSION['idusuario'] ;
+                $detalle_movimiento =  $_SESSION['nombre_usuario'].' '. $_SESSION['apellido_p'].' '.$_SESSION['apellido_m'];
                 $estado = 1; //siemrpe el mismo estado
-                $checkbox = isset($_POST) ? $_POST['checkbox'] : NULL;
+                $checkbox = isset($_POST['checkbox']) ? $_POST['checkbox'] : NULL;
                 //llama al modelo para traer los datos faltantes
                 //id de la comuna
                 $this->loadModel('Comunas'); //TODO
@@ -57,11 +58,11 @@
                 $this->loadModel('Correspondencia'); 
                 $correspondencia = new CorrespondenciaModel();
                 $correspondencia->guardarCorrespondencia($destinatario, $direccion, $code, $detalle,$cinterno, $nseguimiento, $usuario, $idtipoenvio, $comuna);
-            
+                
                 //modelo para ingresar el movimiento
                 $this->loadModel('Movimiento');
                 $movimiento = new MovimientoModel();
-                $movimiento->insertMovimiento($hora, $dia, $usuario, $code, $estado);
+                $movimiento->insertMovimiento($hora, $dia, $usuario, $code, $estado, $detalle_movimiento);
 
                 //asignar a clientes frecuentes
                 if ($checkbox != NULL){

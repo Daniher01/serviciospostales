@@ -1,3 +1,4 @@
+<?php require_once 'vista/layouts/header.php'; ?>
 <title>Generar</title>
 
 <div class="container">
@@ -16,7 +17,23 @@
             </div>
             <div class="form-group">
             <label for="exampleInputPassword1">Direccion</label>
-            <input type="text" class="form-control" required name="direccion" placeholder="Direccion">
+            <div class="input-group">
+            <div class="custom-file">
+                <input type="text" class="form-control" required name="direccion" placeholder="Direccion"> 
+            </div>
+            <div>
+                <select class="form-control">
+                <option value=""> Departamentos</option>
+                <?php 
+                    foreach ($this->departamentos as $departamento){
+                ?>
+                <option value=""> <?php echo $departamento['departamento'] ?></option>
+                <?php     
+                    }
+                ?>
+                </select>
+            </div>
+            </div> 
             </div>
             <div class="form-group">
             <label for="exampleInputPassword1">Region</label>
@@ -59,6 +76,10 @@
                     }
                 ?>
             </select>
+            </div>
+            <div class="form-group">
+            <label for="exampleInputPassword1">Codigo Interno</label>
+            <input type="text" class="form-control" required name="codigo_interno" placeholder="Codigo Interno">
             </div>
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" name="checkbox" value="checkbox">

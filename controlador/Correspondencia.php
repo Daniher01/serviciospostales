@@ -4,13 +4,14 @@ require 'clases/vendor/autoload.php';
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Reader\Xlsx;
 
-class Correspondencia extends Controller{
+class Correspondencia extends SessionController{
 
     function __construct()
     {
         parent::__construct();
         $this->view->comunas = [];
         $this->view->regiones = [];
+        $this->view->departamentos = [];
         $this->view->tiepo_encomienda = [];
         $this->view->clienteid = [];
         $this->view->correspondencia = [];
@@ -56,6 +57,10 @@ class Correspondencia extends Controller{
         $this->loadModel('Region');
         $regiones = new RegionModel();
         $this->view->regiones = $regiones->getRegiones();
+        //trae los datos de los departamentos
+        $this->loadModel('Departamento');
+        $departamentos = new DepartamentoModel();
+        $this->view->departamentos = $departamentos->getDepartamentos();
         //trae los datos de las regiones
         $this->view->tiepo_encomienda = $this->tipo_encomienda->getTipo_encomienda();
         

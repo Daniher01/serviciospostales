@@ -1,6 +1,6 @@
 <?php 
 //Datos de la BD
-include_once('config.php');
+include_once('config/config.php');
 
 class Database{
     

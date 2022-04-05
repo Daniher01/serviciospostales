@@ -1,0 +1,29 @@
+{
+
+    "sites":[
+        {
+            "site":"",
+            "access":"public",
+            "role":""
+        },
+        {
+            "site":"Login",
+            "access":"public",
+            "role":""
+        },
+        {
+            "site":"Correspondencia",
+            "access":"private",
+            "role":1 
+        },
+        {
+            "site":"PDFController",
+            "access":"private",
+            "role":1 
+        }
+    ],
+    "default-sites":{
+        "Correspondencia": "Correspondencia"
+    }
+
+}

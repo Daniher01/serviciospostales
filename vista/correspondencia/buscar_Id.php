@@ -1,3 +1,4 @@
+<?php require_once 'vista/layouts/header.php'; ?>
 <title>Buscar</title>
 
 <div class="container">
@@ -44,6 +45,7 @@
                       <th >Hora</th>
                       <th >N° Seguimiento</th>
                       <th >Codigo Interno</th>
+                      <th >Creado Por</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -55,6 +57,7 @@
                                 <td>".$c['hora']."</td>
                                 <td>".$c['numero_seguimiento']."</td>
                                 <td>".$c['codigo_interno']."</td>
+                                <td>".$c['detalle_movimiento']."</td>
                                 </tr>";  
                         }
                     ?>
