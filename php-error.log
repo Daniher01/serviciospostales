@@ -2530,3 +2530,882 @@ Stack trace:
 [05-Apr-2022 19:44:08 America/Santiago] Contruct:: -> ClientesfrecuentesModel
 [05-Apr-2022 19:44:08 America/Santiago] Contruct:: -> ClientesfrecuentesModel
 [05-Apr-2022 19:44:08 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 19:51:13 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 19:51:13 America/Santiago] app otra vista
+[05-Apr-2022 19:51:13 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 19:51:13 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 19:51:13 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 19:51:13 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 19:51:13 America/Santiago] existe la sesion
+[05-Apr-2022 19:51:13 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 19:51:13 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:51:13 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:51:13 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 19:51:13 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 19:51:13 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:51:13 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:51:13 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 19:51:18 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 19:51:18 America/Santiago] app otra vista
+[05-Apr-2022 19:51:18 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 19:51:18 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 19:51:18 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 19:51:18 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 19:51:18 America/Santiago] existe la sesion
+[05-Apr-2022 19:51:18 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 19:51:18 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:51:18 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:51:18 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 19:51:18 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 19:51:18 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:51:18 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:51:18 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 19:51:20 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 19:51:20 America/Santiago] app otra vista
+[05-Apr-2022 19:51:20 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 19:51:20 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 19:51:20 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 19:51:20 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 19:51:20 America/Santiago] existe la sesion
+[05-Apr-2022 19:51:20 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 19:51:20 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:51:20 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:51:20 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 19:51:20 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 19:51:20 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:51:20 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:51:20 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 19:54:46 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 19:54:46 America/Santiago] app otra vista
+[05-Apr-2022 19:54:46 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 19:54:46 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 19:54:46 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 19:54:46 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 19:54:46 America/Santiago] existe la sesion
+[05-Apr-2022 19:54:46 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 19:54:46 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:54:46 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:54:46 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 19:54:46 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 19:54:46 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:54:46 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:54:46 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 19:56:40 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 19:56:40 America/Santiago] app otra vista
+[05-Apr-2022 19:56:40 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 19:56:40 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 19:56:40 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 19:56:40 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 19:56:40 America/Santiago] existe la sesion
+[05-Apr-2022 19:56:40 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 19:56:40 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:56:40 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:56:40 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 19:56:40 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 19:56:41 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:56:41 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:56:41 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 19:56:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 19:56:54 America/Santiago] app otra vista
+[05-Apr-2022 19:56:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 19:56:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 19:56:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 19:56:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 19:56:54 America/Santiago] existe la sesion
+[05-Apr-2022 19:56:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 19:56:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:56:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:56:54 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 19:56:54 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 19:56:54 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:56:54 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:56:54 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 19:58:23 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 19:58:23 America/Santiago] app otra vista
+[05-Apr-2022 19:58:23 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 19:58:23 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 19:58:23 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 19:58:23 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 19:58:23 America/Santiago] existe la sesion
+[05-Apr-2022 19:58:23 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 19:58:23 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:58:23 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:58:23 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 19:58:23 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 19:58:23 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:58:23 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:58:23 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 19:59:01 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 19:59:01 America/Santiago] app otra vista
+[05-Apr-2022 19:59:01 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 19:59:01 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 19:59:01 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 19:59:01 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 19:59:01 America/Santiago] existe la sesion
+[05-Apr-2022 19:59:01 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 19:59:01 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:59:01 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:59:01 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 19:59:01 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 19:59:01 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:59:01 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:59:01 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 19:59:13 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 19:59:13 America/Santiago] app otra vista
+[05-Apr-2022 19:59:13 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 19:59:13 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 19:59:13 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 19:59:13 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 19:59:13 America/Santiago] existe la sesion
+[05-Apr-2022 19:59:13 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 19:59:13 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:59:13 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:59:13 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 19:59:13 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 19:59:13 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:59:13 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:59:13 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 19:59:22 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 19:59:22 America/Santiago] app otra vista
+[05-Apr-2022 19:59:22 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 19:59:22 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 19:59:22 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 19:59:22 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 19:59:22 America/Santiago] existe la sesion
+[05-Apr-2022 19:59:22 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 19:59:22 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:59:22 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 19:59:22 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 19:59:22 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 19:59:22 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:59:22 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 19:59:22 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:02:56 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:02:56 America/Santiago] app otra vista
+[05-Apr-2022 20:02:56 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:02:56 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:02:56 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:02:56 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:02:56 America/Santiago] existe la sesion
+[05-Apr-2022 20:02:56 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:02:56 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:02:56 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:02:56 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:02:56 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:02:56 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:02:56 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:02:56 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:17:08 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:17:08 America/Santiago] app otra vista
+[05-Apr-2022 20:17:08 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:17:08 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:17:08 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:17:08 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:17:08 America/Santiago] existe la sesion
+[05-Apr-2022 20:17:08 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:17:08 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:17:08 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:17:08 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:17:08 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:17:08 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:17:08 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:17:08 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:18:18 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:18:18 America/Santiago] app otra vista
+[05-Apr-2022 20:18:18 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:18:18 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:18:18 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:18:18 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:18:18 America/Santiago] existe la sesion
+[05-Apr-2022 20:18:18 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:18:18 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:18:18 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:18:18 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:18:18 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:18:18 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:18:18 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:18:18 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:18:43 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:18:43 America/Santiago] app otra vista
+[05-Apr-2022 20:18:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:18:43 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:18:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:18:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:18:43 America/Santiago] existe la sesion
+[05-Apr-2022 20:18:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:18:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:18:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:18:43 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:18:43 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:18:43 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:18:43 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:18:43 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:25:10 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:25:10 America/Santiago] app otra vista
+[05-Apr-2022 20:25:10 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:25:10 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:25:10 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:25:10 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:25:10 America/Santiago] existe la sesion
+[05-Apr-2022 20:25:10 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:25:10 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:25:10 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:25:10 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:25:10 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:25:10 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:25:10 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:25:10 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:29:01 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:29:01 America/Santiago] app otra vista
+[05-Apr-2022 20:29:01 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:29:01 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:29:01 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:29:01 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:29:01 America/Santiago] existe la sesion
+[05-Apr-2022 20:29:01 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:29:01 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:29:01 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:29:01 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:29:01 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:29:01 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:29:01 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:29:01 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:30:21 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:30:21 America/Santiago] app otra vista
+[05-Apr-2022 20:30:21 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:30:21 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:30:21 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:30:21 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:30:21 America/Santiago] existe la sesion
+[05-Apr-2022 20:30:21 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:30:21 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:30:21 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:30:21 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:30:21 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:30:21 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:30:21 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:30:21 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:30:58 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:30:58 America/Santiago] app otra vista
+[05-Apr-2022 20:30:58 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:30:58 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:30:58 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:30:58 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:30:58 America/Santiago] existe la sesion
+[05-Apr-2022 20:30:58 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:30:58 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:30:58 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:30:58 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:30:58 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:30:58 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:30:58 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:30:58 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:31:11 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:31:11 America/Santiago] app otra vista
+[05-Apr-2022 20:31:11 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:31:11 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:31:11 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:31:11 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:31:11 America/Santiago] existe la sesion
+[05-Apr-2022 20:31:11 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:31:11 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:31:11 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:31:11 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:31:11 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:31:11 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:31:11 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:31:11 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:31:26 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:31:26 America/Santiago] app otra vista
+[05-Apr-2022 20:31:26 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:31:26 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:31:26 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:31:26 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:31:26 America/Santiago] existe la sesion
+[05-Apr-2022 20:31:26 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:31:26 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:31:26 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:31:26 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:31:26 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:31:26 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:31:26 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:31:26 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:35:13 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:35:13 America/Santiago] app otra vista
+[05-Apr-2022 20:35:13 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:35:13 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:35:13 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:35:13 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:35:13 America/Santiago] existe la sesion
+[05-Apr-2022 20:35:13 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:35:13 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:35:13 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:35:13 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:35:13 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:35:13 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:35:13 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:35:13 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:35:32 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:35:32 America/Santiago] app otra vista
+[05-Apr-2022 20:35:32 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:35:32 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:35:32 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:35:32 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:35:32 America/Santiago] existe la sesion
+[05-Apr-2022 20:35:32 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:35:32 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:35:32 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:35:32 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:35:32 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:35:32 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:35:32 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:35:32 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:35:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:35:45 America/Santiago] app otra vista
+[05-Apr-2022 20:35:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:35:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:35:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:35:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:35:45 America/Santiago] existe la sesion
+[05-Apr-2022 20:35:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:35:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:35:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:35:45 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:35:45 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:35:45 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:35:45 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:35:45 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:40:06 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:40:06 America/Santiago] app otra vista
+[05-Apr-2022 20:40:06 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:40:06 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:40:06 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:40:06 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:40:06 America/Santiago] existe la sesion
+[05-Apr-2022 20:40:06 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:40:06 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:40:06 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:40:06 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:40:06 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:40:06 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:40:06 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:40:06 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:41:06 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:41:06 America/Santiago] app otra vista
+[05-Apr-2022 20:41:06 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:41:06 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:41:06 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:41:06 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:41:06 America/Santiago] existe la sesion
+[05-Apr-2022 20:41:06 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:41:06 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:41:06 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:41:06 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:41:06 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:41:06 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:41:06 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:41:06 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:41:17 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:41:17 America/Santiago] app otra vista
+[05-Apr-2022 20:41:17 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:41:17 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:41:17 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:41:17 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:41:17 America/Santiago] existe la sesion
+[05-Apr-2022 20:41:17 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:41:17 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:41:17 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:41:17 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:41:17 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:41:17 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:41:17 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:41:17 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:43:20 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:43:20 America/Santiago] app otra vista
+[05-Apr-2022 20:43:20 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:43:20 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:43:20 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:43:20 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:43:20 America/Santiago] existe la sesion
+[05-Apr-2022 20:43:20 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:43:20 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:43:20 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:43:20 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:43:20 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:43:20 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:43:20 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:43:20 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:43:47 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:43:47 America/Santiago] app otra vista
+[05-Apr-2022 20:43:47 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:43:47 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:43:47 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:43:47 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:43:47 America/Santiago] existe la sesion
+[05-Apr-2022 20:43:47 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:43:47 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:43:47 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:43:47 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:43:47 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:43:47 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:43:47 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:43:47 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:43:55 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:43:55 America/Santiago] app otra vista
+[05-Apr-2022 20:43:55 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:43:55 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:43:55 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:43:55 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:43:55 America/Santiago] existe la sesion
+[05-Apr-2022 20:43:55 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:43:55 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:43:55 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:43:55 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:43:55 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:43:55 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:43:55 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:43:55 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:44:48 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:44:48 America/Santiago] app otra vista
+[05-Apr-2022 20:44:48 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:44:48 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:44:48 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:44:48 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:44:48 America/Santiago] existe la sesion
+[05-Apr-2022 20:44:48 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:44:48 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:44:48 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:44:48 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:44:48 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:44:48 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:44:48 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:44:48 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:45:31 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:45:31 America/Santiago] app otra vista
+[05-Apr-2022 20:45:31 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:45:31 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:45:31 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:45:31 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:45:31 America/Santiago] existe la sesion
+[05-Apr-2022 20:45:31 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:45:31 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:45:31 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:45:31 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:45:31 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:45:31 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:45:31 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:45:31 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:45:53 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:45:53 America/Santiago] app otra vista
+[05-Apr-2022 20:45:53 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:45:53 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:45:53 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:45:53 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:45:53 America/Santiago] existe la sesion
+[05-Apr-2022 20:45:53 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:45:53 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:45:53 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:45:53 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:45:53 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:45:53 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:45:53 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:45:53 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:46:02 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:46:02 America/Santiago] app otra vista
+[05-Apr-2022 20:46:02 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:46:02 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:46:02 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:46:02 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:46:02 America/Santiago] existe la sesion
+[05-Apr-2022 20:46:02 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:46:02 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:46:02 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:46:02 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:46:02 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:46:02 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:46:02 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:46:02 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:47:06 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:47:06 America/Santiago] app otra vista
+[05-Apr-2022 20:47:06 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:47:06 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:47:06 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:47:06 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:47:06 America/Santiago] existe la sesion
+[05-Apr-2022 20:47:06 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:47:06 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:47:06 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:47:06 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:47:06 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:47:06 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:47:06 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:47:06 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:47:37 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:47:37 America/Santiago] app otra vista
+[05-Apr-2022 20:47:37 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:47:37 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:47:37 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:47:37 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:47:37 America/Santiago] existe la sesion
+[05-Apr-2022 20:47:37 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:47:37 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:47:37 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:47:37 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:47:37 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:47:37 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:47:37 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:47:37 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:49:19 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:49:19 America/Santiago] app otra vista
+[05-Apr-2022 20:49:19 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:49:19 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:49:19 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:49:19 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:49:19 America/Santiago] existe la sesion
+[05-Apr-2022 20:49:19 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:49:19 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:49:19 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:49:19 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:49:19 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:49:19 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:49:19 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:49:19 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:49:54 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:49:54 America/Santiago] app otra vista
+[05-Apr-2022 20:49:54 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:49:54 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:49:54 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:49:54 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:49:54 America/Santiago] existe la sesion
+[05-Apr-2022 20:49:54 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:49:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:49:54 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:49:54 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:49:54 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:49:54 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:49:54 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:49:54 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:50:02 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:50:02 America/Santiago] app otra vista
+[05-Apr-2022 20:50:02 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:50:02 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:50:02 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:50:02 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:50:02 America/Santiago] existe la sesion
+[05-Apr-2022 20:50:02 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:50:02 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:50:02 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:50:02 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:50:02 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:50:02 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:50:02 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:50:02 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:50:25 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:50:25 America/Santiago] app otra vista
+[05-Apr-2022 20:50:25 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:50:25 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:50:25 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:50:25 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:50:25 America/Santiago] existe la sesion
+[05-Apr-2022 20:50:25 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:50:25 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:50:25 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:50:25 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:50:25 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:50:25 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:50:25 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:50:25 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:50:42 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:50:42 America/Santiago] app otra vista
+[05-Apr-2022 20:50:42 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:50:42 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:50:42 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:50:42 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:50:42 America/Santiago] existe la sesion
+[05-Apr-2022 20:50:42 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:50:42 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:50:42 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:50:42 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:50:42 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:50:42 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:50:42 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:50:42 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:51:07 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:51:07 America/Santiago] app pdf
+[05-Apr-2022 20:51:07 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:51:07 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:51:07 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:51:07 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:51:07 America/Santiago] existe la sesion
+[05-Apr-2022 20:51:07 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:51:07 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
+[05-Apr-2022 20:51:07 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
+[05-Apr-2022 20:51:07 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:51:07 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:51:07 America/Santiago] PHP Notice:  Undefined index: comuna in C:\xampp\htdocs\serviciospostales\controlador\PDFController.php on line 21
+[05-Apr-2022 20:51:07 America/Santiago] PHP Notice:  Undefined variable: comuna in C:\xampp\htdocs\serviciospostales\modelo\Comunasmodel.php on line 38
+[05-Apr-2022 20:51:08 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:51:08 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:51:08 America/Santiago] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+[05-Apr-2022 20:51:08 America/Santiago] Contruct:: -> MovimientoModel
+[05-Apr-2022 20:51:08 America/Santiago] Contruct:: -> MovimientoModel
+[05-Apr-2022 20:51:08 America/Santiago] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`pvilches_utalca`.`movimiento`, CONSTRAINT `fk_Movimiento_Correspondencia1` FOREIGN KEY (`Correspondencia_codigo_barras`) REFERENCES `correspondencia` (`codigo_barras`) ON DELETE NO ACTION ON )
+[05-Apr-2022 20:51:08 America/Santiago] app pdf
+[05-Apr-2022 20:51:08 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:51:08 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:51:08 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:51:08 America/Santiago] PHP Fatal error:  Cannot declare class UsuarioModel, because the name is already in use in C:\xampp\htdocs\serviciospostales\modelo\Usuariomodel.php on line 66
+[05-Apr-2022 20:56:38 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:56:38 America/Santiago] app otra vista
+[05-Apr-2022 20:56:38 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:56:38 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:56:38 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:56:38 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:56:38 America/Santiago] existe la sesion
+[05-Apr-2022 20:56:38 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:56:38 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:56:38 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:56:38 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:56:38 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:56:38 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:56:38 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:56:38 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:56:52 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:56:52 America/Santiago] app otra vista
+[05-Apr-2022 20:56:52 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:56:52 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:56:52 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:56:52 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:56:52 America/Santiago] existe la sesion
+[05-Apr-2022 20:56:52 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:56:52 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:56:52 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:56:52 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:56:52 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:56:52 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:56:52 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:56:52 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:58:45 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:58:45 America/Santiago] app otra vista
+[05-Apr-2022 20:58:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:58:45 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:58:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:58:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:58:45 America/Santiago] existe la sesion
+[05-Apr-2022 20:58:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:58:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:58:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:58:45 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:58:45 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:58:45 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:58:45 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:58:45 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:59:14 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:59:14 America/Santiago] app otra vista
+[05-Apr-2022 20:59:14 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:59:14 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:59:14 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:59:14 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:59:14 America/Santiago] existe la sesion
+[05-Apr-2022 20:59:14 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:59:14 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:59:14 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 20:59:14 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:59:14 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:59:14 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:59:14 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 20:59:14 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:59:57 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 20:59:57 America/Santiago] app pdf
+[05-Apr-2022 20:59:57 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:59:57 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:59:57 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:59:57 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 20:59:57 America/Santiago] existe la sesion
+[05-Apr-2022 20:59:57 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 20:59:57 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
+[05-Apr-2022 20:59:57 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
+[05-Apr-2022 20:59:57 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 20:59:57 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 20:59:57 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:59:57 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 20:59:57 America/Santiago] guardaCorrespondencia
+[05-Apr-2022 20:59:57 America/Santiago] Contruct:: -> MovimientoModel
+[05-Apr-2022 20:59:57 America/Santiago] Contruct:: -> MovimientoModel
+[05-Apr-2022 20:59:57 America/Santiago] insertMovimiento
+[05-Apr-2022 20:59:57 America/Santiago] app pdf
+[05-Apr-2022 20:59:57 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 20:59:57 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 20:59:57 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 20:59:57 America/Santiago] PHP Fatal error:  Cannot declare class UsuarioModel, because the name is already in use in C:\xampp\htdocs\serviciospostales\modelo\Usuariomodel.php on line 66
+[05-Apr-2022 21:03:34 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 21:03:34 America/Santiago] app pdf
+[05-Apr-2022 21:03:34 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 21:03:34 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 21:03:34 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 21:03:34 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 21:03:34 America/Santiago] existe la sesion
+[05-Apr-2022 21:03:34 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 21:03:34 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
+[05-Apr-2022 21:03:34 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
+[05-Apr-2022 21:03:34 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 21:03:34 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 21:03:34 America/Santiago] PHP Notice:  Undefined variable: region in C:\xampp\htdocs\serviciospostales\modelo\Regionmodel.php on line 35
+[05-Apr-2022 21:03:34 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 21:03:34 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 21:03:34 America/Santiago] guardaCorrespondencia
+[05-Apr-2022 21:03:34 America/Santiago] Contruct:: -> MovimientoModel
+[05-Apr-2022 21:03:34 America/Santiago] Contruct:: -> MovimientoModel
+[05-Apr-2022 21:03:34 America/Santiago] insertMovimiento
+[05-Apr-2022 21:03:34 America/Santiago] app pdf
+[05-Apr-2022 21:03:34 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 21:03:34 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 21:03:34 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 21:03:34 America/Santiago] PHP Fatal error:  Cannot declare class UsuarioModel, because the name is already in use in C:\xampp\htdocs\serviciospostales\modelo\Usuariomodel.php on line 66
+[05-Apr-2022 21:05:31 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 21:05:31 America/Santiago] app pdf
+[05-Apr-2022 21:05:31 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 21:05:31 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 21:05:31 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 21:05:31 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 21:05:31 America/Santiago] existe la sesion
+[05-Apr-2022 21:05:31 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 21:05:31 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
+[05-Apr-2022 21:05:31 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
+[05-Apr-2022 21:05:31 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 21:05:31 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 21:05:31 America/Santiago]  Maule 
+[05-Apr-2022 21:05:31 America/Santiago] PHP Notice:  Undefined variable: region in C:\xampp\htdocs\serviciospostales\modelo\Regionmodel.php on line 36
+[05-Apr-2022 21:05:31 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 21:05:31 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 21:05:31 America/Santiago] guardaCorrespondencia
+[05-Apr-2022 21:05:31 America/Santiago] Contruct:: -> MovimientoModel
+[05-Apr-2022 21:05:31 America/Santiago] Contruct:: -> MovimientoModel
+[05-Apr-2022 21:05:31 America/Santiago] insertMovimiento
+[05-Apr-2022 21:05:31 America/Santiago] app pdf
+[05-Apr-2022 21:05:31 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 21:05:31 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 21:05:31 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 21:05:31 America/Santiago] PHP Fatal error:  Cannot declare class UsuarioModel, because the name is already in use in C:\xampp\htdocs\serviciospostales\modelo\Usuariomodel.php on line 66
+[05-Apr-2022 21:05:34 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 21:05:34 America/Santiago] app otra vista
+[05-Apr-2022 21:05:34 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 21:05:34 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 21:05:34 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 21:05:34 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 21:05:34 America/Santiago] existe la sesion
+[05-Apr-2022 21:05:34 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 21:05:34 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 21:05:34 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 21:05:34 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 21:05:34 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 21:05:34 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 21:05:34 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 21:05:34 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 21:05:44 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 21:05:44 America/Santiago] app pdf
+[05-Apr-2022 21:05:44 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 21:05:44 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 21:05:44 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 21:05:44 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 21:05:44 America/Santiago] existe la sesion
+[05-Apr-2022 21:05:44 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 21:05:44 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
+[05-Apr-2022 21:05:44 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
+[05-Apr-2022 21:05:44 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 21:05:44 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 21:05:44 America/Santiago]  1 
+[05-Apr-2022 21:05:44 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 21:05:44 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 21:05:44 America/Santiago] guardaCorrespondencia
+[05-Apr-2022 21:05:44 America/Santiago] Contruct:: -> MovimientoModel
+[05-Apr-2022 21:05:44 America/Santiago] Contruct:: -> MovimientoModel
+[05-Apr-2022 21:05:44 America/Santiago] insertMovimiento
+[05-Apr-2022 21:05:44 America/Santiago] app pdf
+[05-Apr-2022 21:05:44 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 21:05:44 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 21:05:44 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 21:05:44 America/Santiago] PHP Fatal error:  Cannot declare class UsuarioModel, because the name is already in use in C:\xampp\htdocs\serviciospostales\modelo\Usuariomodel.php on line 66
+[05-Apr-2022 21:21:35 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 21:21:35 America/Santiago] app otra vista
+[05-Apr-2022 21:21:35 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 21:21:35 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 21:21:35 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 21:21:35 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 21:21:35 America/Santiago] existe la sesion
+[05-Apr-2022 21:21:35 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 21:21:35 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 21:21:35 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 21:21:35 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 21:21:35 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 21:21:35 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 21:21:35 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 21:21:35 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 21:21:36 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 21:21:36 America/Santiago] app otra vista
+[05-Apr-2022 21:21:36 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 21:21:36 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 21:21:36 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 21:21:36 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 21:21:36 America/Santiago] existe la sesion
+[05-Apr-2022 21:21:36 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 21:21:36 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 21:21:36 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 21:21:36 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 21:21:36 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 21:21:36 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 21:21:36 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 21:21:36 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 21:21:36 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::controlador() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[05-Apr-2022 21:22:05 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 21:22:05 America/Santiago] app otra vista
+[05-Apr-2022 21:22:05 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 21:22:05 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 21:22:05 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 21:22:05 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 21:22:05 America/Santiago] existe la sesion
+[05-Apr-2022 21:22:05 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 21:22:05 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 21:22:05 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 21:22:05 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 21:22:05 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 21:22:05 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 21:22:05 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 21:22:05 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 21:22:06 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 21:22:06 America/Santiago] app otra vista
+[05-Apr-2022 21:22:06 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 21:22:06 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 21:22:06 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 21:22:06 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 21:22:06 America/Santiago] existe la sesion
+[05-Apr-2022 21:22:06 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 21:22:06 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 21:22:06 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 21:22:06 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 21:22:06 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 21:22:06 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 21:22:06 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 21:22:06 America/Santiago] Contruct::CorrespondenciaModel
+[05-Apr-2022 21:22:06 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::controlador() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[05-Apr-2022 21:22:34 America/Santiago] inicio de aplicacion web
+[05-Apr-2022 21:22:34 America/Santiago] app otra vista
+[05-Apr-2022 21:22:34 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[05-Apr-2022 21:22:34 America/Santiago] SESSIONCONTROLLER::init 
+[05-Apr-2022 21:22:34 America/Santiago] SESSIONCONTROLLER::validateSession 
+[05-Apr-2022 21:22:34 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[05-Apr-2022 21:22:34 America/Santiago] existe la sesion
+[05-Apr-2022 21:22:34 America/Santiago] SESSIONCONTROLLER::isPublic
+[05-Apr-2022 21:22:34 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 21:22:34 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[05-Apr-2022 21:22:34 America/Santiago] ROL DEL ACCESS: 1
+[05-Apr-2022 21:22:34 America/Santiago] es privado y autorizado su rol y su estatus
+[05-Apr-2022 21:22:34 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 21:22:34 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[05-Apr-2022 21:22:34 America/Santiago] Contruct::CorrespondenciaModel

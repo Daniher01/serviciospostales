@@ -33,6 +33,10 @@
                 $this->loadModel('Comunas'); //TODO
                 $comunas = new ComunasModel();
                 $comunaNombre = $comunas->getIdComunaNombre($comuna);
+                //id de la region
+                $this->loadModel('Region'); //TODO
+                $regiones = new RegionModel();
+                $regionNombre = $regiones->getIdRegionNombre($region);
 
                 //id de la encomienda
                 $this->loadModel('Tipo_encomienda'); //TODO
@@ -45,7 +49,7 @@
                 ob_start();
                 $pdf->SetFont('Arial','',9);
                 $pdf->AddPage();
-                $this->resulset = $pdf->TablaBasica($destinatario, $direccion,$region,$comunaNombre,$detalle,$cliente,$rutuser,$tipoenvio,$cinterno);
+                $this->resulset = $pdf->TablaBasica($destinatario, $direccion,$regionNombre,$comunaNombre,$detalle,$cliente,$rutuser,$tipoenvio,$cinterno);
                 $pdf->Output(); 
                 //ob_end_flush(); 
 

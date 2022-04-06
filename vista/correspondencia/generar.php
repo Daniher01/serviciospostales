@@ -19,15 +19,16 @@
             <label for="exampleInputPassword1">Direccion</label>
             <div class="input-group">
             <div class="custom-file">
-                <input type="text" class="form-control" required name="direccion" placeholder="Direccion"> 
+                <input type="text" class="form-control" id="input_direccion"  required name="direccion" placeholder="Direccion"> 
+                
             </div>
             <div>
-                <select class="form-control">
-                <option value=""> Departamentos</option>
+                <select class="form-control" id="departamentos" onchange="imprimirValor()">
+                <option value="" selected> Seleccione Departamento</option>
                 <?php 
                     foreach ($this->departamentos as $departamento){
                 ?>
-                <option value=""> <?php echo $departamento['departamento'] ?></option>
+                <option value="<?php echo $departamento['departamento'] ?>" > <?php echo $departamento['departamento'] ?></option>
                 <?php     
                     }
                 ?>
@@ -37,20 +38,23 @@
             </div>
             <div class="form-group">
             <label for="exampleInputPassword1">Region</label>
-            <select class="form-control select2 select2-danger select2-hidden-accessible" name="region" data-dropdown-css-class="select2-danger" style="width: 100%;" data-select2-id="12" tabindex="-1" aria-hidden="true">
+            <select class="form-control select2 select2-danger select2-hidden-accessible" id="region" name="region" data-dropdown-css-class="select2-danger" style="width: 100%;" data-select2-id="12" tabindex="-1" aria-hidden="true">
                 <?php 
                     foreach ($this->regiones as $region){
                 ?>
-                <option value=" <?php echo $region['regiones'] ?> "> <?php echo $region['regiones'] ?></option>
+                <option value=" <?php echo $region['idRegiones'] ?> "> <?php echo $region['regiones'] ?></option>
                 <?php     
                     }
                 ?>
             </select>
         </div>
+        <div class="form-grup" id="comuna" >
+
+        </div>
             <div class="form-group">
             <label for="exampleInputPassword1">Comuna</label>
             <select class="form-control select2 select2-danger select2-hidden-accessible" name="comuna" data-dropdown-css-class="select2-danger" style="width: 100%;" data-select2-id="12" tabindex="-1" aria-hidden="true">
-
+                
                 <?php 
                     foreach ($this->comunas as $comuna){
                 ?>
@@ -96,3 +100,28 @@
     </div>
             <!-- /.card -->
 </div>
+
+<script>
+    window.onload = function() {
+        imprimirValor();
+
+    }
+
+    function imprimirValor(){
+        var select = document.getElementById("departamentos");
+        var seleccion = document.getElementById("input_direccion");
+        seleccion.value = select.value
+       
+    }
+
+    function recargarLista(){
+        $.ajax({
+            type:"POST",
+            url:"controlador/Correspondencia.php",
+            data: "comuna=" + $('#region').val(),
+            success:function(r){
+                $('#comuna').html(r);
+            }
+        });
+    }
+</script>

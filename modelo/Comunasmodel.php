@@ -43,6 +43,22 @@ class ComunasModel extends Model{
         }
     }
 
+    public function getComunasIdRegion($_idregion){
+        try{
+            $query = "SELECT * FROM comunas WHERE Regiones_idRegiones =$_idregion";
+            $datos= $this->db->connect()->query($query);
+            $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
+            foreach ($rs as $c){
+                $comuna = $c['Comunascol'];
+            }
+            return $comuna;
+
+        }catch (PDOException $e){
+            $e= $e->getMessage();
+            error_log("$e"); 
+        }
+    }
+
 }
 
 ?>
