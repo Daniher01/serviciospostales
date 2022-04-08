@@ -1,5 +1,5 @@
 <?php require_once 'vista/layouts/header.php'; ?>
-<title>Generar</title>
+<title>Crear Usuario</title>
 
 <div class="container">
     <br>
@@ -98,19 +98,3 @@
     </div>
             <!-- /.card -->
 </div>
-<?php require_once 'vista/layouts/footer.php'; ?>
-<script>
-    window.onload = function() {
-        imprimirValor();
-
-    }
-
-    function imprimirValor(){
-        var select = document.getElementById("departamentos");
-        var seleccion = document.getElementById("input_direccion");
-        seleccion.value = select.value
-       
-    }
-
-
-</script>

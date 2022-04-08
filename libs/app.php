@@ -112,7 +112,7 @@ class App{
                     }else{
                         $controller->render();
                     }
-                require_once 'vista/layouts/footer.php';
+                
                 }else{ //si no existe el controlador
 
                     $controller = new Errores('no existe el controlador');

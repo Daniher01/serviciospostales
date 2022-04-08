@@ -112,3 +112,4 @@
         </div>
     </div>     
 </section>
+<?php require_once 'vista/layouts/footer.php'; ?>

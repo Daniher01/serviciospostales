@@ -20,10 +20,16 @@
             "site":"PDFController",
             "access":"private",
             "role":1 
+        },
+        {
+            "site":"NuevoUsuario",
+            "access":"public",
+            "role":1 
         }
     ],
     "default-sites":{
-        "Correspondencia": "Correspondencia"
+        "Correspondencia": "Correspondencia",
+        "Login": "Login"
     }
 
 }

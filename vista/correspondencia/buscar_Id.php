@@ -70,6 +70,6 @@
     </div>
 
 </div>
-
+<?php require_once 'vista/layouts/footer.php'; ?>
 
       

@@ -48,10 +48,8 @@ class ComunasModel extends Model{
             $query = "SELECT * FROM comunas WHERE Regiones_idRegiones =$_idregion";
             $datos= $this->db->connect()->query($query);
             $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
-            foreach ($rs as $c){
-                $comuna = $c['Comunascol'];
-            }
-            return $comuna;
+
+            return $rs;
 
         }catch (PDOException $e){
             $e= $e->getMessage();

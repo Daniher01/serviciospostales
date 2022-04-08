@@ -55,7 +55,8 @@
       <!-- /.social-auth-links -->
 
       <p class="mb-1">
-        <a >Registrarse</a>
+        <a >¿No estas Registrado?</a>
+        <a href="<?php echo constant('URL'); ?>NuevoUsuario" >Registrarse</a>
       </p>
 
     </div>

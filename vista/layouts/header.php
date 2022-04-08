@@ -93,13 +93,13 @@
               <li class="nav-item">
                 <a href="<?php echo constant('URL'); ?>Correspondencia/generar" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Nuevo Cliente</p>
+                  <p>Con Nuevo Cliente</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="<?php echo constant('URL'); ?>Correspondencia/generarNuevoCliente" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Clientes Frecuentes</p>
+                  <p>Con Clientes Frecuentes</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -122,36 +122,20 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="<?php echo constant('URL'); ?>Correspondencia/buscar" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>N° Seguimiento</p>
-                </a>
-              </li>
-              <li class="nav-item">
                 <a href="<?php echo constant('URL'); ?>Correspondencia/fecha" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Fecha</p>
+                  <p>Por Fecha</p>
                 </a>
               </li>
             </ul>
           </li>
 
-          <li class="nav-header">Seguimiento</li>
-          <li class="nav-item">
-            <a href="<?php echo constant('URL');?>Correspondencia/generar" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
-              <p>
-                Buscar
-              </p>
-            </a>
-          </li>
-
           <li class="nav-header">Usuario</li>
           <li class="nav-item">
-            <a href="<?php echo constant('URL');?>Correspondencia/generar" class="nav-link">
+            <a href="<?php echo constant('URL');?>User" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Datos del usuario
+                Editar Usuario
               </p>
             </a>
           </li>

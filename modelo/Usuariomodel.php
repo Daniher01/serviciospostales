@@ -63,6 +63,48 @@ class UsuarioModel extends Model{
             error_log("$e"); 
         }
     }
+
+    //crear usuario
+    public function crearUsuario($username, $password, $rut, $nombre_usuario, $apellido_p, $apellido_m, $email, $unidad_trabajo, $fk_tipousuario){
+        try{
+            $query = "INSERT INTO usuario (username, password, rut, nombre_usuario, apellido_p, apellido_m, email, unidad_trabajo, tipo_usuario_idtipo_usuario)
+                        VALUES('$username', '$password', '$rut','$nombre_usuario', '$apellido_p', '$apellido_m', '$email', '$unidad_trabajo', $fk_tipousuario)";
+            $datos = $this->db->connect()->prepare($query);
+            $rs = $datos->execute();
+
+            $this->setId($$username);
+            $this->setUsername($password);
+            $this->setRut($rut);
+            $this->setNombre($nombre_usuario);
+            $this->setApellidoP($apellido_p);
+            $this->setApellidoM($apellido_m);
+            $this->setEmail($email);
+            $this->setUnidadTrabajo($unidad_trabajo);
+            $this->setTipoUsuario($fk_tipousuario);
+
+            error_log('USUARIOMODEL:: => crearUsuario');
+            return $rs;
+        }catch (PDOException $e){
+            $e= $e->getMessage();
+            error_log("$e"); 
+        }
+    }
+
+    //traer los tipos de usuarios
+    public function getTiposUsuarios(){
+        try{
+            $query = "SELECT * FROM tipo_usuario ";
+            $datos = $this->db->connect()->query($query);
+            $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
+            
+            return $rs;
+        }catch (PDOException $e){
+            $e= $e->getMessage();
+            error_log("$e"); 
+        }
+    }
+
+
 }
 
 
