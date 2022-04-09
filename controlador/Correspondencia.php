@@ -40,7 +40,8 @@ class Correspondencia extends SessionController{
 
 
         //mostrar los datos del excel
-        $this->view->datosexcel = '';
+        $this->view->datosexcel = [];
+        $this->view->numeroMayorDeFila = [];
     }
 
     function render(){
@@ -162,16 +163,55 @@ class Correspondencia extends SessionController{
         //print_r($archivo);
 
         $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($archivo);
-        $worksheet = $spreadsheet->getActiveSheet();
-        $this->view->datosexcel = $worksheet;
+        $documento = $spreadsheet->getSheet(0);
+
+        # Calcular el máximo valor de la fila como entero, es decir, el
+        # límite de nuestro ciclo
+        $this->view->numeroMayorDeFila = $documento->getHighestRow(); // Numérico
+        $letraMayorDeColumna = $documento->getHighestColumn(); // Letra
+
+        // Recorrer filas; comenzar en la fila 2 porque omitimos el encabezado
+        for ($indiceFila = 2; $indiceFila <= $this->view->numeroMayorDeFila; $indiceFila++) {
+
+            # Las columnas están en este orden:
+            # Código de barras, Descripción, Precio de Compra, Precio de Venta, Existencia
+            $this->view->nombre = $documento->getCellByColumnAndRow(1, $indiceFila);
+            $this->view->direccion = $documento->getCellByColumnAndRow(2, $indiceFila);
+            $this->view->region = $documento->getCellByColumnAndRow(3, $indiceFila);
+            $this->view->comuna = $documento->getCellByColumnAndRow(4, $indiceFila);
+            $this->view->detalle = $documento->getCellByColumnAndRow(5, $indiceFila);
+            $this->view->tipo_encomienda = $documento->getCellByColumnAndRow(6, $indiceFila);
+        }
+       
+
+
+
 
         $this->view->render('correspondencia/correspondenciaMasiva');
     }
 
     function generarMasiva(){
-        $exceldata = $_POST['exceldata'];
-        print_r($_POST);
-        $this->view->render('correspondencia/correspondenciaMasiva');
+        $nombre =$_POST['nombre'];
+        $direccion = $_POST['direccion'];
+        $region = $_POST['region'];
+        $comuna = $_POST['comuna'];
+        $detalle = $_POST['detalle'];
+        $tipo_encomienda = $_POST['tipo_encomienda'];
+
+        //print_r($_POST);
+
+        foreach($nombre as $key => $value){
+            $nombre_valor = $nombre[$key];
+            $direccion_valor = $direccion[$key];
+            $region_valor = $region[$key];
+            $comuna_valor = $comuna[$key];
+            $detalle_valor = $detalle[$key];
+            $tipo_encomienda_valor = $tipo_encomienda[$key];
+            
+            echo $nombre_valor.' '. $direccion_valor.' '. $region_valor.' '. $comuna_valor.' '. $detalle_valor.' '. $tipo_encomienda_valor.'<br>';
+        }
+
+        //$this->view->render('correspondencia/correspondenciaMasiva');
     }
 
 

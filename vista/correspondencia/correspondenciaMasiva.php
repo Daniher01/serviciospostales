@@ -37,29 +37,37 @@
                     <tr>
                       <th >Destinatario</th>
                       <th>Direccion</th>
-                      <th >Region</th>
-                      <th > Comuna</th>
-                      <th > Detalle</th>
+                      <th>Region</th>
+                      <th> Comuna</th>
+                      <th> Detalle</th>
                       <th>Tipo de encomienda</th>
 
                     </tr>
                   </thead>
-                  <tbody> <?php foreach ($this->datosexcel->getRowIterator() as $row) {  ?>
-                    <tr>
-                        <?php   
-                        $cellIterator = $row->getCellIterator();
-                        $cellIterator->setIterateOnlyExistingCells(FALSE); 
-                        // Esto recorre todas las celdas,
-                        // incluso si no se establece un valor de celda.
-                        // De forma predeterminada, solo las celdas que tienen un valor
-                        // se repetirá en la iteración.
-                        foreach ($cellIterator as $cell) { ?>
-                        <input type='tex' name='exceldata' hidden value='<?php $cell->getValue() ?> '>
-                        <td> <?php echo $cell->getValue() ?> </td>
-                    <?php } ?>
-                    </tr>
-                    <?php } ?>
-                    </tbody>
+                  <tbody>
+                            
+                  <?php if(isset($_GET['archivo'])){ ?>
+                    
+                    <?php for ($indiceFila = 2; $indiceFila <= $this->numeroMayorDeFila; $indiceFila++) {?>
+                      <tr>
+
+                        <input type="hidden" name="nombre[]" value="<?php echo  $this->nombre ?>" >
+                        <input type="hidden" name="direccion[]" value="<?php echo  $this->direccion ?>" >
+                        <input type="hidden" name="region[]" value="<?php echo  $this->region ?>" >
+                        <input type="hidden" name="comuna[]" value="<?php echo  $this->comuna ?>" >
+                        <input type="hidden" name="detalle[]" value="<?php echo  $this->detalle ?>" >
+                        <input type="hidden" name="tipo_encomienda[]" value="<?php echo  $this->tipo_encomienda ?>" >
+                        <td><?php echo  $this->nombre ?></td>
+                        <td><?php echo $this->direccion ?></td>
+                        <td><?php echo $this->region ?></td>
+                        <td><?php echo $this->comuna ?></td>
+                        <td><?php echo $this->detalle ?></td>
+                        <td><?php echo $this->tipo_encomienda ?></td>
+                        </tr>
+                      <?php  }?>
+                    <?php  } ?> 
+                            
+                    </tbody> 
                 </table>
               </div>
                 <!-- /.card-body -->
