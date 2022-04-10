@@ -170,27 +170,32 @@ class Correspondencia extends SessionController{
         $this->view->numeroMayorDeFila = $documento->getHighestRow(); // Numérico
         $letraMayorDeColumna = $documento->getHighestColumn(); // Letra
 
+        $this->view->nombre = [];
+        $this->view->direccion = [];
+        $this->view->region = [];
+        $this->view->comuna = [];
+        $this->view->detalle = [];
+        $this->view->tipo_encomienda = [];
+
         // Recorrer filas; comenzar en la fila 2 porque omitimos el encabezado
-        for ($indiceFila = 2; $indiceFila <= $this->view->numeroMayorDeFila; $indiceFila++) {
+        for ($indiceFila = 2; $indiceFila <=  $this->view->numeroMayorDeFila; $indiceFila++) {
 
             # Las columnas están en este orden:
             # Código de barras, Descripción, Precio de Compra, Precio de Venta, Existencia
-            $this->view->nombre = $documento->getCellByColumnAndRow(1, $indiceFila);
-            $this->view->direccion = $documento->getCellByColumnAndRow(2, $indiceFila);
-            $this->view->region = $documento->getCellByColumnAndRow(3, $indiceFila);
-            $this->view->comuna = $documento->getCellByColumnAndRow(4, $indiceFila);
-            $this->view->detalle = $documento->getCellByColumnAndRow(5, $indiceFila);
-            $this->view->tipo_encomienda = $documento->getCellByColumnAndRow(6, $indiceFila);
+            array_push($this->view->nombre, $documento->getCellByColumnAndRow(1, $indiceFila)) ;
+            array_push($this->view->direccion, $documento->getCellByColumnAndRow(2, $indiceFila)) ;
+            array_push($this->view->region, $documento->getCellByColumnAndRow(3, $indiceFila)) ;
+            array_push($this->view->comuna, $documento->getCellByColumnAndRow(4, $indiceFila)) ;
+            array_push($this->view->detalle, $documento->getCellByColumnAndRow(5, $indiceFila)) ;
+            array_push($this->view->tipo_encomienda, $documento->getCellByColumnAndRow(6, $indiceFila)) ;
+
         }
        
-
-
-
 
         $this->view->render('correspondencia/correspondenciaMasiva');
     }
 
-    function generarMasiva(){
+    /*function generarMasiva(){
         $nombre =$_POST['nombre'];
         $direccion = $_POST['direccion'];
         $region = $_POST['region'];
@@ -198,8 +203,17 @@ class Correspondencia extends SessionController{
         $detalle = $_POST['detalle'];
         $tipo_encomienda = $_POST['tipo_encomienda'];
 
-        //print_r($_POST);
 
+
+        ob_start();
+        $pdf->SetFont('Arial','',9);
+        $pdf->AddPage();
+        $this->generarMasiva();
+        //$this->resulset = $pdf->TablaBasica($destinatario, $direccion,$regionNombre,$comunaNombre,$detalle,$cliente,$rutuser,$tipoenvio,$cinterno);
+        $pdf->Output(); 
+        //ob_end_flush();
+        
+        
         foreach($nombre as $key => $value){
             $nombre_valor = $nombre[$key];
             $direccion_valor = $direccion[$key];
@@ -212,7 +226,7 @@ class Correspondencia extends SessionController{
         }
 
         //$this->view->render('correspondencia/correspondenciaMasiva');
-    }
+    }*/
 
 
 }

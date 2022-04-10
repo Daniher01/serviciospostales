@@ -9,12 +9,12 @@ class CorrespondenciaModel extends Model{
         error_log('Contruct::CorrespondenciaModel');
     }
 
-    public function guardarCorrespondencia($destinatario, $direccion,$codigo_barras,$detalle,$codigo_interno,$num_seguimiento, $usuario_idusuario ,$tipoenvio,$comuna){
+    public function guardarCorrespondencia($destinatario, $direccion,$codigo_barras,$detalle,$codigo_interno,$num_seguimiento, $usuario_idusuario ,$tipoenvio,$comuna, $codigo_grupal){
         try{
             
             //genera el pdf
-            $query = "INSERT INTO correspondencia (destinatario, direccion, codigo_barras, detalle, codigo_interno, numero_seguimiento, usuario_idusuario, tipo_encomienda_idTipo_encomienda, Comunas_idComunas)
-                    VALUES ('$destinatario', '$direccion',$codigo_barras,'$detalle','$codigo_interno','$num_seguimiento', $usuario_idusuario ,$tipoenvio,$comuna)";
+            $query = "INSERT INTO correspondencia (destinatario, direccion, codigo_barras, detalle, codigo_interno, numero_seguimiento, usuario_idusuario, tipo_encomienda_idTipo_encomienda, Comunas_idComunas, codigo_masivo)
+                    VALUES ('$destinatario', '$direccion',$codigo_barras,'$detalle','$codigo_interno','$num_seguimiento', $usuario_idusuario ,$tipoenvio,$comuna, $codigo_grupal)";
             $datos = $this->db->connect()->prepare($query);
             $rs = $datos->execute();
             error_log('guardaCorrespondencia');
@@ -78,6 +78,25 @@ class CorrespondenciaModel extends Model{
             $datos = $this->db->connect()->query($query);
             $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
             
+            return $rs;
+
+        }catch (PDOException $e){
+            $e= $e->getMessage();
+            error_log("$e"); 
+        }
+    }
+
+    public function buscarCodigoMasivo($codigo_masivo){
+        try{
+
+            $query = "SELECT destinatario, direccion, regiones, Comunascol, detalle_movimiento, codigo_interno, numero_seguimiento, encomienda  FROM correspondencia as cor
+                        INNER JOIN comunas as c on c.idComunas = cor.Comunas_idComunas
+                        INNER JOIN regiones as r on r.idRegiones = c.Regiones_idRegiones
+                        INNER JOIN movimiento as m on m.Correspondencia_codigo_barras = cor.codigo_barras
+                        INNER JOIN tipo_encomienda as te on te.idTipo_encomienda = cor.Tipo_encomienda_idTipo_encomienda
+                        WHERE codigo_masivo = $codigo_masivo";
+            $datos = $this->db->connect()->query($query);
+            $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
             return $rs;
 
         }catch (PDOException $e){

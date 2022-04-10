@@ -57,6 +57,22 @@ class ComunasModel extends Model{
         }
     }
 
+    public function getComunaId($nombre_comuna){
+        try{
+            $query = "SELECT * FROM comunas WHERE ComunasCol ='$nombre_comuna'";
+            $datos= $this->db->connect()->query($query);
+            $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
+            foreach ($rs as $c){
+                $idcomuna = $c['idComunas'];
+            }
+            return $idcomuna;
+            
+        }catch (PDOException $e){
+            $e= $e->getMessage();
+            error_log("$e"); 
+        }
+    }
+
 }
 
 ?>

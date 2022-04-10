@@ -119,6 +119,10 @@
         </div>
       </form>
 
+      <p class="mb-1">
+        <a href="<?php echo constant('URL'); ?>Login" >Volver</a>
+      </p>
+
       <!-- /.social-auth-links -->
     </div>
     <!-- /.login-card-body -->

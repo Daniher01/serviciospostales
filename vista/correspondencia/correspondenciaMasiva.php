@@ -25,7 +25,7 @@
     <br>
     <div class="card card-primary">
     <div class="card card-success">
-            <form action="<?php echo constant('URL');?>Correspondencia/generarMasiva" method="POST">
+            <form action="<?php echo constant('URL');?>PDFController/generarMasiva" method="POST" target="_blank" >
             <div class="card">
               <div class="card-header">
                 <button type="submit" class="btn btn-outline-primary">Generar Correspondencias</button>
@@ -47,25 +47,26 @@
                   <tbody>
                             
                   <?php if(isset($_GET['archivo'])){ ?>
-                    
-                    <?php for ($indiceFila = 2; $indiceFila <= $this->numeroMayorDeFila; $indiceFila++) {?>
-                      <tr>
-
-                        <input type="hidden" name="nombre[]" value="<?php echo  $this->nombre ?>" >
-                        <input type="hidden" name="direccion[]" value="<?php echo  $this->direccion ?>" >
-                        <input type="hidden" name="region[]" value="<?php echo  $this->region ?>" >
-                        <input type="hidden" name="comuna[]" value="<?php echo  $this->comuna ?>" >
-                        <input type="hidden" name="detalle[]" value="<?php echo  $this->detalle ?>" >
-                        <input type="hidden" name="tipo_encomienda[]" value="<?php echo  $this->tipo_encomienda ?>" >
-                        <td><?php echo  $this->nombre ?></td>
-                        <td><?php echo $this->direccion ?></td>
-                        <td><?php echo $this->region ?></td>
-                        <td><?php echo $this->comuna ?></td>
-                        <td><?php echo $this->detalle ?></td>
-                        <td><?php echo $this->tipo_encomienda ?></td>
-                        </tr>
+                                          
+                        <?php foreach($this->nombre as $key => $value){  ?>
+                          <tr>   
+                          <input type="hidden" name="nombre[]" value="<?php echo $value?>">
+                          <input type="hidden" name="direccion[]" value="<?php echo $this->direccion[$key]?>">
+                          <input type="hidden" name="region[]" value="<?php echo $this->region[$key]?>">
+                          <input type="hidden" name="comuna[]" value="<?php echo $this->comuna[$key]?>">
+                          <input type="hidden" name="detalle[]" value="<?php echo $this->detalle[$key]?>">
+                          <input type="hidden" name="tipo_encomienda[]" value="<?php echo $this->tipo_encomienda[$key]?>">
+                          <td> <?php echo $value; ?> </td>
+                          <td> <?php echo $this->direccion[$key]; ?> </td>
+                          <td> <?php echo $this->region[$key]; ?> </td>
+                          <td> <?php echo $this->comuna[$key]; ?> </td>
+                          <td> <?php echo $this->detalle[$key]; ?> </td>
+                          <td> <?php echo $this->tipo_encomienda[$key]; ?> </td>
+                          </tr>
+                         <?php  } ?>
+                        
                       <?php  }?>
-                    <?php  } ?> 
+                    
                             
                     </tbody> 
                 </table>

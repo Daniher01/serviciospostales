@@ -22,6 +22,11 @@
             "role":1 
         },
         {
+            "site":"User",
+            "access":"private",
+            "role":1 
+        },
+        {
             "site":"NuevoUsuario",
             "access":"public",
             "role":1 

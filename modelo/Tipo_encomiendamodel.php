@@ -39,6 +39,22 @@ class Tipo_encomiendaModel extends Model{
         }
     }
 
+    public function getEncomiendaId($nombre_encomienda){
+        try{
+            $query = "SELECT * FROM tipo_encomienda WHERE encomienda = '$nombre_encomienda'";
+            $datos = $this->db->connect()->query($query);
+            $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
+            foreach ($rs as $r){
+                $id = $r['idTipo_encomienda'];
+            }
+            return $id;
+
+        }catch (PDOException $e){
+            $e= $e->getMessage();
+            error_log("$e"); 
+        }
+    }
+
 
 }
 

@@ -24,8 +24,6 @@ $cinterno = "132547838"; */
 require('fpdf/fpdf.php');
 include 'barcode.php';
 
-
-
 class PDF extends FPDF
 {
 
@@ -113,6 +111,66 @@ class PDF extends FPDF
         $arrayData = array($code, $nsiguimiento, $hora, $dia);
         return $arrayData;
     }
+
+    function generarMasiva($codigo_masivo){
+
+        $pppp = 0;
+        $this->correspondencia = new CorrespondenciaModel();
+        barcode('clases/codigos/'.$codigo_masivo.'.png', $codigo_masivo, 20, 'horizontal', 'code128', true);
+        $ahora = date("Y-m-d H:i:s");
+        $this->Cell(20,10,"",0);
+        $this->Cell(20,10,"Fecha y hora:",0);
+        $this->Cell(20,10,''.$ahora.'',0);
+        $this->Cell(20,10,"",0);  
+        $this->Cell(20,10,"",0);
+        $this->Cell(20,10,"",0);
+        $this->Cell(20,10,"",0); 
+        $this->Ln();
+        $this->Cell(50,10, $this->Image('clases/codigos/'.$codigo_masivo.'.png', $this->GetX(), $this->GetY(),120,30),0);
+        $this->Ln();
+        $this->Ln();
+        $this->Ln();
+        $this->Cell(30,5,"Destinatario",1);
+        $this->Cell(25,5,"Direccion",1);
+        $this->Cell(20,5,"Region",1);
+        $this->Cell(20,5,"Comuna",1);  
+        $this->Cell(20,5,"Detalle",1);  
+        $this->Cell(30,5,"Tipo Encomienda",1);
+        $this->Cell(35,5,"Codigo Seguimiento",1);   
+        $this->Ln();
+        //require('modelo/Correspondenciamodel.php');
+        $data = $this->correspondencia->buscarCodigoMasivo($codigo_masivo);
+        
+        foreach($data as $d){
+
+            $nombre = $d['destinatario'];
+            $direccion = $d['direccion'];
+            $region = $d['regiones'];
+            $comuna = $d['Comunascol'];
+            $detalle_movimiento = $d['detalle_movimiento'];
+            $tipo_encomienda = $d['encomienda'];
+            $num_seguimiento = $d['numero_seguimiento'];
+
+
+            $this->Cell(30,5,"$nombre",1);
+            $this->Cell(25,5,"$direccion",1);
+            $this->Cell(20,5,"$region",1);  
+            $this->Cell(20,5,"$comuna",1);  
+            $this->Cell(20,5,"$detalle_movimiento",1);
+            $this->Cell(30,5,"$tipo_encomienda",1);
+            $this->Cell(35,5,"$num_seguimiento",1); 
+            //$this->Cell(35,5,"$suma ",1);  
+            $this->Ln();
+            $pppp = $pppp + 1 ;    
+        }
+
+       
+
+    }
+
+ 
+
+    
 
 }
 

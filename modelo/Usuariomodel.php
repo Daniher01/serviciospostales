@@ -104,6 +104,19 @@ class UsuarioModel extends Model{
         }
     }
 
+    public function updateUsuario($unidad_trabajo, $idusuario){
+        try{
+            $query = "UPDATE usuario SET unidad_trabajo='$unidad_trabajo' WHERE idusuario=$idusuario";
+            $datos = $this->db->connect()->prepare($query);
+            $rs = $datos->execute();
+            
+            return $rs;
+        }catch (PDOException $e){
+            $e= $e->getMessage();
+            error_log("$e"); 
+        }
+    }
+
 
 }
 
