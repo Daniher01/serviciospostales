@@ -129,16 +129,16 @@
               </li>
             </ul>
           </li>
-
+<!--
           <li class="nav-header">Usuario</li>
           <li class="nav-item">
-            <a href="<?php echo constant('URL');?>User" class="nav-link">
+            <a href="<?php //echo constant('URL');?>User" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Editar Usuario
               </p>
             </a>
-          </li>
+          </li>-->
          
           <li class="nav-header">Sesion</li>
           <li class="nav-item">

@@ -21,6 +21,7 @@ class Correspondencia extends SessionController{
         $this->loadModel('Tipo_encomienda');
         $this->tipo_encomienda = new Tipo_encomiendaModel();
 
+
         //variables para mostrar los datos del clientes
         $this->view->var_id = '';
         $this->view->var_nombre ='';

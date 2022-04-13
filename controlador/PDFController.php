@@ -120,6 +120,10 @@
             //agregar a la BD
             if ($_POST){
                 $contador = 1;
+                //prepara par agenerar los PDF´S
+                ob_start();
+                $this->pdf->SetFont('Arial','',9);
+                $this->pdf->AddPage();
                 foreach($nombre as $key => $value){
                     $nombre_valor = $nombre[$key];
                     $direccion_valor = $direccion[$key];
@@ -137,13 +141,15 @@
                     $this->correspondencia->guardarCorrespondencia($nombre_valor, $direccion_valor, $code, $detalle_valor, $codigo_interno, $nseguimiento, $idusuario, $idTipo_encomienda, $idcomuna, $codigo_grupal);
                     $this->movimiento->insertMovimiento($hora, $dia, $idusuario, $code, $estado, $detalle_movimiento);
 
-                    //$this->pdf->TablaBasica($nombre_valor, $direccion_valor,$region_valor,$comuna_valor,$detalle_valor,$cliente,$rutusuario,$tipo_encomienda_valor,$codigo_interno);
+
+                    $this->pdf->TablaBasica($nombre_valor, $direccion_valor,$region_valor,$comuna_valor,$detalle_valor,$cliente,$rutusuario,$tipo_encomienda_valor,$codigo_interno);
                     
                 }
-                
+                /*$this->pdf->Output(); 
+
                 ob_start();
                 $this->pdf->SetFont('Arial','',9);
-                $this->pdf->AddPage();
+                $this->pdf->AddPage();*/
                 $this->pdf->generarMasiva($codigo_grupal);
                 $this->pdf->Output(); 
                 //ob_end_flush();

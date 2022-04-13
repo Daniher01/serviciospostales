@@ -13,7 +13,11 @@ class NuevoUsuario extends SessionController{
         //carga la bd de usuadios
         $this->loadModel('Usuario');
         $this->usuarios = new UsuarioModel();
-        $this->view->tipos_usuarios = $this->usuarios->getTiposUsuarios();;
+        $this->view->tipos_usuarios = $this->usuarios->getTiposUsuarios();
+        //carga los datos de los departamentos
+        $this->loadModel('Departamento');
+        $this->departamentos = new DepartamentoModel();
+        $this->view->tiposdepartamentos = $this->departamentos->getDepartamentos();
 
     }
 
@@ -35,7 +39,7 @@ class NuevoUsuario extends SessionController{
         $apellido_p = $_POST['apellido_p'];
         $apellido_m = $_POST['apellido_m'];
         $email = $_POST['email'];
-        $unidad_trabajo = $_POST['unidad_trabajo'];
+        $departamento = $_POST['departamento'];
         $tipo_usuario = $_POST['tipo_usuario'];
         $codigo = $_POST['codigo'];
 
@@ -43,7 +47,7 @@ class NuevoUsuario extends SessionController{
         $this->codigos->buscarCodigo($codigo);
         
         if($this->codigos->getCodigoValido() == 'HABILITADO'){
-            $this->usuarios->crearUsuario($username, $password, $rut, $nombre, $apellido_p, $apellido_m, $email, $unidad_trabajo, $tipo_usuario);
+            $this->usuarios->crearUsuario($username, $password, $rut, $nombre, $apellido_p, $apellido_m, $email, $departamento, $tipo_usuario);
             $this->codigos->inhabilitarCodigo($codigo);
             $this->redirect($this->defaultSites['Login'], []);
             error_log('usuario creado con exito');

@@ -11,7 +11,7 @@ class User extends SessionController{
         $this->view->rut = $this->usuario->getRut();
         $this->view->nombre = $this->usuario->getNombre().' '.$this->usuario->getApellidoP().' '.$this->usuario->getApellidoM();
         $this->view->email = $this->usuario->getEmail();
-        $this->view->unidad_trabajo = $this->usuario->getUnidadTrabajo();
+        $this->view->unidad_trabajo = $this->usuario->getDepartamento();
     }
 
     function render(){
@@ -33,7 +33,7 @@ class User extends SessionController{
     public function EditarUsuario(){
         $idusuario = $_SESSION['idusuario'];
         $unidad_trabajo = $_POST['unidad_trabajo'];
-        $this->usuario->updateUsuario($unidad_trabajo, $idusuario);
+        //$this->usuario->updateUsuario($unidad_trabajo, $idusuario);
 
         echo "<script type=\"text/javascript\">; alert(\"Usuario Editado con Exito\");</script>";
 

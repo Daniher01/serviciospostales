@@ -24,10 +24,11 @@ class Login extends SessionController{
             $user = $this->model->InicioSesionUsuario($rut, $password);
             
             if ($user!=NULL){
-
+                
                 $this->inicialize($user);
             }else{
                 $this->redirect('', '');
+                
             }
         }else{
             $this->redirect('','');

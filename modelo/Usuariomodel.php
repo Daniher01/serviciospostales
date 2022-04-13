@@ -25,7 +25,7 @@ class UsuarioModel extends Model{
     public function setApellidoP($_apellido_p){             $this->apellido_p = $_apellido_p;}
     public function setApellidoM($_apellido_m){             $this->apellido_m = $_apellido_m;}
     public function setEmail($_email){                      $this->email = $_email;}
-    public function setUnidadTrabajo($_unidad_trabajo){     $this->unidad_trabajo = $_unidad_trabajo;}
+    public function setDepartamento($_unidad_trabajo){     $this->unidad_trabajo = $_unidad_trabajo;}
     public function setTipoUsuario($_fk_tipousuario){            $this->fk_tipousuario = $_fk_tipousuario;}
 
     public function getId(){                     return $this->idusuario;}
@@ -36,7 +36,7 @@ class UsuarioModel extends Model{
     public function getApellidoP(){              return $this->apellido_p;}
     public function getApellidoM(){              return $this->apellido_m;}
     public function getEmail(){                  return $this->email;}
-    public function getUnidadTrabajo(){          return $this->unidad_trabajo;}
+    public function getDepartamento(){          return $this->unidad_trabajo;}
     public function getTipoUsuario(){            return $this->fk_tipousuario;}
 
 
@@ -54,7 +54,7 @@ class UsuarioModel extends Model{
                 $this->setApellidoP($r['apellido_p']);
                 $this->setApellidoM($r['apellido_m']);
                 $this->setEmail($r['email']);
-                $this->setUnidadTrabajo($r['unidad_trabajo']);
+                $this->setDepartamento($r['tipo_departamento']);
                 $this->setTipoUsuario($r['tipo_usuario_idtipo_usuario']);
             }
             return $rs;
@@ -65,21 +65,21 @@ class UsuarioModel extends Model{
     }
 
     //crear usuario
-    public function crearUsuario($username, $password, $rut, $nombre_usuario, $apellido_p, $apellido_m, $email, $unidad_trabajo, $fk_tipousuario){
+    public function crearUsuario($username, $password, $rut, $nombre_usuario, $apellido_p, $apellido_m, $email, $fk_tipousuario, $departamento){
         try{
-            $query = "INSERT INTO usuario (username, password, rut, nombre_usuario, apellido_p, apellido_m, email, unidad_trabajo, tipo_usuario_idtipo_usuario)
-                        VALUES('$username', '$password', '$rut','$nombre_usuario', '$apellido_p', '$apellido_m', '$email', '$unidad_trabajo', $fk_tipousuario)";
+            $query = "INSERT INTO usuario (username, password, rut, nombre_usuario, apellido_p, apellido_m, email, tipo_usuario_idtipo_usuario, tipo_departamento)
+                        VALUES('$username', '$password', '$rut','$nombre_usuario', '$apellido_p', '$apellido_m', '$email',  $fk_tipousuario, $departamento)";
             $datos = $this->db->connect()->prepare($query);
             $rs = $datos->execute();
 
-            $this->setId($$username);
+            $this->setId($username);
             $this->setUsername($password);
             $this->setRut($rut);
             $this->setNombre($nombre_usuario);
             $this->setApellidoP($apellido_p);
             $this->setApellidoM($apellido_m);
             $this->setEmail($email);
-            $this->setUnidadTrabajo($unidad_trabajo);
+            $this->setDepartamento($departamento);
             $this->setTipoUsuario($fk_tipousuario);
 
             error_log('USUARIOMODEL:: => crearUsuario');
@@ -106,7 +106,7 @@ class UsuarioModel extends Model{
 
     public function updateUsuario($unidad_trabajo, $idusuario){
         try{
-            $query = "UPDATE usuario SET unidad_trabajo='$unidad_trabajo' WHERE idusuario=$idusuario";
+            $query = "UPDATE usuario SET tipo_departamento='$unidad_trabajo' WHERE idusuario=$idusuario";
             $datos = $this->db->connect()->prepare($query);
             $rs = $datos->execute();
             

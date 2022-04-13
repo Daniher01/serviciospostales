@@ -22,8 +22,11 @@
     </div>
 
       <form action="<?php echo constant('URL'); ?>NuevoUsuario/registrarse" method="POST">
-        <!-- Username -->
+        <!-- Username --> 
         <div class="input-group mb-3">
+            <label for="exampleInputEmail1">Nombre de Usuario</label>
+        </div>    
+        <div class="input-group mb-3"> 
           <input required type="text" name="username" class="form-control" placeholder="Nombre Usuario">
           <div class="input-group-append">
             <div class="input-group-text">
@@ -32,6 +35,9 @@
         </div>
           <!-- Password -->
           <div class="input-group mb-3">
+            <label for="exampleInputEmail1">Password</label>
+        </div>    
+          <div class="input-group mb-3">
           <input  required type="password" name="password" class="form-control" placeholder="Clave">
           <div class="input-group-append">
             <div class="input-group-text">
@@ -39,6 +45,9 @@
           </div>
         </div>
                   <!-- rut -->
+                  <div class="input-group mb-3">
+            <label for="exampleInputEmail1">Rut</label>
+        </div>    
         <div class="input-group mb-3">
           <input required  type="text" name="rut" class="form-control" placeholder="Rut">
           <div class="input-group-append">
@@ -47,6 +56,9 @@
           </div>
         </div>
                           <!-- nombre -->
+                          <div class="input-group mb-3">
+            <label for="exampleInputEmail1">Nombres</label>
+        </div>    
         <div class="input-group mb-3">
           <input required  type="text" name="nombre" class="form-control" placeholder="Nombres">
           <div class="input-group-append">
@@ -55,6 +67,9 @@
           </div>
         </div>
             <!-- apellido_p -->
+            <div class="input-group mb-3">
+            <label for="exampleInputEmail1">Apellido Paterno</label>
+        </div>    
         <div class="input-group mb-3">
           <input required  type="text" name="apellido_p" class="form-control" placeholder="Apellido Paterno">
           <div class="input-group-append">
@@ -64,6 +79,9 @@
         </div>
             <!-- apellido_m -->
             <div class="input-group mb-3">
+            <label for="exampleInputEmail1">Apellido Materno</label>
+        </div>    
+            <div class="input-group mb-3">
           <input required type="text" name="apellido_m" class="form-control" placeholder="Apellido Materno">
           <div class="input-group-append">
             <div class="input-group-text">
@@ -72,6 +90,9 @@
         </div>
         <!-- email -->
         <div class="input-group mb-3">
+            <label for="exampleInputEmail1">Email</label>
+        </div>    
+        <div class="input-group mb-3">
           <input required type="email" name="email" class="form-control" placeholder="Email">
           <div class="input-group-append">
             <div class="input-group-text">
@@ -79,23 +100,32 @@
           </div>
         </div>
                 <!-- Unidad de trabajo -->
-        <div class="input-group mb-3">
-          <input required type="text" name="unidad_trabajo" class="form-control" placeholder="Unidad de Trabajo">
-          <div class="input-group-append">
-            <div class="input-group-text">
-            </div>
-          </div>
-        </div>
+            <div class="input-group mb-3">
+            <label for="exampleInputPassword1">Unidad de Trabajo</label>
+            <select class="form-control select2 select2-danger select2-hidden-accessible" name="departamento" data-dropdown-css-class="select2-danger" style="width: 100%;" data-select2-id="12" tabindex="-1" aria-hidden="true">
+                <?php 
+                    foreach ($this->tiposdepartamentos as $d){
+                ?>
+                <option value=" <?php echo $d['iddepartamento'] ?> "> <?php echo $d['departamento'] ?></option>
+                <?php     
+                    }
+                ?>
+            </select>
+            </div> 
                 <!-- Codigo-->
           <div class="input-group mb-3">
+          <div class="input-group mb-3">
+            <label for="exampleInputEmail1">Codigo de Seguridad</label>
+        </div>    
           <input required required type="text" name="codigo" class="form-control" placeholder="Codigo">
           <div class="input-group-append">
             <div class="input-group-text">
             </div>
           </div>
         </div>     
-                <!-- Codigo-->
+                <!-- tipo usuario-->
           <div class="input-group mb-3">
+          <label for="exampleInputPassword1">Tipo de Usuario</label>
             <select class="form-control select2 select2-danger select2-hidden-accessible" name="tipo_usuario" data-dropdown-css-class="select2-danger" style="width: 100%;" data-select2-id="12" tabindex="-1" aria-hidden="true">
                 <?php 
                     foreach ($this->tipos_usuarios as $tp){
