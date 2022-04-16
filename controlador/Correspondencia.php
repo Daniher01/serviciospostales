@@ -49,19 +49,26 @@ class Correspondencia extends SessionController{
         $this->Generar();
     }
 
-    /*function getComunas(){
-        $idregion = $_POST['comuna'];
+    function getComunas(){
+        $idregion = $_POST['idregion'];
+        //echo $idregion;
         $this->loadModel('Comunas');
         $comunas = new ComunasModel();
-        $comunas->getcomunasIdRegion($idregion);
-    }*/
+        $comuna= $comunas->getcomunasIdRegion($idregion);
+
+        foreach ($comuna as $c){
+
+        echo '<option value=" '. $c['idComunas'].'  "> '. $c['Comunascol'].' </option>';
+        }
+
+    }
 
     function Generar(){
         
         //trae los datos de las comunas
-        $this->loadModel('Comunas');
+        /*$this->loadModel('Comunas');
         $comunas = new ComunasModel();
-        $this->view->comunas = $comunas->getComunas();
+        $this->view->comunas = $comunas->getComunas();*/
         //trae los datos de las regiones
         $this->loadModel('Region');
         $regiones = new RegionModel();

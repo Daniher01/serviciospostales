@@ -38,7 +38,8 @@
             </div>
             <div class="form-group">
             <label for="exampleInputPassword1">Region</label>
-            <select class="form-control select2 select2-danger select2-hidden-accessible" id="region" name="region" onchange="imprimirValor()" data-dropdown-css-class="select2-danger" style="width: 100%;" data-select2-id="12" tabindex="-1" aria-hidden="true">
+            <select class="form-control select2 select2-danger select2-hidden-accessible" required id="region" name="region" onchange="recargarLista()" data-dropdown-css-class="select2-danger" style="width: 100%;" data-select2-id="12" tabindex="-1" aria-hidden="true">
+            <option value="">Selecione una Region</option>
                 <?php 
                     foreach ($this->regiones as $region){
                 ?>
@@ -51,16 +52,8 @@
 
             <div class="form-group" >
             <label for="exampleInputPassword1">Comuna</label>
-            <select class="form-control select2 select2-danger select2-hidden-accessible" id="comuna" name="comuna" data-dropdown-css-class="select2-danger" style="width: 100%;" data-select2-id="12" tabindex="-1" aria-hidden="true">
-                
-                <?php 
-                    foreach ($this->comunas as $comuna){
-                ?>
-                <option value=" <?php echo $comuna['idComunas'] ?> "> <?php echo $comuna['Comunascol'] ?></option>
-                <?php     
-                    }
-                ?>
-
+            <select class="form-control select2 select2-danger select2-hidden-accessible" required id="comuna" name="comuna" data-dropdown-css-class="select2-danger" style="width: 100%;" data-select2-id="12" tabindex="-1" aria-hidden="true">
+                <option value="">Selecione una Comuna</option>
             </select>
             </div>
             <div class="form-group">
@@ -110,6 +103,22 @@
         var seleccion = document.getElementById("input_direccion");
         seleccion.value = select.value
        
+    }
+
+    function recargarLista(){
+        
+        var idregion = $('#region').val();
+        $.ajax({
+            type: 'POST',
+            url: 'Correspondencia/getComunas',
+            data: {
+                "idregion":idregion
+            },
+            success:function(r){
+                $('#comuna').attr('disabled', false);
+                $('#comuna').html(r);
+            }
+        })
     }
 
 
