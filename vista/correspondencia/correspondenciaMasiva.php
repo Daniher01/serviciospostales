@@ -10,9 +10,9 @@
       <!-- Navbar Search -->
       <li class="nav-item">
         <div class="navbar">
-            <form action="<?php echo constant('URL');?>Correspondencia/readExcel" action="GET">
+            <form action="<?php echo constant('URL');?>Correspondencia/readExcel" method="POST" enctype="multipart/form-data">
             <div class="mb-3">
-                <input class="form-control" type="file" required name="archivo"  accept=".xls,.xlsx" enctype="multipart/form-data">
+                <input class="form-control" type="file" required name="archivo"  accept=".xls,.xlsx" >
                 <br>
                 <button type="submit" class="btn btn-outline-primary">Cargar</button>
             </div>
@@ -46,8 +46,8 @@
                   </thead>
                   <tbody>
                             
-                  <?php if(isset($_GET['archivo'])){ ?>
-                                          
+                  <?php if(isset($_FILES['archivo'])){ ?>
+                    <input type="hidden" name="archivo" value="<?php echo $this->archivo?>">                
                         <?php foreach($this->nombre as $key => $value){  ?>
                           <tr>   
                           <input type="hidden" name="nombre[]" value="<?php echo $value?>">

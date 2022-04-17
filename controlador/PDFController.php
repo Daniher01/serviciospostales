@@ -94,6 +94,7 @@
         }
 
         function generarMasiva(){
+            $archivo = $_POST['archivo'];
             $idusuario = $_SESSION['idusuario'];
             $rutusuario = $_SESSION['rut'];
             $nombre =$_POST['nombre'];
@@ -153,7 +154,7 @@
                 $this->pdf->generarMasiva($codigo_grupal);
                 $this->pdf->Output(); 
                 //ob_end_flush();
-
+                unlink($archivo);
             }
 
 

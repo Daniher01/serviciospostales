@@ -167,10 +167,11 @@ class Correspondencia extends SessionController{
 
     function readExcel(){
 
-        $archivo = $_GET['archivo'];
-        //print_r($archivo);
+        $archivo = $_FILES['archivo']['name']; //FILES
+        $ruta = 'files/correspondencia masiva/'.$archivo;
+        move_uploaded_file($_FILES['archivo']['tmp_name'], $ruta);
 
-        $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($archivo);
+        $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($ruta);
         $documento = $spreadsheet->getSheet(0);
 
         # Calcular el máximo valor de la fila como entero, es decir, el
@@ -178,6 +179,7 @@ class Correspondencia extends SessionController{
         $this->view->numeroMayorDeFila = $documento->getHighestRow(); // Numérico
         $letraMayorDeColumna = $documento->getHighestColumn(); // Letra
 
+        $this->view->archivo = $ruta;
         $this->view->nombre = [];
         $this->view->direccion = [];
         $this->view->region = [];
@@ -197,8 +199,10 @@ class Correspondencia extends SessionController{
             array_push($this->view->detalle, $documento->getCellByColumnAndRow(5, $indiceFila)) ;
             array_push($this->view->tipo_encomienda, $documento->getCellByColumnAndRow(6, $indiceFila)) ;
 
+            
         }
-       
+
+        //unlink($archivo);
 
         $this->view->render('correspondencia/correspondenciaMasiva');
     }
