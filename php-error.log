@@ -6683,96 +6683,81 @@ Stack trace:
 #0 /home/pvilches/domains/pvilches.cl/public_html/postal/libs/app.php(32): PDFController->generarInformePDF()
 #1 /home/pvilches/domains/pvilches.cl/public_html/postal/index.php(27): App->__construct()
 #2 {main}
-[22-Apr-2022 21:51:42 America/Santiago] inicio de aplicacion web
-[22-Apr-2022 21:51:42 America/Santiago] app pdf
-[22-Apr-2022 21:51:42 America/Santiago] contruct:: -> SESSIONCONTROLLER
-[22-Apr-2022 21:51:42 America/Santiago] SESSIONCONTROLLER::init 
-[22-Apr-2022 21:51:42 America/Santiago] SESSIONCONTROLLER::validateSession 
-[22-Apr-2022 21:51:42 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
-[22-Apr-2022 21:51:42 America/Santiago] existe la sesion
-[22-Apr-2022 21:51:42 America/Santiago] SESSIONCONTROLLER::isPublic
-[22-Apr-2022 21:51:42 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
-[22-Apr-2022 21:51:42 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
-[22-Apr-2022 21:51:42 America/Santiago] ROL DEL ACCESS: 1
-[22-Apr-2022 21:51:42 America/Santiago] es privado y autorizado su rol y su estatus
-[22-Apr-2022 21:51:42 America/Santiago] Contruct::CorrespondenciaModel
-[22-Apr-2022 21:51:42 America/Santiago] Contruct::CorrespondenciaModel
-[22-Apr-2022 21:51:42 America/Santiago] Contruct:: -> MovimientoModel
-[22-Apr-2022 21:51:42 America/Santiago] Contruct:: -> MovimientoModel
-[22-Apr-2022 21:51:42 America/Santiago] Contruct::CorrespondenciaModel
-[22-Apr-2022 21:51:43 America/Santiago] PDF generado
-[22-Apr-2022 21:51:47 America/Santiago] Email enviado Correctamente
-[22-Apr-2022 21:51:47 America/Santiago] app pdf
-[22-Apr-2022 21:51:47 America/Santiago] contruct:: -> SESSIONCONTROLLER
-[22-Apr-2022 21:51:47 America/Santiago] SESSIONCONTROLLER::init 
-[22-Apr-2022 21:51:47 America/Santiago] SESSIONCONTROLLER::validateSession 
-[22-Apr-2022 21:51:47 America/Santiago] PHP Fatal error:  Cannot declare class UsuarioModel, because the name is already in use in C:\xampp\htdocs\serviciospostales\modelo\Usuariomodel.php on line 135
-[22-Apr-2022 21:52:28 America/Santiago] inicio de aplicacion web
-[22-Apr-2022 21:52:28 America/Santiago] app otra vista
-[22-Apr-2022 21:52:28 America/Santiago] contruct:: -> SESSIONCONTROLLER
-[22-Apr-2022 21:52:28 America/Santiago] SESSIONCONTROLLER::init 
-[22-Apr-2022 21:52:28 America/Santiago] SESSIONCONTROLLER::validateSession 
-[22-Apr-2022 21:52:28 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
-[22-Apr-2022 21:52:28 America/Santiago] existe la sesion
-[22-Apr-2022 21:52:28 America/Santiago] SESSIONCONTROLLER::isPublic
-[22-Apr-2022 21:52:28 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
-[22-Apr-2022 21:52:28 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
-[22-Apr-2022 21:52:28 America/Santiago] ROL DEL ACCESS: 1
-[22-Apr-2022 21:52:28 America/Santiago] es privado y autorizado su rol y su estatus
-[22-Apr-2022 21:52:28 America/Santiago] Contruct:: -> ClientesfrecuentesModel
-[22-Apr-2022 21:52:28 America/Santiago] Contruct:: -> ClientesfrecuentesModel
-[22-Apr-2022 21:52:28 America/Santiago] Contruct::CorrespondenciaModel
-[22-Apr-2022 21:52:38 America/Santiago] inicio de aplicacion web
-[22-Apr-2022 21:52:38 America/Santiago] app otra vista
-[22-Apr-2022 21:52:38 America/Santiago] contruct:: -> SESSIONCONTROLLER
-[22-Apr-2022 21:52:38 America/Santiago] SESSIONCONTROLLER::init 
-[22-Apr-2022 21:52:38 America/Santiago] SESSIONCONTROLLER::validateSession 
-[22-Apr-2022 21:52:38 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
-[22-Apr-2022 21:52:38 America/Santiago] existe la sesion
-[22-Apr-2022 21:52:38 America/Santiago] SESSIONCONTROLLER::isPublic
-[22-Apr-2022 21:52:38 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
-[22-Apr-2022 21:52:38 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
-[22-Apr-2022 21:52:38 America/Santiago] ROL DEL ACCESS: 1
-[22-Apr-2022 21:52:38 America/Santiago] es privado y autorizado su rol y su estatus
-[22-Apr-2022 21:52:38 America/Santiago] Contruct:: -> ClientesfrecuentesModel
-[22-Apr-2022 21:52:38 America/Santiago] Contruct:: -> ClientesfrecuentesModel
-[22-Apr-2022 21:52:38 America/Santiago] Contruct::CorrespondenciaModel
-[22-Apr-2022 21:52:47 America/Santiago] inicio de aplicacion web
-[22-Apr-2022 21:52:47 America/Santiago] app otra vista
-[22-Apr-2022 21:52:47 America/Santiago] contruct:: -> SESSIONCONTROLLER
-[22-Apr-2022 21:52:47 America/Santiago] SESSIONCONTROLLER::init 
-[22-Apr-2022 21:52:47 America/Santiago] SESSIONCONTROLLER::validateSession 
-[22-Apr-2022 21:52:47 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
-[22-Apr-2022 21:52:47 America/Santiago] existe la sesion
-[22-Apr-2022 21:52:47 America/Santiago] SESSIONCONTROLLER::isPublic
-[22-Apr-2022 21:52:47 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
-[22-Apr-2022 21:52:47 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
-[22-Apr-2022 21:52:47 America/Santiago] ROL DEL ACCESS: 1
-[22-Apr-2022 21:52:47 America/Santiago] es privado y autorizado su rol y su estatus
-[22-Apr-2022 21:52:47 America/Santiago] Contruct:: -> ClientesfrecuentesModel
-[22-Apr-2022 21:52:47 America/Santiago] Contruct:: -> ClientesfrecuentesModel
-[22-Apr-2022 21:52:47 America/Santiago] Contruct::CorrespondenciaModel
-[22-Apr-2022 21:53:03 America/Santiago] inicio de aplicacion web
-[22-Apr-2022 21:53:03 America/Santiago] app pdf
-[22-Apr-2022 21:53:03 America/Santiago] contruct:: -> SESSIONCONTROLLER
-[22-Apr-2022 21:53:03 America/Santiago] SESSIONCONTROLLER::init 
-[22-Apr-2022 21:53:03 America/Santiago] SESSIONCONTROLLER::validateSession 
-[22-Apr-2022 21:53:03 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
-[22-Apr-2022 21:53:03 America/Santiago] existe la sesion
-[22-Apr-2022 21:53:03 America/Santiago] SESSIONCONTROLLER::isPublic
-[22-Apr-2022 21:53:03 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
-[22-Apr-2022 21:53:03 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
-[22-Apr-2022 21:53:03 America/Santiago] ROL DEL ACCESS: 1
-[22-Apr-2022 21:53:03 America/Santiago] es privado y autorizado su rol y su estatus
-[22-Apr-2022 21:53:03 America/Santiago] Contruct::CorrespondenciaModel
-[22-Apr-2022 21:53:03 America/Santiago] Contruct::CorrespondenciaModel
-[22-Apr-2022 21:53:03 America/Santiago] Contruct:: -> MovimientoModel
-[22-Apr-2022 21:53:03 America/Santiago] Contruct:: -> MovimientoModel
-[22-Apr-2022 21:53:03 America/Santiago] Contruct::CorrespondenciaModel
-[22-Apr-2022 21:53:04 America/Santiago] PDF generado
-[22-Apr-2022 21:53:12 America/Santiago] Email enviado Correctamente
-[22-Apr-2022 21:53:12 America/Santiago] app pdf
-[22-Apr-2022 21:53:12 America/Santiago] contruct:: -> SESSIONCONTROLLER
-[22-Apr-2022 21:53:12 America/Santiago] SESSIONCONTROLLER::init 
-[22-Apr-2022 21:53:12 America/Santiago] SESSIONCONTROLLER::validateSession 
-[22-Apr-2022 21:53:12 America/Santiago] PHP Fatal error:  Cannot declare class UsuarioModel, because the name is already in use in C:\xampp\htdocs\serviciospostales\modelo\Usuariomodel.php on line 135
+[22-Apr-2022 21:54:55 America/Santiago] inicio de aplicacion web
+[22-Apr-2022 21:54:55 America/Santiago] app pdf
+[22-Apr-2022 21:54:55 America/Santiago] PHP Deprecated:  The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence in /home/pvilches/domains/pvilches.cl/public_html/postal/controlador/PDFController.php on line 136
+[22-Apr-2022 21:54:55 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[22-Apr-2022 21:54:55 America/Santiago] SESSIONCONTROLLER::init 
+[22-Apr-2022 21:54:55 America/Santiago] SESSIONCONTROLLER::validateSession 
+[22-Apr-2022 21:54:55 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> admin user
+[22-Apr-2022 21:54:55 America/Santiago] existe la sesion
+[22-Apr-2022 21:54:55 America/Santiago] SESSIONCONTROLLER::isPublic
+[22-Apr-2022 21:54:55 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
+[22-Apr-2022 21:54:55 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
+[22-Apr-2022 21:54:55 America/Santiago] ROL DEL ACCESS: 1
+[22-Apr-2022 21:54:55 America/Santiago] es privado y autorizado su rol y su estatus
+[22-Apr-2022 21:54:55 America/Santiago] Contruct::CorrespondenciaModel
+[22-Apr-2022 21:54:55 America/Santiago] Contruct::CorrespondenciaModel
+[22-Apr-2022 21:54:55 America/Santiago] Contruct:: -> MovimientoModel
+[22-Apr-2022 21:54:55 America/Santiago] Contruct:: -> MovimientoModel
+[22-Apr-2022 21:54:55 America/Santiago] Contruct::CorrespondenciaModel
+[22-Apr-2022 21:54:55 America/Santiago] PHP Notice:  Undefined index: email in /home/pvilches/domains/pvilches.cl/public_html/postal/controlador/PDFController.php on line 191
+[22-Apr-2022 21:54:55 America/Santiago] PDF generado
+[22-Apr-2022 21:54:55 America/Santiago] Error de correo: You must provide at least one recipient email address.
+[22-Apr-2022 21:54:55 America/Santiago] app pdf
+[22-Apr-2022 21:54:55 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[22-Apr-2022 21:54:55 America/Santiago] SESSIONCONTROLLER::init 
+[22-Apr-2022 21:54:55 America/Santiago] SESSIONCONTROLLER::validateSession 
+[22-Apr-2022 21:54:55 America/Santiago] PHP Fatal error:  Cannot declare class UsuarioModel, because the name is already in use in /home/pvilches/domains/pvilches.cl/public_html/postal/modelo/Usuariomodel.php on line 0
+[22-Apr-2022 21:55:46 America/Santiago] inicio de aplicacion web
+[22-Apr-2022 21:55:46 America/Santiago] app pdf
+[22-Apr-2022 21:55:46 America/Santiago] PHP Deprecated:  The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence in /home/pvilches/domains/pvilches.cl/public_html/postal/controlador/PDFController.php on line 136
+[22-Apr-2022 21:55:46 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[22-Apr-2022 21:55:46 America/Santiago] SESSIONCONTROLLER::init 
+[22-Apr-2022 21:55:46 America/Santiago] SESSIONCONTROLLER::validateSession 
+[22-Apr-2022 21:55:46 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> admin user
+[22-Apr-2022 21:55:46 America/Santiago] existe la sesion
+[22-Apr-2022 21:55:46 America/Santiago] SESSIONCONTROLLER::isPublic
+[22-Apr-2022 21:55:46 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
+[22-Apr-2022 21:55:46 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
+[22-Apr-2022 21:55:46 America/Santiago] ROL DEL ACCESS: 1
+[22-Apr-2022 21:55:46 America/Santiago] es privado y autorizado su rol y su estatus
+[22-Apr-2022 21:55:46 America/Santiago] Contruct::CorrespondenciaModel
+[22-Apr-2022 21:55:46 America/Santiago] Contruct::CorrespondenciaModel
+[22-Apr-2022 21:55:46 America/Santiago] Contruct:: -> MovimientoModel
+[22-Apr-2022 21:55:46 America/Santiago] Contruct:: -> MovimientoModel
+[22-Apr-2022 21:55:46 America/Santiago] Contruct::CorrespondenciaModel
+[22-Apr-2022 21:55:46 America/Santiago] PHP Notice:  Undefined index: email in /home/pvilches/domains/pvilches.cl/public_html/postal/controlador/PDFController.php on line 191
+[22-Apr-2022 21:55:46 America/Santiago] PDF generado
+[22-Apr-2022 21:55:46 America/Santiago] Error de correo: You must provide at least one recipient email address.
+[22-Apr-2022 21:55:46 America/Santiago] app pdf
+[22-Apr-2022 21:55:46 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[22-Apr-2022 21:55:46 America/Santiago] SESSIONCONTROLLER::init 
+[22-Apr-2022 21:55:46 America/Santiago] SESSIONCONTROLLER::validateSession 
+[22-Apr-2022 21:55:46 America/Santiago] PHP Fatal error:  Cannot declare class UsuarioModel, because the name is already in use in /home/pvilches/domains/pvilches.cl/public_html/postal/modelo/Usuariomodel.php on line 0
+[22-Apr-2022 22:01:41 America/Santiago] inicio de aplicacion web
+[22-Apr-2022 22:01:41 America/Santiago] app pdf
+[22-Apr-2022 22:01:41 America/Santiago] PHP Deprecated:  The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence in /home/pvilches/domains/pvilches.cl/public_html/postal/controlador/PDFController.php on line 136
+[22-Apr-2022 22:01:41 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[22-Apr-2022 22:01:41 America/Santiago] SESSIONCONTROLLER::init 
+[22-Apr-2022 22:01:41 America/Santiago] SESSIONCONTROLLER::validateSession 
+[22-Apr-2022 22:01:41 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> admin user
+[22-Apr-2022 22:01:41 America/Santiago] existe la sesion
+[22-Apr-2022 22:01:41 America/Santiago] SESSIONCONTROLLER::isPublic
+[22-Apr-2022 22:01:41 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
+[22-Apr-2022 22:01:41 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
+[22-Apr-2022 22:01:41 America/Santiago] ROL DEL ACCESS: 1
+[22-Apr-2022 22:01:41 America/Santiago] es privado y autorizado su rol y su estatus
+[22-Apr-2022 22:01:41 America/Santiago] Contruct::CorrespondenciaModel
+[22-Apr-2022 22:01:41 America/Santiago] Contruct::CorrespondenciaModel
+[22-Apr-2022 22:01:41 America/Santiago] Contruct:: -> MovimientoModel
+[22-Apr-2022 22:01:41 America/Santiago] Contruct:: -> MovimientoModel
+[22-Apr-2022 22:01:41 America/Santiago] Contruct::CorrespondenciaModel
+[22-Apr-2022 22:01:41 America/Santiago] PHP Notice:  Undefined index: email in /home/pvilches/domains/pvilches.cl/public_html/postal/controlador/PDFController.php on line 191
+[22-Apr-2022 22:01:41 America/Santiago] PDF generado
+[22-Apr-2022 22:01:41 America/Santiago] Error de correo: You must provide at least one recipient email address.
+[22-Apr-2022 22:01:41 America/Santiago] app pdf
+[22-Apr-2022 22:01:41 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[22-Apr-2022 22:01:41 America/Santiago] SESSIONCONTROLLER::init 
+[22-Apr-2022 22:01:41 America/Santiago] SESSIONCONTROLLER::validateSession 
+[22-Apr-2022 22:01:41 America/Santiago] PHP Fatal error:  Cannot declare class UsuarioModel, because the name is already in use in /home/pvilches/domains/pvilches.cl/public_html/postal/modelo/Usuariomodel.php on line 0

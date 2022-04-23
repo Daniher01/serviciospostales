@@ -154,7 +154,7 @@ class SessionController extends Controller{
         }
         error_log($this->email);
         $this->session->setCurrentUser($this->idusuario, $this->username, $this->rut,$this->nombre_usuario, $this->apellido_p, $this->apellido_m, $this->rol, $this->email);
-        
+        error_log($_SESSION['email']);
         $this->autorizeAccess($this->rol);
 
     }
