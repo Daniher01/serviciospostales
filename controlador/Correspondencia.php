@@ -229,8 +229,8 @@ class Correspondencia extends SessionController{
             
             $this->view->datosInforme  = $this->model->buscarInformeCorrespondenciaFechas($f_desde, $f_hasta);
 
-            $this->view->Ncarta =  $this->tipo_encomienda->totalEncomienda('Carta');
-            $this->view->Nvalija =  $this->tipo_encomienda->totalEncomienda('Valija');
+            $this->view->Ncarta =  $this->tipo_encomienda->totalEncomienda('Sobre');
+            $this->view->Nvalija =  $this->tipo_encomienda->totalEncomienda('Balija');
             $this->view->Ncaja =  $this->tipo_encomienda->totalEncomienda('Caja');
 
             $this->view->Ncarta =  $this->view->Ncarta[0]['total'];
