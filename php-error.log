@@ -15870,3 +15870,18 @@ Stack trace:
 [23-Apr-2022 19:38:15 America/Santiago] Contruct:: -> ClientesfrecuentesModel
 [23-Apr-2022 19:38:15 America/Santiago] Contruct:: -> ClientesfrecuentesModel
 [23-Apr-2022 19:38:15 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:45:27 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:45:27 America/Santiago] app otra vista
+[23-Apr-2022 19:45:27 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:45:27 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:45:27 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:45:27 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:45:27 America/Santiago] existe la sesion
+[23-Apr-2022 19:45:27 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:45:27 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:45:27 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:45:27 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:45:27 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:45:27 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:45:27 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:45:27 America/Santiago] Contruct::CorrespondenciaModel

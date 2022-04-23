@@ -78,7 +78,7 @@ class EMAIL extends PHPMailer{
                                                     <td style="padding:0 0 36px 0;color:#153643;">
                                                         <h1 style="font-size:24px;margin:0 0 20px 0;font-family:Arial,sans-serif;">Estimado: <h3>' .$estimado.'</h3></h1>									
                                                         <p style="margin:0 0 12px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;">Adjunto con saludarle, para informarle que ha sido emitido el documento solicitado, a continuacion tendra la informacion detallada del documento</p>
-                                                        <p style="margin:0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;"><a href="http://www.example.com" style="color:#ee4c50;text-decoration:underline;">In tempus felis blandit</a></p>
+                                                        <p style="margin:0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;"><a href="'.constant('URL').'" style="color:#ee4c50;text-decoration:underline;">Generar Aqui</a></p>
                                                     </td>
                                                 </tr>
                                                 <tr>
