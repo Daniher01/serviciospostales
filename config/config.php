@@ -8,11 +8,11 @@
 
     //datos de Email
     define('EMAILHOST', 'smtp.gmail.com');
-    define('EMAILUSERNAME', 'maximuspepe6@gmail.com');
-    define('EMAILPASSWORD','tuimagen12');
+    define('EMAILUSERNAME', 'infoserviciospostales@gmail.com');
+    define('EMAILPASSWORD','@infoserviciospostales1234');
     define('SMTPSECURE','tls');
     define('EMAILPORT',587);
-    define('EMAILNAME', 'Tu Imagen');
+    define('EMAILNAME', 'Servicios Postales');
 
     //definir la zona horaria de chile
     date_default_timezone_set('America/Santiago');

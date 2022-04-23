@@ -14,7 +14,7 @@ require 'PHPMailer/src/SMTP.php';
 
 class EMAIL extends PHPMailer{
 
-	function sendEmail($mail_addAddress,$mail_cc=null,$txt_message,$mail_subject, $archivos){
+	function sendEmail($mail_addAddress,$mail_cc=null,$mail_subject, $estimado,  $dataHTML){
 
 		//datos para conectarse al correo de quien envia
 		$mail = new PHPMailer;
@@ -39,20 +39,103 @@ class EMAIL extends PHPMailer{
 				$i++;
 			}
 		}
+
+		$html = 
+                '<!DOCTYPE html>
+                <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width,initial-scale=1">
+                    <meta name="x-apple-disable-message-reformatting">
+                    <title></title>
+                    <!--[if mso]>
+                    <noscript>
+                        <xml>
+                            <o:OfficeDocumentSettings>
+                                <o:PixelsPerInch>96</o:PixelsPerInch>
+                            </o:OfficeDocumentSettings>
+                        </xml>
+                    </noscript>
+                    <![endif]-->
+                    <style>
+                        table, td, div, h1, p {font-family: Arial, sans-serif;}
+                    </style>
+                </head>
+                <body style="margin:0;padding:0;">
+                    <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;background:#ffffff;">
+                        <tr>
+                            <td align="center" style="padding:0;">
+                                <table role="presentation" style="width:602px;border-collapse:collapse;border:1px solid #cccccc;border-spacing:0;text-align:left;">
+                                    <tr>
+                                        <td align="center" style="padding:0px 0 0px 0;background:#70bbd9;">
+                                            <img src="./assets/img/header.jpg" style="height:auto;display:block;" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:36px 30px 42px 30px;">
+                                            <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                                                <tr>
+                                                    <td style="padding:0 0 36px 0;color:#153643;">
+                                                        <h1 style="font-size:24px;margin:0 0 20px 0;font-family:Arial,sans-serif;">Estimado: <h3>' .$estimado.'</h3></h1>									
+                                                        <p style="margin:0 0 12px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;">Adjunto con saludarle, para informarle que ha sido emitido el documento solicitado, a continuacion tendra la informacion detallada del documento</p>
+                                                        <p style="margin:0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;"><a href="http://www.example.com" style="color:#ee4c50;text-decoration:underline;">In tempus felis blandit</a></p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding:0;">
+															
+															'.$dataHTML.'
+                
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding:30px;background:#4a9cf4;">
+                                            <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;font-size:9px;font-family:Arial,sans-serif;">
+                                                <tr>
+                                                    <td style="padding:0;width:50%;" align="left">
+                                                        <p style="margin:0;font-size:14px;line-height:16px;font-family:Arial,sans-serif;color:#ffffff;">
+                                                            &reg; Servicios Postales Ltda.<br/><a href="#" style="color:#ffffff;text-decoration:underline;">Sitio web</a>
+                                                        </p>
+                                                    </td>
+                                                    <td style="padding:0;width:50%;" align="right">
+                                                        <table role="presentation" style="border-collapse:collapse;border:0;border-spacing:0;">
+                                                            <tr>
+                                                                <td style="padding:0 0 0 10px;width:38px;">
+                                                                    <a href="http://www.twitter.com/" style="color:#ffffff;"></a>
+                                                                </td>
+                                                                <td style="padding:0 0 0 10px;width:38px;">
+                                                                    <a href="http://www.facebook.com/" style="color:#ffffff;"></a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </body>
+                </html>';
 		
 		//contenido del correo
 		$mail->isHTML(true);  // Establecer el formato de correo electrónico en HTML
 		$mail->Subject = $mail_subject; //asunto
-		$mail->Body = $txt_message;     //mensaje del correo
-
+		$mail->Body = '';     //mensaje del correo
+		$mail->msgHTML($html); //html con el mensaje
 		//permite enviar varios archivos a la vez
-		if(is_array($archivos)){
+		/*if(is_array($archivos)){
 			foreach($archivos as $archivo){
 				$mail->addAttachment($archivo);
 			}
 		}else{
 			$mail->addAttachment($archivos);
-		}
+		}*/
 		$mail->CharSet = 'UTF-8';       //para que permita las tildes
 		//$mail->msgHTML($message); //html con el mensaje
 	
@@ -69,25 +152,6 @@ class EMAIL extends PHPMailer{
 	//$this->sendEmail('daniel.hernandez.me@cftsa.cl','este es un mensaje de prueba','asunto' );
 }
 
-
-
-//if (isset($_POST['send'])){
-	
-	/*
-	$mail_cc = $_POST['Cc_email'];
-	$mail_addAddress=$_POST['customer_email']; //correo al que envia
-	$txt_message=$_POST['message'];
-	$mail_subject=$_POST['subject'];
-	if($_FILES['archivo']){
-		$nombre_base = basename($_FILES['archivo']['name']);
-		$nombre_final = date("d-m-y").'_'. date('H-i-s').'_'. $nombre_base;
-		$ruta = 'files/'. $nombre_final;
-		$subirArcvhio = move_uploaded_file($_FILES['archivo']['tmp_name'], $ruta);
-	}*/
-	//print_r($_POST);
-
-	//$this->sendemail($mail_addAddress,$mail_cc,$txt_message,$mail_subject, $ruta);//Enviar el mensaje
-//}
 
 
 ?>

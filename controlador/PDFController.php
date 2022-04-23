@@ -83,6 +83,38 @@
                     $movimiento = new ClientesFrecuentesModel();
                     $movimiento->insertClientesFrecuentes($destinatario, $direccion, $comuna, $usuario);
                 }
+                $emailUsuario = $_SESSION['email'];
+                $asunto = 'Correspondencia Generada';
+                $estimado = $_SESSION['nombre_usuario'].' '.$_SESSION['apellido_p'].' '.$_SESSION['apellido_m'];
+                $html = 
+                '<tr>
+                    <th>N° Seguimiento</th> <td>'.$nseguimiento.'</td>
+                </tr>
+                <tr>
+                    <th>Fecha</th> <td>'.$dia.'</td>
+                </tr>
+                <tr>
+                    <th>Destinatario</th> <td>'.$destinatario.'</td>
+                </tr>
+                <tr>
+                    <th>Direccion</th> <td>'.$direccion.'</td>
+                </tr>
+                <tr>
+                    <th>Tipo Envio</th> <td>'.$tipoenvio.'</td>
+                </tr>
+                <tr>
+                    <th>Detalle</th> <td>'.$detalle.'</td>
+                </tr>
+                <tr>
+                    <th>Estado</th> <td>CREADO</td>
+                </tr>';
+                
+                include_once "EMAIL/enviarEMAIL.php";
+                $this->email = new EMAIL();
+                $this->email->sendEmail($emailUsuario,null, $asunto,$estimado, $html);
+                
+                //se elimina el archivo guardado de forma temporal
+                unlink($ruta);
 
             }else{ //si llaman a la function sin pasar los datos
                 require_once 'vista/layouts/header.php';
@@ -157,6 +189,24 @@
                 unlink($archivo);
             }
 
+            $emailUsuario = $_SESSION['email'];
+            $asunto = 'Correspondencia Generada';
+            $estimado = $_SESSION['nombre_usuario'].' '.$_SESSION['apellido_p'].' '.$_SESSION['apellido_m'];
+            $html = 
+            '<tr>
+                <th>Codigo Grupal</th> <td>'.$codigo_grupal.'</td>
+            </tr>
+            <tr>
+                <th>Fecha</th> <td>'.$dia.'</td>
+            </tr>
+            <tr>
+                <th>Estado</th> <td>CREADO</td>
+            </tr>';
+            
+            include_once "EMAIL/enviarEMAIL.php";
+            $this->email = new EMAIL();
+            $this->email->sendEmail($emailUsuario,null, $asunto,$estimado, $html);
+
 
 
         }
@@ -182,6 +232,8 @@
 
             //print_r($_POST);
 
+
+
             ob_start();
             $this->pdf->SetFont('Arial','',9);
             $this->pdf->AddPage();
@@ -201,15 +253,27 @@
             echo $file;
             file_put_contents("clases/correspondenciaPDF/$nombrePDF.pdf", $file);
             error_log('PDF generado');
+            $rutaImagen = constant('URL').'assets/img/header.jpg';
+            $estimado = $_SESSION['nombre_usuario'].' '.$_SESSION['apellido_p'].' '.$_SESSION['apellido_m'];
+            $html = '                                               
+            <ul>
+                <li>Desde: ' .$f_desde.'</li>
+                <li>Hasta: ' .$f_hasta.'</li>
+                <li>N° Cartas: ' .$Ncarta.'</li>
+                <li>N° Balijas: ' .$Nvalija.'</li>
+                <li>N° Cajas: ' .$Ncaja.'</li>
+                <li>Total Enomiendas: ' .$total.'</li>
+            /ul>';
 
-            if (!empty($ruta)){
-                include_once "EMAIL/enviarEMAIL.php";
-                $this->email = new EMAIL();
-                $this->email->sendEmail($emailUsuario,null,$mensaje, $asunto,$ruta);
-                
-                //se elimina el archivo guardado de forma temporal
-                unlink($ruta);
-            }
+            
+            
+            include_once "EMAIL/enviarEMAIL.php";
+            $this->email = new EMAIL();
+            //$this->email->sendEmail($emailUsuario,null,$mensaje,$estimado, $asunto,$estimado, $html);
+
+            //se elimina el archivo guardado de forma temporal
+            unlink($ruta);
+
         }
 
 
