@@ -64,15 +64,16 @@ class Tipo_encomiendaModel extends Model{
 
         }catch (PDOException $e){
             $e= $e->getMessage();
-            error_log("$e"); 
+            error_log("$e");  
         }
     }
 
-    public function totalEncomienda($_encomienda){
+    public function totalEncomienda($_encomienda, $f_inicio, $f_termino){
         try{
             $query = "SELECT COUNT(*) as total FROM correspondencia as cor
             INNER JOIN tipo_encomienda as te on cor.Tipo_encomienda_idTipo_encomienda = te.idTipo_encomienda
-            WHERE encomienda = '$_encomienda'";
+            INNER JOIN movimiento as mov on mov.Correspondencia_codigo_barras = cor.codigo_barras
+            WHERE encomienda = '$_encomienda' AND fecha BETWEEN '$f_inicio' AND '$f_termino'";
             $datos = $this->db->connect()->query($query);
             $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
 

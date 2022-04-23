@@ -9,6 +9,7 @@ INNER JOIN estado as e on mov.Estado_idEstado = e.idEstado
 WHERE fecha  BETWEEN '$f_desde' AND '$f_hasta'
 
 
-SELECT encomienda, COUNT(*) FROM correspondencia as cor
+SELECT COUNT(*) FROM correspondencia as cor
 INNER JOIN tipo_encomienda as te on cor.Tipo_encomienda_idTipo_encomienda = te.idTipo_encomienda
-WHERE encomienda = '$_encomienda'
+INNER JOIN movimiento as mov on mov.Correspondencia_codigo_barras = cor.codigo_barras
+WHERE encomienda = '$_encomienda' AND fecha BETWEEN '$f_inicio' AND '$f_termino';
