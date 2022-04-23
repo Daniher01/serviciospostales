@@ -26,13 +26,14 @@ class ClientesFrecuentesModel extends Model{
         }
     }
 
-    public function getClienesFrecuentes(){
+    public function getClienesFrecuentes($iduser){
         try{
 
             $query = "SELECT idcliente_frecuentes, nombre, direccion, idusuario, comunascol, regiones FROM cliente_frecuentes as cf
                         INNER JOIN usuario as u on cf.usuario_idusuario = u.idusuario
                         INNER JOIN comunas as c on cf.comunas_idComunas = c.idcomunas
-                        INNER JOIN regiones as r on c.regiones_idRegiones = r.idregiones";
+                        INNER JOIN regiones as r on c.regiones_idRegiones = r.idregiones
+                        WHERE Usuario_idUsuario = $iduser";
             $datos = $this->db->connect()->query($query);
             $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
 
@@ -41,7 +42,7 @@ class ClientesFrecuentesModel extends Model{
         }catch (PDOException $e){
             $e->getMessage();
             error_log("$e"); 
-            return $rs;
+            
         }
     }
 

@@ -129,8 +129,27 @@
               </li>
             </ul>
           </li>
-<!--
-          <li class="nav-header">Usuario</li>
+        <?php if($_SESSION['rol']==1){ ?>
+            <li class="nav-header">Administrador</li>
+          <li class="nav-item">
+            <a href="<?php echo constant('URL');?>Correspondencia/generarInforme" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Generar Informe
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="<?php echo constant('URL');?>Departamento" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Agregar Departamento
+              </p>
+            </a>
+          </li>
+          <?php } ?> 
+
+       <!--   <li class="nav-header">Usuario</li>
           <li class="nav-item">
             <a href="<?php //echo constant('URL');?>User" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
@@ -138,7 +157,7 @@
                 Editar Usuario
               </p>
             </a>
-          </li>-->
+          </li> -->
          
           <li class="nav-header">Sesion</li>
           <li class="nav-item">

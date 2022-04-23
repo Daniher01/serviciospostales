@@ -8,6 +8,8 @@ class Session{
     private $sessionNombreUsuario = 'nombre_usuario';
     private $sessionApellidoP = 'apellido_p';
     private $sessionApellidoM = 'apellido_m';
+    private $sessionRol = 'rol';
+    private $sessionEmail = 'email';
 
     public function __construct()
     {
@@ -16,13 +18,15 @@ class Session{
         }
     }
 
-    public function setCurrentUser($user, $username, $sessionrut, $name, $apellido_p, $apellido_m){
+    public function setCurrentUser($user, $username, $sessionrut, $name, $apellido_p, $apellido_m, $rol, $email){
         $_SESSION[$this->sessionName] = $user;
         $_SESSION[$this->sessionUserame] = $username;
         $_SESSION[$this->sessionRut] = $sessionrut;
         $_SESSION[$this->sessionNombreUsuario] = $name;
         $_SESSION[$this->sessionApellidoP] = $apellido_p;
         $_SESSION[$this->sessionApellidoM] = $apellido_m;
+        $_SESSION[$this->sessionRol] = $rol;
+        $_SESSION[$this->sessionEmail] = $email;
 
     }
 
@@ -36,6 +40,12 @@ class Session{
 
     public function getRutUser(){
         return $_SESSION[$this->sessionRut];
+    }
+    public function getRolUser(){
+        return $_SESSION[$this->sessionRol];
+    }
+    public function getEmailUser(){
+        return $_SESSION[$this->sessionEmail];
     }
 
     public function closeSession(){

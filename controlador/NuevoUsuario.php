@@ -13,7 +13,7 @@ class NuevoUsuario extends SessionController{
         //carga la bd de usuadios
         $this->loadModel('Usuario');
         $this->usuarios = new UsuarioModel();
-        $this->view->tipos_usuarios = $this->usuarios->getTiposUsuarios();
+        $this->view->tipos_usuarios = $this->usuarios->getTiposUsuariosAdminFuncionario();
         //carga los datos de los departamentos
         $this->loadModel('Departamento');
         $this->departamentos = new DepartamentoModel();
@@ -43,11 +43,13 @@ class NuevoUsuario extends SessionController{
         $tipo_usuario = $_POST['tipo_usuario'];
         $codigo = $_POST['codigo'];
 
+        //print_r($tipo_usuario);
+
         //trae la habilitacion del codigo
         $this->codigos->buscarCodigo($codigo);
         
         if($this->codigos->getCodigoValido() == 'HABILITADO'){
-            $this->usuarios->crearUsuario($username, $password, $rut, $nombre, $apellido_p, $apellido_m, $email, $departamento, $tipo_usuario);
+            $this->usuarios->crearUsuario($username, $password, $rut, $nombre, $apellido_p, $apellido_m, $email, $tipo_usuario, $departamento);
             $this->codigos->inhabilitarCodigo($codigo);
             $this->redirect($this->defaultSites['Login'], []);
             error_log('usuario creado con exito');

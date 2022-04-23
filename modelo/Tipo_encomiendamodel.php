@@ -5,7 +5,16 @@ class Tipo_encomiendaModel extends Model{
     public function __construct()
     {   
         parent::__construct();
+        $this->id = '';
+        $this->encomienda = '';
     }
+
+    public function setId($id){                             $this->id = $id;}
+    public function setEncomienda($encomienda){             $this->encomienda = $encomienda;}
+
+
+    public function getId(){                                return $this->id;}
+    public function getEncomienda(){                        return $this->encomienda;}
 
     public function getTipo_encomienda(){
         try{
@@ -46,8 +55,28 @@ class Tipo_encomiendaModel extends Model{
             $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
             foreach ($rs as $r){
                 $id = $r['idTipo_encomienda'];
+
+                $this->setId($r['idTipo_encomienda']);
+                $this->setEncomienda($r['encomienda']);
+
             }
             return $id;
+
+        }catch (PDOException $e){
+            $e= $e->getMessage();
+            error_log("$e"); 
+        }
+    }
+
+    public function totalEncomienda($_encomienda){
+        try{
+            $query = "SELECT COUNT(*) as total FROM correspondencia as cor
+            INNER JOIN tipo_encomienda as te on cor.Tipo_encomienda_idTipo_encomienda = te.idTipo_encomienda
+            WHERE encomienda = '$_encomienda'";
+            $datos = $this->db->connect()->query($query);
+            $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
+
+            return $rs;
 
         }catch (PDOException $e){
             $e= $e->getMessage();

@@ -175,6 +175,94 @@ class PDF extends FPDF
 
     }
 
+    function informePT1($f_desde, $f_hasta, $Ncartas, $Nvalijas, $Ncajas, $total){
+
+                
+        $this->correspondencia = new CorrespondenciaModel();
+        $datosInforme  = $this->correspondencia->buscarInformeCorrespondenciaFechas($f_desde, $f_hasta);
+        $this->Cell(20,10,"",0);
+        $this->Cell(20,10,"",0);
+        $this->Cell(20,10,"",0);
+        $this->Cell(20,10,"",0);  
+        $this->Cell(20,10,"",0);
+        $this->Cell(20,10,"",0);
+        $this->Cell(20,10,"",0); 
+        $this->Cell(50,5, $this->Image('clases/logo/logo.jpg', $this->GetX(), $this->GetY(),40,30),0);
+        $this->Ln();
+        $this->Cell(10,5,"",0);
+        $this->Cell(20,5,"Desde :",0);
+        $this->Cell(10,5,"",0);
+        $this->Cell(20,5,"".$f_desde."",0);     
+        $this->Ln();
+        $this->Cell(10,5,"",0);
+        $this->Cell(20,5,"Hasta :",0);
+        $this->Cell(10,5,"",0);
+        $this->Cell(20,5,"".$f_hasta."",0);     
+        $this->Ln();
+        $this->Cell(10,5,"",0);
+        $this->Cell(20,5,"N° Cartas :",0);
+        $this->Cell(10,5,"",0);
+        $this->Cell(20,5,"".$Ncartas."",0);     
+        $this->Ln();
+        $this->Cell(10,5,"",0);
+        $this->Cell(20,5,"N° Valijas :",0);
+        $this->Cell(10,5,"",0);
+        $this->Cell(20,5,"".$Nvalijas."",0);     
+        $this->Ln();
+        $this->Cell(10,5,"",0);
+        $this->Cell(20,5,"N° Cajas :",0);
+        $this->Cell(10,5,"",0);
+        $this->Cell(20,5,"".$Ncajas."",0);     
+        $this->Ln();
+        $this->Cell(10,5,"",0);
+        $this->Cell(20,5,"Total Encomiendas :",0);
+        $this->Cell(10,5,"",0);
+        $this->Cell(20,5,"".$total."",0);     
+        $this->Ln();
+        $this->Cell(30,5,"",0);
+        $this->Ln();
+        $this->Cell(30,5,"Codigo Barras",1);
+        $this->Cell(25,5,"Destinatario",1);
+        $this->Cell(20,5,"Direccion",1);
+        $this->Cell(20,5,"Comuna",1);  
+        //$this->Cell(20,5,"Region",1);  
+        $this->Cell(30,5,"Departamento",1);
+        $this->Cell(20,5,"Creador",1);   
+        $this->Cell(30,5,"Fecha",1); 
+        //$this->Cell(30,5,"Hora",1); 
+        $this->Cell(20,5,"Estado",1); 
+        $this->Ln();
+
+        foreach($datosInforme as $c){
+               
+            $codigo_barras = $c['codigo_barras'];
+            $destinatario = $c['destinatario'];
+            $direccion = $c['direccion'];
+            $comunas= $c['comunasCol'];
+            $regiones = $c['regiones'];
+            $departamento = $c['departamento'];
+            $nombre_creador = $c['nombre_creador'];
+            $fecha = $c['fecha'];
+            $hora = $c['hora'];
+            $estado = $c['estado'];
+
+            $this->Cell(30,5,"$codigo_barras",1);
+            $this->Cell(25,5,"$destinatario",1);
+            $this->Cell(20,5,"$direccion",1);  
+            $this->Cell(20,5,"$comunas",1);  
+            //$this->Cell(20,5,"$regiones",1);
+            $this->Cell(30,5,"$departamento",1);
+            $this->Cell(20,5,"$nombre_creador",1); 
+            $this->Cell(30,5,"$fecha",1);
+            //$this->Cell(30,5,"$hora",1);
+            $this->Cell(20,5,"$estado",1);
+            $this->Ln(); 
+             
+
+        }
+
+    }
+
  
 
     

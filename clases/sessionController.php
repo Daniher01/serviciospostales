@@ -132,7 +132,7 @@ class SessionController extends Controller{
         $currentURL = preg_replace("/\?.*/", "",$currentURL);
 
         for($i = 0; $i<sizeof($this->sites); $i++){
-            if ($currentURL == $this->sites[$i]['site'] && $this->sites[$i]['role']== $rol){
+            if ($currentURL == $this->sites[$i]['site'] && ($this->sites[$i]['role']== $rol || $this->sites[$i]['role2']== $rol)){
                 error_log('ROL DEL ACCESS: '.$this->sites[$i]['role']);
                 return true;
             }
@@ -150,9 +150,11 @@ class SessionController extends Controller{
           $this->apellido_p = $u['apellido_p'];
           $this->apellido_m = $u['apellido_m'];
           $this->rol = $u['tipo_usuario_idtipo_usuario'];
+          $this->email = $u['email'];
         }
-        error_log($this->apellido_p);
-        $this->session->setCurrentUser($this->idusuario, $this->username, $this->rut,$this->nombre_usuario, $this->apellido_p, $this->apellido_m);
+        error_log($this->email);
+        $this->session->setCurrentUser($this->idusuario, $this->username, $this->rut,$this->nombre_usuario, $this->apellido_p, $this->apellido_m, $this->rol, $this->email);
+        
         $this->autorizeAccess($this->rol);
 
     }
@@ -166,9 +168,7 @@ class SessionController extends Controller{
             case 2:
                 $this->redirect($this->defaultSites['Correspondencia'], []);
             break;
-            case 3:
-                $this->redirect($this->defaultSites['Correspondencia'], []);
-            break;
+ 
         }
 
     }

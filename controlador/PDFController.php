@@ -160,6 +160,61 @@
 
 
         }
+
+        function generarInformePDF(){
+            $f_desde = $_POST['f_desde'];
+            $f_hasta = $_POST['f_hasta'];
+            $Ncarta = $_POST['Ncarta'];
+            $Nvalija = $_POST['Nvalija'];
+            $Ncaja = $_POST['Ncaja'];
+            $total = $_POST['total'];
+
+            $cod_barras = $_POST['codigo_barras'];
+            $destinatario = $_POST['destinatario'];
+            $direccion = $_POST['direccion'];
+            $comunas = $_POST['comunasCol'];
+            $regiones = $_POST['regiones'];
+            $departamento = $_POST['departamento'];
+            $nombre_creador = $_POST['nombre_creador'];
+            $fecha = $_POST['fecha'];
+            $hora = $_POST['hora'];
+            $estado = $_POST['estado'];
+
+            //print_r($_POST);
+
+            ob_start();
+            $this->pdf->SetFont('Arial','',9);
+            $this->pdf->AddPage();
+            $this->pdf->informePT1($f_desde, $f_hasta, $Ncarta, $Nvalija, $Ncaja, $total); //otra funcion para los datos no repetidos
+                
+            $nombrePDF = date("d-m-y").'_'.date("H.i.s").'_'.'Correspondencia_Masiva';
+            $emailUsuario = $_SESSION['email'];
+            $asunto = 'Informe de Correspondencias';
+            $mensaje = '
+                                <h3>'.$_SESSION['nombre_usuario'].' '.$_SESSION['apellido_p'].' '.$_SESSION['apellido_m'].'</h3>
+                                <p>Se adjunta Informe </p>
+                            ';
+            $ruta = "clases/correspondenciaPDF/$nombrePDF.pdf";
+            $this->pdf->Close();
+            $file =  $this->pdf->Output('S', $ruta, true); 
+            header('Content-type:application/pdf');
+            echo $file;
+            file_put_contents("clases/correspondenciaPDF/$nombrePDF.pdf", $file);
+            error_log('PDF generado');
+
+            if (!empty($ruta)){
+                include_once "EMAIL/enviarEMAIL.php";
+                $this->email = new EMAIL();
+                $this->email->sendEmail($emailUsuario,null,$mensaje, $asunto,$ruta);
+                
+                //se elimina el archivo guardado de forma temporal
+                unlink($ruta);
+            }
+        }
+
+
     }
+
+
 
 ?>

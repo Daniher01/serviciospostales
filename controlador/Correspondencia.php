@@ -43,6 +43,15 @@ class Correspondencia extends SessionController{
         //mostrar los datos del excel
         $this->view->datosexcel = [];
         $this->view->numeroMayorDeFila = [];
+
+        //datos para el informe
+        $this->view->datosInforme = [];
+        $this->view->f_desde = '';
+        $this->view->f_hasta = '';
+        $this->view->Ncarta = '';
+        $this->view->Nvalija = '';
+        $this->view->Ncaja = '';
+        $this->view->totalEncomiendas = '';
     }
 
     function render(){
@@ -86,10 +95,12 @@ class Correspondencia extends SessionController{
 
     function generarNuevoCliente(){
 
+        $iduser = $_SESSION['idusuario'];
+
         //trae los datos del cliente seleccionado
         $this->buscarClienteid();
 
-        $this->view->clientes =  $this->clientemodel->getClienesFrecuentes();
+        $this->view->clientes =  $this->clientemodel->getClienesFrecuentes($iduser);
         
         $this->view->tiepo_encomienda = $this->tipo_encomienda->getTipo_encomienda();
         //redireciona a la pagina
@@ -207,39 +218,33 @@ class Correspondencia extends SessionController{
         $this->view->render('correspondencia/correspondenciaMasiva');
     }
 
-    /*function generarMasiva(){
-        $nombre =$_POST['nombre'];
-        $direccion = $_POST['direccion'];
-        $region = $_POST['region'];
-        $comuna = $_POST['comuna'];
-        $detalle = $_POST['detalle'];
-        $tipo_encomienda = $_POST['tipo_encomienda'];
+    function generarInforme(){
 
+        if (isset($_POST['f_desde']) && isset($_POST['f_hasta'])){
+            $f_desde = (String)$_POST['f_desde'];
+            $f_hasta = (String)$_POST['f_hasta'];
 
-
-        ob_start();
-        $pdf->SetFont('Arial','',9);
-        $pdf->AddPage();
-        $this->generarMasiva();
-        //$this->resulset = $pdf->TablaBasica($destinatario, $direccion,$regionNombre,$comunaNombre,$detalle,$cliente,$rutuser,$tipoenvio,$cinterno);
-        $pdf->Output(); 
-        //ob_end_flush();
-        
-        
-        foreach($nombre as $key => $value){
-            $nombre_valor = $nombre[$key];
-            $direccion_valor = $direccion[$key];
-            $region_valor = $region[$key];
-            $comuna_valor = $comuna[$key];
-            $detalle_valor = $detalle[$key];
-            $tipo_encomienda_valor = $tipo_encomienda[$key];
+            $this->view->f_desde = $f_desde;
+            $this->view->f_hasta = $f_hasta;
             
-            echo $nombre_valor.' '. $direccion_valor.' '. $region_valor.' '. $comuna_valor.' '. $detalle_valor.' '. $tipo_encomienda_valor.'<br>';
+            $this->view->datosInforme  = $this->model->buscarInformeCorrespondenciaFechas($f_desde, $f_hasta);
+
+            $this->view->Ncarta =  $this->tipo_encomienda->totalEncomienda('Carta');
+            $this->view->Nvalija =  $this->tipo_encomienda->totalEncomienda('Valija');
+            $this->view->Ncaja =  $this->tipo_encomienda->totalEncomienda('Caja');
+
+            $this->view->Ncarta =  $this->view->Ncarta[0]['total'];
+            $this->view->Nvalija =  $this->view->Nvalija[0]['total'];
+            $this->view->Ncaja =  $this->view->Ncaja[0]['total'];
+
+            $this->view->totalEncomiendas = $this->view->Ncarta + $this->view->Nvalija + $this->view->Ncaja;
+
+
+            //print_r( $this->view->datosInforme );
+
         }
-
-        //$this->view->render('correspondencia/correspondenciaMasiva');
-    }*/
-
+        $this->view->render('correspondencia/informe');
+    }
 
 }
 

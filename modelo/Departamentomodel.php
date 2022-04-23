@@ -23,6 +23,22 @@ class DepartamentoModel extends Model{
             return $this->rs;
         }
     }
+
+    public function agregarDepartamento($departamento){
+        try{
+
+            $query = "INSERT INTO departamento (departamento) VALUES('$departamento')";
+            $datos = $this->db->connect()->prepare($query);
+            $rs = $datos->execute();
+
+            return $rs;
+
+        }catch (PDOException $e){
+            $e= $e->getMessage();
+            error_log("$e"); 
+            return $this->rs;
+        }
+    }
 }
 
 ?>

@@ -104,6 +104,20 @@ class UsuarioModel extends Model{
         }
     }
 
+        //traer los tipos de usuarios
+        public function getTiposUsuariosAdminFuncionario(){
+            try{
+                $query = "SELECT * FROM tipo_usuario WHERE usuario = 'Administrativo' OR usuario = 'Funcionario' ";
+                $datos = $this->db->connect()->query($query);
+                $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
+                
+                return $rs;
+            }catch (PDOException $e){
+                $e= $e->getMessage();
+                error_log("$e"); 
+            }
+        }
+
     public function updateUsuario($unidad_trabajo, $idusuario){
         try{
             $query = "UPDATE usuario SET tipo_departamento='$unidad_trabajo' WHERE idusuario=$idusuario";

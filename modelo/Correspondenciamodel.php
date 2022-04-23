@@ -74,7 +74,7 @@ class CorrespondenciaModel extends Model{
             INNER JOIN estado as e on e.idestado = m.estado_idestado
             INNER JOIN tipo_encomienda as te on te.idtipo_encomienda = cor.tipo_encomienda_idtipo_encomienda
             WHERE fecha  BETWEEN '$f_desde' AND '$f_hasta'
-            ORDER BY fecha ASC";
+            ORDER BY fecha DESC";
             $datos = $this->db->connect()->query($query);
             $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
             
@@ -95,6 +95,28 @@ class CorrespondenciaModel extends Model{
                         INNER JOIN movimiento as m on m.Correspondencia_codigo_barras = cor.codigo_barras
                         INNER JOIN tipo_encomienda as te on te.idTipo_encomienda = cor.Tipo_encomienda_idTipo_encomienda
                         WHERE codigo_masivo = $codigo_masivo";
+            $datos = $this->db->connect()->query($query);
+            $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
+            return $rs;
+
+        }catch (PDOException $e){
+            $e= $e->getMessage();
+            error_log("$e"); 
+        }
+    }
+
+    public function buscarInformeCorrespondenciaFechas($f_desde, $f_hasta){
+        try{
+
+            $query = "SELECT cor.codigo_barras, cor.destinatario, cor.direccion, com.comunasCol, r.regiones, d.departamento, CONCAT(u.nombre_usuario,' ', u.apellido_p, ' ', u.apellido_m) as nombre_creador, mov.fecha, mov.hora, e.estado 
+            FROM movimiento as mov
+            INNER JOIN correspondencia as cor on cor.codigo_barras = mov.Correspondencia_codigo_barras
+            INNER JOIN comunas as com on com.idComunas = cor.Comunas_idComunas
+            INNER JOIN regiones as r on r.idRegiones = com.Regiones_idRegiones
+            INNER JOIN usuario as u on u.idUsuario = cor.Usuario_idUsuario
+            INNER JOIN departamento as d on u.tipo_departamento = d.iddepartamento
+            INNER JOIN estado as e on mov.Estado_idEstado = e.idEstado
+            WHERE fecha  BETWEEN '$f_desde' AND '$f_hasta'";
             $datos = $this->db->connect()->query($query);
             $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
             return $rs;
