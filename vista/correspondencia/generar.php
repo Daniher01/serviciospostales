@@ -110,7 +110,7 @@
         var idregion = $('#region').val();
         $.ajax({
             type: 'POST',
-            url: 'Correspondencia/getComunas',
+            url: 'getComunas',
             data: {
                 "idregion":idregion
             },

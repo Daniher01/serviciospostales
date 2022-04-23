@@ -15159,3 +15159,714 @@ Stack trace:
 Stack trace:
 #0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
 #1 {main}
+[23-Apr-2022 19:16:10 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:16:10 America/Santiago] app otra vista
+[23-Apr-2022 19:16:10 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:16:10 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:16:10 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:16:10 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:16:10 America/Santiago] existe la sesion
+[23-Apr-2022 19:16:10 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:16:10 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:16:10 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:16:10 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:16:10 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:16:10 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:16:10 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:16:10 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:16:15 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:16:15 America/Santiago] app otra vista
+[23-Apr-2022 19:16:15 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:16:15 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:16:15 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:16:15 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:16:15 America/Santiago] existe la sesion
+[23-Apr-2022 19:16:15 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:16:15 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:16:15 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:16:15 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:16:15 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:16:15 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:16:15 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:16:15 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:16:15 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::Correspondencia() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:16:59 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:16:59 America/Santiago] app otra vista
+[23-Apr-2022 19:16:59 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:16:59 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:16:59 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:16:59 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:16:59 America/Santiago] existe la sesion
+[23-Apr-2022 19:16:59 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:16:59 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:16:59 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:16:59 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:16:59 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:16:59 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:16:59 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:16:59 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:17:03 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:17:03 America/Santiago] app otra vista
+[23-Apr-2022 19:17:03 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:17:03 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:17:03 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:17:03 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:17:03 America/Santiago] existe la sesion
+[23-Apr-2022 19:17:03 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:17:03 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:17:03 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:17:03 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:17:03 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:17:03 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:17:03 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:17:03 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:17:03 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::Correspondencia() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:19:07 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:19:07 America/Santiago] app otra vista
+[23-Apr-2022 19:19:07 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:19:07 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:19:07 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:19:07 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:19:07 America/Santiago] existe la sesion
+[23-Apr-2022 19:19:07 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:19:07 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:19:07 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:19:07 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:19:07 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:19:07 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:19:07 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:19:07 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:19:11 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:19:11 America/Santiago] app otra vista
+[23-Apr-2022 19:19:11 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:19:11 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:19:11 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:19:11 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:19:11 America/Santiago] existe la sesion
+[23-Apr-2022 19:19:11 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:19:11 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:19:11 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:19:11 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:19:11 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:19:11 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:19:11 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:19:11 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:19:11 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::Correspondencia() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:19:18 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:19:18 America/Santiago] app otra vista
+[23-Apr-2022 19:19:18 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:19:18 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:19:18 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:19:18 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:19:18 America/Santiago] existe la sesion
+[23-Apr-2022 19:19:18 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:19:18 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:19:18 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:19:18 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:19:18 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:19:18 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:19:18 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:19:18 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:19:18 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::Correspondencia() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:19:39 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:19:39 America/Santiago] app otra vista
+[23-Apr-2022 19:19:39 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:19:39 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:19:39 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:19:39 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:19:39 America/Santiago] existe la sesion
+[23-Apr-2022 19:19:39 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:19:39 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:19:39 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:19:39 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:19:39 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:19:39 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:19:39 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:19:39 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:19:39 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::Correspondencia() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:20:33 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:20:33 America/Santiago] app otra vista
+[23-Apr-2022 19:20:33 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:20:33 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:20:33 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:20:33 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:20:33 America/Santiago] existe la sesion
+[23-Apr-2022 19:20:33 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:20:33 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:20:33 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:20:33 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:20:33 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:20:33 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:20:33 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:20:33 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:20:36 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:20:36 America/Santiago] app otra vista
+[23-Apr-2022 19:20:36 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:20:36 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:20:36 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:20:36 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:20:36 America/Santiago] existe la sesion
+[23-Apr-2022 19:20:36 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:20:36 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:20:36 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:20:36 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:20:36 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:20:36 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:20:36 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:20:36 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:20:36 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::Correspondencia() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:22:55 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:22:55 America/Santiago] app otra vista
+[23-Apr-2022 19:22:55 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:22:55 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:22:55 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:22:55 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:22:55 America/Santiago] existe la sesion
+[23-Apr-2022 19:22:55 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:22:55 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:22:55 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:22:55 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:22:55 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:22:55 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:22:55 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:22:55 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:22:55 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::Correspondencia() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:26:14 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:26:14 America/Santiago] app otra vista
+[23-Apr-2022 19:26:14 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:26:14 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:26:14 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:26:14 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:26:14 America/Santiago] existe la sesion
+[23-Apr-2022 19:26:14 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:26:14 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:26:14 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:26:14 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:26:14 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:26:14 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:26:14 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:26:14 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:26:14 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::Correspondencia() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:27:21 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:27:21 America/Santiago] app otra vista
+[23-Apr-2022 19:27:21 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:27:21 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:27:21 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:27:21 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:27:21 America/Santiago] existe la sesion
+[23-Apr-2022 19:27:21 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:27:21 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:27:21 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:27:21 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:27:21 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:27:21 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:27:21 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:27:21 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:27:21 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::Correspondencia() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:27:23 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:27:23 America/Santiago] app otra vista
+[23-Apr-2022 19:27:23 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:27:23 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:27:23 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:27:23 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:27:23 America/Santiago] existe la sesion
+[23-Apr-2022 19:27:23 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:27:23 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:27:23 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:27:23 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:27:23 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:27:23 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:27:23 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:27:23 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:27:23 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::Correspondencia() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:27:29 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:27:29 America/Santiago] app otra vista
+[23-Apr-2022 19:27:29 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:27:29 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:27:29 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:27:30 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:27:30 America/Santiago] existe la sesion
+[23-Apr-2022 19:27:30 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:27:30 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:27:30 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:27:30 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:27:30 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:27:30 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:27:30 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:27:30 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:27:32 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:27:32 America/Santiago] app otra vista
+[23-Apr-2022 19:27:32 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:27:32 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:27:32 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:27:32 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:27:32 America/Santiago] existe la sesion
+[23-Apr-2022 19:27:32 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:27:32 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:27:32 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:27:32 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:27:32 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:27:32 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:27:32 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:27:32 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:27:32 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::Correspondencia() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:27:34 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:27:34 America/Santiago] app otra vista
+[23-Apr-2022 19:27:34 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:27:34 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:27:34 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:27:34 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:27:34 America/Santiago] existe la sesion
+[23-Apr-2022 19:27:34 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:27:34 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:27:34 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:27:34 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:27:34 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:27:34 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:27:34 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:27:34 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:27:34 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::Correspondencia() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:27:47 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:27:47 America/Santiago] app otra vista
+[23-Apr-2022 19:27:47 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:27:47 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:27:47 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:27:47 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:27:47 America/Santiago] existe la sesion
+[23-Apr-2022 19:27:47 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:27:47 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:27:47 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:27:47 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:27:47 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:27:47 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:27:47 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:27:47 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:27:50 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:27:50 America/Santiago] app otra vista
+[23-Apr-2022 19:27:50 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:27:50 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:27:50 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:27:50 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:27:50 America/Santiago] existe la sesion
+[23-Apr-2022 19:27:50 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:27:50 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:27:50 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:27:50 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:27:50 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:27:50 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:27:50 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:27:50 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:27:50 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::Correspondencia() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:27:57 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:27:57 America/Santiago] app otra vista
+[23-Apr-2022 19:27:57 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:27:57 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:27:57 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:27:57 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:27:57 America/Santiago] existe la sesion
+[23-Apr-2022 19:27:57 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:27:57 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:27:57 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:27:57 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:27:57 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:27:57 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:27:57 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:27:57 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:27:59 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:27:59 America/Santiago] app otra vista
+[23-Apr-2022 19:27:59 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:27:59 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:27:59 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:27:59 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:27:59 America/Santiago] existe la sesion
+[23-Apr-2022 19:27:59 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:27:59 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:27:59 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:27:59 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:27:59 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:27:59 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:27:59 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:27:59 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:27:59 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::Correspondencia() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:28:03 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:28:03 America/Santiago] app otra vista
+[23-Apr-2022 19:28:03 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:28:03 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:28:03 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:28:03 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:28:03 America/Santiago] existe la sesion
+[23-Apr-2022 19:28:03 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:28:03 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:28:03 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:28:03 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:28:03 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:28:03 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:28:03 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:28:03 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:28:03 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::Correspondencia() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:28:05 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:28:05 America/Santiago] app otra vista
+[23-Apr-2022 19:28:05 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:28:05 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:28:05 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:28:05 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:28:05 America/Santiago] existe la sesion
+[23-Apr-2022 19:28:05 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:28:05 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:28:05 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:28:05 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:28:05 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:28:05 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:28:05 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:28:05 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:28:05 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::Correspondencia() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:28:43 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:28:43 America/Santiago] app otra vista
+[23-Apr-2022 19:28:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:28:43 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:28:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:28:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:28:43 America/Santiago] existe la sesion
+[23-Apr-2022 19:28:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:28:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:28:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:28:43 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:28:43 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:28:43 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:28:43 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:28:43 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:28:45 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:28:45 America/Santiago] app otra vista
+[23-Apr-2022 19:28:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:28:45 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:28:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:28:45 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:28:45 America/Santiago] existe la sesion
+[23-Apr-2022 19:28:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:28:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:28:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:28:45 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:28:45 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:28:45 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:28:45 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:28:45 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:28:45 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::Correspondencia() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:30:33 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:30:33 America/Santiago] app otra vista
+[23-Apr-2022 19:30:33 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:30:33 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:30:33 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:30:33 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:30:33 America/Santiago] existe la sesion
+[23-Apr-2022 19:30:33 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:30:33 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:30:33 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:30:33 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:30:33 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:30:33 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:30:33 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:30:33 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:30:33 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::Correspondencia() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:32:28 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:32:28 America/Santiago] app otra vista
+[23-Apr-2022 19:32:28 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:32:28 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:32:28 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:32:28 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:32:28 America/Santiago] existe la sesion
+[23-Apr-2022 19:32:28 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:32:28 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:32:28 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:32:28 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:32:28 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:32:28 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:32:28 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:32:28 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:32:37 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:32:37 America/Santiago] app otra vista
+[23-Apr-2022 19:32:37 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:32:37 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:32:37 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:32:37 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:32:37 America/Santiago] existe la sesion
+[23-Apr-2022 19:32:37 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:32:37 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:32:37 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:32:37 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:32:37 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:32:37 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:32:37 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:32:37 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:32:37 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::Correspondencia() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:32:40 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:32:40 America/Santiago] app otra vista
+[23-Apr-2022 19:32:40 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:32:40 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:32:40 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:32:40 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:32:40 America/Santiago] existe la sesion
+[23-Apr-2022 19:32:40 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:32:40 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:32:40 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:32:40 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:32:40 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:32:40 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:32:40 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:32:40 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:32:40 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::Correspondencia() in C:\xampp\htdocs\serviciospostales\libs\app.php:108
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:34:57 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:34:57 America/Santiago] app otra vista
+[23-Apr-2022 19:34:57 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:34:57 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:34:57 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:34:57 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:34:57 America/Santiago] existe la sesion
+[23-Apr-2022 19:34:57 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:34:57 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:34:57 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:34:57 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:34:57 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:34:57 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:34:57 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:34:57 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:35:01 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:35:01 America/Santiago] app otra vista
+[23-Apr-2022 19:35:01 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:35:01 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:35:01 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:35:01 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:35:01 America/Santiago] existe la sesion
+[23-Apr-2022 19:35:01 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:35:01 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:35:01 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:35:01 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:35:01 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:35:01 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:35:01 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:35:01 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:35:01 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::prueba.php() in C:\xampp\htdocs\serviciospostales\libs\app.php:110
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:35:18 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:35:18 America/Santiago] app otra vista
+[23-Apr-2022 19:35:18 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:35:18 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:35:18 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:35:18 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:35:18 America/Santiago] existe la sesion
+[23-Apr-2022 19:35:18 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:35:18 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:35:18 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:35:18 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:35:18 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:35:18 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:35:18 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:35:18 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:35:21 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:35:21 America/Santiago] app otra vista
+[23-Apr-2022 19:35:21 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:35:21 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:35:21 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:35:21 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:35:21 America/Santiago] existe la sesion
+[23-Apr-2022 19:35:21 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:35:21 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:35:21 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:35:21 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:35:21 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:35:21 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:35:21 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:35:21 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:35:21 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::prueba.php() in C:\xampp\htdocs\serviciospostales\libs\app.php:110
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:35:53 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:35:53 America/Santiago] app otra vista
+[23-Apr-2022 19:35:53 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:35:53 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:35:53 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:35:53 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:35:53 America/Santiago] existe la sesion
+[23-Apr-2022 19:35:53 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:35:53 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:35:53 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:35:53 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:35:53 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:35:53 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:35:53 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:35:53 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:35:55 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:35:55 America/Santiago] app otra vista
+[23-Apr-2022 19:35:55 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:35:55 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:35:55 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:35:55 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:35:55 America/Santiago] existe la sesion
+[23-Apr-2022 19:35:55 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:35:55 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:35:55 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:35:55 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:35:55 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:35:55 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:35:55 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:35:55 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:35:55 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::prueba.php() in C:\xampp\htdocs\serviciospostales\libs\app.php:110
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:36:18 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:36:18 America/Santiago] app otra vista
+[23-Apr-2022 19:36:18 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:36:18 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:36:18 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:36:18 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:36:18 America/Santiago] existe la sesion
+[23-Apr-2022 19:36:18 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:36:18 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:36:18 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:36:18 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:36:18 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:36:18 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:36:18 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:36:18 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:36:22 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:36:22 America/Santiago] app otra vista
+[23-Apr-2022 19:36:22 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:36:22 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:36:22 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:36:22 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:36:22 America/Santiago] existe la sesion
+[23-Apr-2022 19:36:22 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:36:22 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:36:22 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:36:22 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:36:22 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:36:22 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:36:22 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:36:22 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:36:22 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::prueba.php() in C:\xampp\htdocs\serviciospostales\libs\app.php:110
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[23-Apr-2022 19:37:05 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:37:05 America/Santiago] app otra vista
+[23-Apr-2022 19:37:05 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:37:05 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:37:05 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:37:05 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:37:05 America/Santiago] existe la sesion
+[23-Apr-2022 19:37:05 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:37:05 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:37:05 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:37:05 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:37:05 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:37:05 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:37:05 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:37:05 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:37:08 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:37:08 America/Santiago] app otra vista
+[23-Apr-2022 19:37:08 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:37:08 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:37:08 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:37:08 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:37:08 America/Santiago] existe la sesion
+[23-Apr-2022 19:37:08 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:37:08 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:37:08 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:37:08 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:37:08 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:37:08 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:37:08 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:37:08 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:37:15 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:37:15 America/Santiago] app otra vista
+[23-Apr-2022 19:37:15 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:37:15 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:37:15 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:37:15 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:37:15 America/Santiago] existe la sesion
+[23-Apr-2022 19:37:15 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:37:15 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:37:15 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:37:15 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:37:15 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:37:15 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:37:15 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:37:15 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 19:38:15 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 19:38:15 America/Santiago] app otra vista
+[23-Apr-2022 19:38:15 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 19:38:15 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 19:38:15 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 19:38:15 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 19:38:15 America/Santiago] existe la sesion
+[23-Apr-2022 19:38:15 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 19:38:15 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:38:15 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 19:38:15 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 19:38:15 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 19:38:15 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:38:15 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 19:38:15 America/Santiago] Contruct::CorrespondenciaModel

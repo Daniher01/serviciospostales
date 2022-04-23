@@ -67,7 +67,7 @@ class Correspondencia extends SessionController{
 
         foreach ($comuna as $c){
 
-        echo '<option value=" '. $c['idComunas'].'  "> '. $c['Comunascol'].' </option>';
+            echo '<option value=" '. $c['idComunas'].'  "> '. $c['Comunascol'].' </option>';
         }
 
     }
