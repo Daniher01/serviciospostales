@@ -125,6 +125,106 @@
 
         }
 
+        //NO CAMBIAR NOMBRE
+        function RegenerarPDF(){
+            $this->resulset = [];
+            $this->mensaje= 'No definido';
+            if ($_POST){
+                $destinatario = $_POST['destinatario'];
+                $direccion = $_POST['direccion'];
+                $region = $_POST['region'];
+                $comuna = $_POST['comuna'];
+                $detalle = $_POST['detalle'];
+                $idtipoenvio = $_POST['encomienda'];
+                $cliente = "Universidad Talca";
+                $rutuser = $_SESSION['rut'];
+                $cinterno = $_POST['codigo_interno'];
+                $usuario = $_SESSION['idusuario'] ;
+                $detalle_movimiento =  $_SESSION['nombre_usuario'].' '. $_SESSION['apellido_p'].' '.$_SESSION['apellido_m'];
+                $estado = 1; //siemrpe el mismo estado
+                $checkbox = isset($_POST['checkbox']) ? $_POST['checkbox'] : NULL;
+                //llama al modelo para traer los datos faltantes
+                //id de la comuna
+                
+                /*$comunaNombre =  $this->comunas->getIdComunaNombre($comuna);
+                //id de la region
+                $this->loadModel('Region'); //TODO
+                $regiones = new RegionModel();
+                $regionNombre = $regiones->getIdRegionNombre($region);
+
+
+                $tipoenvio = $this->tipo_envio->getIdEncomiendaNombre($idtipoenvio);*/
+                
+                //llama a la clase que genera el pdf
+                //$pdf = new PDF();
+                // Data loading
+                ob_start();
+                $this->pdf->SetFont('Arial','',9);
+                $this->pdf->AddPage();
+                $this->resulset =  $this->pdf->TablaBasica($destinatario, $direccion,$region,$comuna,$detalle,$cliente,$rutuser,$idtipoenvio,$cinterno);
+                $this->pdf->Output(); 
+                //ob_end_flush(); 
+
+                $code = $this->resulset[0];
+                $nseguimiento = $this->resulset[1];
+                $hora = $this->resulset[2];
+                $dia = $this->resulset[3]; 
+                
+
+                //$this->correspondencia->guardarCorrespondencia($destinatario, $direccion, $code, $detalle,$cinterno, $nseguimiento, $usuario, $idtipoenvio, $comuna, 0);
+                
+
+                //$this->movimiento->insertMovimiento($hora, $dia, $usuario, $code, $estado, $detalle_movimiento);
+
+                //asignar a clientes frecuentes
+                /*if ($checkbox != NULL){
+                    $this->loadModel('ClientesFrecuentes');
+                    $movimiento = new ClientesFrecuentesModel();
+                    $movimiento->insertClientesFrecuentes($destinatario, $direccion, $comuna, $usuario);
+                }*/
+                $emailUsuario = $_SESSION['email'];
+                $asunto = 'Correspondencia Generada';
+                $estimado = $_SESSION['nombre_usuario'].' '.$_SESSION['apellido_p'].' '.$_SESSION['apellido_m'];
+                $html = 
+                '<tr>
+                    <th>N° Seguimiento</th> <td>'.$nseguimiento.'</td>
+                </tr>
+                <tr>
+                    <th>Fecha</th> <td>'.$dia.'</td>
+                </tr>
+                <tr>
+                    <th>Destinatario</th> <td>'.$destinatario.'</td>
+                </tr>
+                <tr>
+                    <th>Direccion</th> <td>'.$direccion.'</td>
+                </tr>
+                <tr>
+                    <th>Tipo Envio</th> <td>'.$idtipoenvio.'</td>
+                </tr>
+                <tr>
+                    <th>Detalle</th> <td>'.$detalle.'</td>
+                </tr>
+                <tr>
+                    <th>Estado</th> <td>CREADO</td>
+                </tr>';
+                
+                include_once "EMAIL/enviarEMAIL.php";
+                $this->email = new EMAIL();
+                $this->email->sendEmail($emailUsuario,null, $asunto,$estimado, $html);
+                
+                //se elimina el archivo guardado de forma temporal
+                unlink($ruta);
+
+            }else{ //si llaman a la function sin pasar los datos
+                require_once 'vista/layouts/header.php';
+                $controller = new Errores('Erro al llamar al generador de pdf');
+                print_r($_POST);
+                require_once 'vista/layouts/footer.php';
+            }
+
+
+        }
+
         function generarMasiva(){
             $archivo = $_POST['archivo'];
             $idusuario = $_SESSION['idusuario'];
