@@ -369,7 +369,7 @@
             
             include_once "EMAIL/enviarEMAIL.php";
             $this->email = new EMAIL();
-            //$this->email->sendEmail($emailUsuario,null,$mensaje,$estimado, $asunto,$estimado, $html);
+            $this->email->sendEmail($emailUsuario,null,$mensaje,$estimado, $asunto,$estimado, $html);
 
             //se elimina el archivo guardado de forma temporal
             unlink($ruta);

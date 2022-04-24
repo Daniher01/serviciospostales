@@ -68,7 +68,7 @@ class EMAIL extends PHPMailer{
                                 <table role="presentation" style="width:602px;border-collapse:collapse;border:1px solid #cccccc;border-spacing:0;text-align:left;">
                                     <tr>
                                         <td align="center" style="padding:0px 0 0px 0;background:#70bbd9;">
-                                            <img src="./assets/img/header.jpg" style="height:auto;display:block;" />
+                                            <img src="http://pvilches.cl/postal/json/img/header.jpg" style="height:auto;display:block;" />
                                         </td>
                                     </tr>
                                     <tr>

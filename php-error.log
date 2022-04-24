@@ -16168,3 +16168,86 @@ Stack trace:
 [23-Apr-2022 20:01:12 America/Santiago] Contruct:: -> ClientesfrecuentesModel
 [23-Apr-2022 20:01:12 America/Santiago] Contruct:: -> ClientesfrecuentesModel
 [23-Apr-2022 20:01:12 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 20:05:31 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 20:05:31 America/Santiago] app pdf
+[23-Apr-2022 20:05:31 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 20:05:31 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 20:05:31 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 20:05:31 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 20:05:31 America/Santiago] existe la sesion
+[23-Apr-2022 20:05:31 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 20:05:31 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
+[23-Apr-2022 20:05:31 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
+[23-Apr-2022 20:05:31 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 20:05:31 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 20:05:31 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 20:05:31 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 20:05:31 America/Santiago] Contruct:: -> MovimientoModel
+[23-Apr-2022 20:05:31 America/Santiago] Contruct:: -> MovimientoModel
+[23-Apr-2022 20:05:31 America/Santiago] PHP Notice:  Undefined index: codigo_interno in C:\xampp\htdocs\serviciospostales\controlador\PDFController.php on line 141
+[23-Apr-2022 20:05:34 America/Santiago] Email enviado Correctamente
+[23-Apr-2022 20:05:34 America/Santiago] PHP Notice:  Undefined variable: ruta in C:\xampp\htdocs\serviciospostales\controlador\PDFController.php on line 216
+[23-Apr-2022 20:05:34 America/Santiago] PHP Warning:  unlink(): Invalid argument in C:\xampp\htdocs\serviciospostales\controlador\PDFController.php on line 216
+[23-Apr-2022 20:05:34 America/Santiago] app pdf
+[23-Apr-2022 20:05:34 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 20:05:34 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 20:05:34 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 20:05:34 America/Santiago] PHP Fatal error:  Cannot declare class UsuarioModel, because the name is already in use in C:\xampp\htdocs\serviciospostales\modelo\Usuariomodel.php on line 135
+[23-Apr-2022 20:05:46 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 20:05:46 America/Santiago] app otra vista
+[23-Apr-2022 20:05:46 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 20:05:46 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 20:05:46 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 20:05:46 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 20:05:46 America/Santiago] existe la sesion
+[23-Apr-2022 20:05:46 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 20:05:46 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 20:05:46 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 20:05:46 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 20:05:46 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 20:05:46 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 20:05:46 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 20:05:46 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 20:05:48 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 20:05:48 America/Santiago] app otra vista
+[23-Apr-2022 20:05:48 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 20:05:48 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 20:05:48 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 20:05:48 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 20:05:48 America/Santiago] existe la sesion
+[23-Apr-2022 20:05:48 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 20:05:48 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 20:05:48 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[23-Apr-2022 20:05:48 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 20:05:48 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 20:05:48 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 20:05:48 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[23-Apr-2022 20:05:48 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 20:12:28 America/Santiago] inicio de aplicacion web
+[23-Apr-2022 20:12:28 America/Santiago] app pdf
+[23-Apr-2022 20:12:28 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 20:12:28 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 20:12:28 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 20:12:29 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[23-Apr-2022 20:12:29 America/Santiago] existe la sesion
+[23-Apr-2022 20:12:29 America/Santiago] SESSIONCONTROLLER::isPublic
+[23-Apr-2022 20:12:29 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
+[23-Apr-2022 20:12:29 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> PDFController
+[23-Apr-2022 20:12:29 America/Santiago] ROL DEL ACCESS: 1
+[23-Apr-2022 20:12:29 America/Santiago] es privado y autorizado su rol y su estatus
+[23-Apr-2022 20:12:29 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 20:12:29 America/Santiago] Contruct::CorrespondenciaModel
+[23-Apr-2022 20:12:29 America/Santiago] Contruct:: -> MovimientoModel
+[23-Apr-2022 20:12:29 America/Santiago] Contruct:: -> MovimientoModel
+[23-Apr-2022 20:12:29 America/Santiago] Maule
+[23-Apr-2022 20:12:29 America/Santiago] PHP Notice:  Undefined variable: region in C:\xampp\htdocs\serviciospostales\modelo\Regionmodel.php on line 36
+[23-Apr-2022 20:12:29 America/Santiago] guardaCorrespondencia
+[23-Apr-2022 20:12:29 America/Santiago] insertMovimiento
+[23-Apr-2022 20:12:31 America/Santiago] Email enviado Correctamente
+[23-Apr-2022 20:12:31 America/Santiago] PHP Notice:  Undefined variable: ruta in C:\xampp\htdocs\serviciospostales\controlador\PDFController.php on line 117
+[23-Apr-2022 20:12:31 America/Santiago] PHP Warning:  unlink(): Invalid argument in C:\xampp\htdocs\serviciospostales\controlador\PDFController.php on line 117
+[23-Apr-2022 20:12:31 America/Santiago] app pdf
+[23-Apr-2022 20:12:31 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[23-Apr-2022 20:12:31 America/Santiago] SESSIONCONTROLLER::init 
+[23-Apr-2022 20:12:31 America/Santiago] SESSIONCONTROLLER::validateSession 
+[23-Apr-2022 20:12:31 America/Santiago] PHP Fatal error:  Cannot declare class UsuarioModel, because the name is already in use in C:\xampp\htdocs\serviciospostales\modelo\Usuariomodel.php on line 135
