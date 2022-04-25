@@ -67,22 +67,37 @@ class UsuarioModel extends Model{
     //crear usuario
     public function crearUsuario($username, $password, $rut, $nombre_usuario, $apellido_p, $apellido_m, $email, $fk_tipousuario, $departamento){
         try{
-            $query = "INSERT INTO usuario (username, password, rut, nombre_usuario, apellido_p, apellido_m, email, tipo_usuario_idtipo_usuario, tipo_departamento)
-                        VALUES('$username', '$password', '$rut','$nombre_usuario', '$apellido_p', '$apellido_m', '$email',  $fk_tipousuario, $departamento)";
-            $datos = $this->db->connect()->prepare($query);
-            $rs = $datos->execute();
-
-            $this->setId($username);
-            $this->setUsername($password);
-            $this->setRut($rut);
-            $this->setNombre($nombre_usuario);
-            $this->setApellidoP($apellido_p);
-            $this->setApellidoM($apellido_m);
-            $this->setEmail($email);
-            $this->setDepartamento($departamento);
-            $this->setTipoUsuario($fk_tipousuario);
+            $rs = false;
+            $existeRut = $this->buscarUsuarioRut($rut);
+            if(empty($existeRut)){
+                $query = "INSERT INTO usuario (username, password, rut, nombre_usuario, apellido_p, apellido_m, email, tipo_usuario_idtipo_usuario, tipo_departamento)
+                VALUES('$username', '$password', '$rut','$nombre_usuario', '$apellido_p', '$apellido_m', '$email',  $fk_tipousuario, $departamento)";
+                $datos = $this->db->connect()->prepare($query);
+                $rs = $datos->execute();
+            
+            }else{
+                error_log('Ya existe ese rut');
+            }
 
             error_log('USUARIOMODEL:: => crearUsuario');
+            return $rs;
+        }catch (PDOException $e){
+            $e= $e->getMessage();
+            error_log("$e"); 
+        }
+    }
+
+    private function buscarUsuarioRut($rut){
+        try{
+            $query = "SELECT * FROM usuario WHERE rut='$rut' ";
+            $datos = $this->db->connect()->query($query);
+            $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
+            foreach($rs as $r){
+                $this->setId($r['idUsuario']);
+                $this->setUsername($r['username']);
+                $this->setPassword($r['password']);
+                $this->setRut($r['rut']);
+            }
             return $rs;
         }catch (PDOException $e){
             $e= $e->getMessage();

@@ -49,10 +49,17 @@ class NuevoUsuario extends SessionController{
         $this->codigos->buscarCodigo($codigo);
         
         if($this->codigos->getCodigoValido() == 'HABILITADO'){
-            $this->usuarios->crearUsuario($username, $password, $rut, $nombre, $apellido_p, $apellido_m, $email, $tipo_usuario, $departamento);
-            $this->codigos->inhabilitarCodigo($codigo);
-            $this->redirect($this->defaultSites['Login'], []);
-            error_log('usuario creado con exito');
+            $secreo = $this->usuarios->crearUsuario($username, $password, $rut, $nombre, $apellido_p, $apellido_m, $email, $tipo_usuario, $departamento);
+            if($secreo){
+                $this->codigos->inhabilitarCodigo($codigo);
+                $this->redirect($this->defaultSites['Login'], []);
+                error_log('usuario creado con exito');
+            }else{
+                echo "<script type=\"text/javascript\">; alert(\"Usuario no creado, rut ya existe\");</script>";
+                //$this->redirect($this->defaultSites['Login'], []);
+                error_log('usuario no creado, ya existe el rut');
+            }
+
         }else{
             error_log('no esta habilitado');
             echo "<script type=\"text/javascript\">; alert(\"Codigo No Habilitado\");</script>"; 
