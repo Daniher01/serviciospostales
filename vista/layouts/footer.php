@@ -24,6 +24,7 @@
   <script src="<?php echo constant('URL'); ?>assets/plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
   <script src="<?php echo constant('URL'); ?>assets/dist/js/adminlte.min.js"></script>
   <script src="<?php echo constant('URL'); ?>assets/dist/js/demo.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </div>
 </body>
 </html>

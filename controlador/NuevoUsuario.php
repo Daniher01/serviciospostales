@@ -52,21 +52,25 @@ class NuevoUsuario extends SessionController{
             $secreo = $this->usuarios->crearUsuario($username, $password, $rut, $nombre, $apellido_p, $apellido_m, $email, $tipo_usuario, $departamento);
             if($secreo){
                 $this->codigos->inhabilitarCodigo($codigo);
-                $this->redirect($this->defaultSites['Login'], []);
+                //$this->redirect($this->defaultSites['Login'], []);
+                $this->view->render('login/registrarse');
+                echo '<script> swal ( "" ,  "Usuario Creado con exito!" ,  "success" );</script>';
                 error_log('usuario creado con exito');
             }else{
-                echo "<script type=\"text/javascript\">; alert(\"Usuario no creado, rut ya existe\");</script>";
+                //echo '<div class="alert alert-success">asdsad</div>';
+                $this->view->render('login/registrarse');
+                echo '<script> swal ( "Oops" ,  "No se pudo iniciar sesion!" ,  "error" );</script>';
                 //$this->redirect($this->defaultSites['Login'], []);
-                error_log('usuario no creado, ya existe el rut');
+                //error_log('usuario no creado, ya existe el rut');
             }
 
         }else{
-            error_log('no esta habilitado');
-            echo "<script type=\"text/javascript\">; alert(\"Codigo No Habilitado\");</script>"; 
+            //error_log('no esta habilitado');
+            $this->view->render('login/registrarse');
+            echo '<script> swal ( "Oops" ,  "Codigo no habilitado" ,  "error" );</script>'; 
         }
-
-
-        $this->view->render('login/registrarse');
+        
+         
     }
 
 

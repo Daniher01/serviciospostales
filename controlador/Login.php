@@ -27,11 +27,10 @@ class Login extends SessionController{
                 
                 $this->inicialize($user);
             }else{
-                $this->redirect('', '');
-                
+                echo '<script> swal ( "Oops" ,  "No se pudo iniciar sesion!" ,  "error" );</script>';                
             }
         }else{
-            $this->redirect('','');
+            echo '<script> swal ( "Oops" ,  "No se pudo iniciar sesion!" ,  "error" );</script>';
         }
     }  
 

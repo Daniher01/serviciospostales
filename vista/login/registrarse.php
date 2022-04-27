@@ -166,5 +166,6 @@
 <script src="<?php echo constant('URL'); ?>assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
 <script src="<?php echo constant('URL'); ?>assets/dist/js/adminlte.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>
