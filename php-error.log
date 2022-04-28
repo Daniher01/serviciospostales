@@ -21241,3 +21241,516 @@ Stack trace:
 [26-Apr-2022 20:20:34 America/Santiago] USUARIOMODEL:: => crearUsuario
 [26-Apr-2022 20:20:34 America/Santiago] MODEL:: => inhabilitarCodigo
 [26-Apr-2022 20:20:34 America/Santiago] usuario creado con exito
+[27-Apr-2022 09:46:44 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 09:46:44 America/Santiago] APP::construct-> no hay controlador especificado
+[27-Apr-2022 09:46:44 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 09:46:44 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 09:46:44 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 09:46:44 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 09:46:44 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[27-Apr-2022 09:46:44 America/Santiago] isPublic no existe la sesion
+[27-Apr-2022 09:46:44 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[27-Apr-2022 09:46:44 America/Santiago] Construct::LoginModel
+[27-Apr-2022 09:46:44 America/Santiago] Login::render -> carga el main de login
+[27-Apr-2022 19:43:45 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 19:43:45 America/Santiago] APP::construct-> no hay controlador especificado
+[27-Apr-2022 19:43:45 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 19:43:45 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 19:43:45 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 19:43:45 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 19:43:45 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[27-Apr-2022 19:43:45 America/Santiago] isPublic no existe la sesion
+[27-Apr-2022 19:43:45 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[27-Apr-2022 19:43:45 America/Santiago] Construct::LoginModel
+[27-Apr-2022 19:43:45 America/Santiago] Login::render -> carga el main de login
+[27-Apr-2022 19:53:19 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 19:53:19 America/Santiago] app otra vista
+[27-Apr-2022 19:53:19 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 19:53:22 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 19:53:22 America/Santiago] APP::construct-> no hay controlador especificado
+[27-Apr-2022 19:53:22 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 19:53:22 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 19:53:22 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 19:53:22 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 19:53:22 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[27-Apr-2022 19:53:22 America/Santiago] isPublic no existe la sesion
+[27-Apr-2022 19:53:22 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[27-Apr-2022 19:53:22 America/Santiago] Construct::LoginModel
+[27-Apr-2022 19:53:22 America/Santiago] Login::render -> carga el main de login
+[27-Apr-2022 19:53:27 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 19:53:27 America/Santiago] APP::construct-> no hay controlador especificado
+[27-Apr-2022 19:53:27 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 19:53:27 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 19:53:27 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 19:53:27 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 19:53:27 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Login
+[27-Apr-2022 19:53:27 America/Santiago] isPublic no existe la sesion
+[27-Apr-2022 19:53:27 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[27-Apr-2022 19:53:27 America/Santiago] Construct::LoginModel
+[27-Apr-2022 19:53:27 America/Santiago] Login::render -> carga el main de login
+[27-Apr-2022 19:53:27 America/Santiago] LOGIN::authenticate 
+[27-Apr-2022 19:53:28 America/Santiago] LoginModel::login->success
+[27-Apr-2022 19:53:28 America/Santiago] SESSIONCONTROLLER::inicialize 
+[27-Apr-2022 19:53:28 America/Santiago] daniher02@gmail.com
+[27-Apr-2022 19:53:28 America/Santiago] daniher02@gmail.com
+[27-Apr-2022 19:53:28 America/Santiago] SESSIONCONTROLLER::autorizeAccess 
+[27-Apr-2022 19:53:28 America/Santiago] CONTROLLER:: redirect
+[27-Apr-2022 19:53:28 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 19:53:28 America/Santiago] app otra vista
+[27-Apr-2022 19:53:28 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 19:53:28 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 19:53:28 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 19:53:28 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[27-Apr-2022 19:53:28 America/Santiago] existe la sesion
+[27-Apr-2022 19:53:28 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 19:53:28 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[27-Apr-2022 19:53:28 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[27-Apr-2022 19:53:28 America/Santiago] ROL DEL ACCESS: 1
+[27-Apr-2022 19:53:28 America/Santiago] es privado y autorizado su rol y su estatus
+[27-Apr-2022 19:53:28 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[27-Apr-2022 19:53:28 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[27-Apr-2022 19:53:28 America/Santiago] Contruct::CorrespondenciaModel
+[27-Apr-2022 19:53:32 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 19:53:32 America/Santiago] app otra vista
+[27-Apr-2022 19:53:32 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 19:53:33 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 19:53:33 America/Santiago] app otra vista
+[27-Apr-2022 19:53:33 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 19:53:33 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 19:53:33 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 19:53:33 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[27-Apr-2022 19:53:33 America/Santiago] existe la sesion
+[27-Apr-2022 19:53:33 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 19:53:33 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[27-Apr-2022 19:53:33 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[27-Apr-2022 19:53:33 America/Santiago] ROL DEL ACCESS: 1
+[27-Apr-2022 19:53:33 America/Santiago] es privado y autorizado su rol y su estatus
+[27-Apr-2022 19:53:33 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[27-Apr-2022 19:53:33 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[27-Apr-2022 19:53:33 America/Santiago] Contruct::CorrespondenciaModel
+[27-Apr-2022 19:58:21 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 19:58:21 America/Santiago] app otra vista
+[27-Apr-2022 19:58:21 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 19:58:56 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 19:58:56 America/Santiago] app otra vista
+[27-Apr-2022 19:58:56 America/Santiago] PHP Notice:  Undefined variable: _SESSION in C:\xampp\htdocs\serviciospostales\vista\layouts\header.php on line 72
+[27-Apr-2022 19:58:56 America/Santiago] PHP Notice:  Undefined variable: _SESSION in C:\xampp\htdocs\serviciospostales\vista\layouts\header.php on line 132
+[27-Apr-2022 19:58:56 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:00:37 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:00:37 America/Santiago] APP::construct-> no hay controlador especificado
+[27-Apr-2022 20:00:37 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:00:37 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:00:37 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:00:37 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[27-Apr-2022 20:00:37 America/Santiago] existe la sesion
+[27-Apr-2022 20:00:37 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:00:37 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[27-Apr-2022 20:00:37 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[27-Apr-2022 20:00:37 America/Santiago] Construct::LoginModel
+[27-Apr-2022 20:00:37 America/Santiago] Login::render -> carga el main de login
+[27-Apr-2022 20:00:37 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:00:37 America/Santiago] app otra vista
+[27-Apr-2022 20:00:37 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:00:37 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:00:37 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:00:37 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[27-Apr-2022 20:00:37 America/Santiago] existe la sesion
+[27-Apr-2022 20:00:37 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:00:37 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[27-Apr-2022 20:00:37 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[27-Apr-2022 20:00:37 America/Santiago] ROL DEL ACCESS: 1
+[27-Apr-2022 20:00:37 America/Santiago] es privado y autorizado su rol y su estatus
+[27-Apr-2022 20:00:37 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[27-Apr-2022 20:00:37 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[27-Apr-2022 20:00:37 America/Santiago] Contruct::CorrespondenciaModel
+[27-Apr-2022 20:00:43 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:00:43 America/Santiago] app otra vista
+[27-Apr-2022 20:00:43 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:00:43 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:00:43 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:00:43 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[27-Apr-2022 20:00:43 America/Santiago] existe la sesion
+[27-Apr-2022 20:00:43 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:00:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[27-Apr-2022 20:00:43 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[27-Apr-2022 20:00:43 America/Santiago] ROL DEL ACCESS: 1
+[27-Apr-2022 20:00:43 America/Santiago] es privado y autorizado su rol y su estatus
+[27-Apr-2022 20:00:43 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[27-Apr-2022 20:00:43 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[27-Apr-2022 20:00:43 America/Santiago] Contruct::CorrespondenciaModel
+[27-Apr-2022 20:00:43 America/Santiago] ERROR DE APLICACION: Error: Call to undefined method Correspondencia::asdsad() in C:\xampp\htdocs\serviciospostales\libs\app.php:110
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#1 {main}
+[27-Apr-2022 20:00:47 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:00:47 America/Santiago] APP::construct-> no hay controlador especificado
+[27-Apr-2022 20:00:47 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:00:47 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:00:47 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:00:47 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[27-Apr-2022 20:00:47 America/Santiago] existe la sesion
+[27-Apr-2022 20:00:47 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:00:47 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Login
+[27-Apr-2022 20:00:47 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[27-Apr-2022 20:00:47 America/Santiago] Construct::LoginModel
+[27-Apr-2022 20:00:47 America/Santiago] Login::render -> carga el main de login
+[27-Apr-2022 20:00:47 America/Santiago] se cierra la sesion
+[27-Apr-2022 20:00:47 America/Santiago] CONTROLLER:: redirect
+[27-Apr-2022 20:00:47 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:00:47 America/Santiago] APP::construct-> no hay controlador especificado
+[27-Apr-2022 20:00:47 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:00:47 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:00:47 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:00:47 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:00:47 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[27-Apr-2022 20:00:47 America/Santiago] isPublic no existe la sesion
+[27-Apr-2022 20:00:47 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[27-Apr-2022 20:00:47 America/Santiago] Construct::LoginModel
+[27-Apr-2022 20:00:47 America/Santiago] Login::render -> carga el main de login
+[27-Apr-2022 20:00:49 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:00:49 America/Santiago] app otra vista
+[27-Apr-2022 20:00:49 America/Santiago] PHP Notice:  Undefined variable: _SESSION in C:\xampp\htdocs\serviciospostales\vista\layouts\header.php on line 72
+[27-Apr-2022 20:00:49 America/Santiago] PHP Notice:  Undefined variable: _SESSION in C:\xampp\htdocs\serviciospostales\vista\layouts\header.php on line 132
+[27-Apr-2022 20:00:49 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:01:36 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:01:36 America/Santiago] app otra vista
+[27-Apr-2022 20:01:36 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:02:09 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:02:09 America/Santiago] app otra vista
+[27-Apr-2022 20:02:09 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:02:11 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:02:11 America/Santiago] app otra vista
+[27-Apr-2022 20:02:11 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:02:12 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:02:12 America/Santiago] app otra vista
+[27-Apr-2022 20:02:12 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:02:25 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:02:25 America/Santiago] app otra vista
+[27-Apr-2022 20:02:25 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:02:27 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:02:27 America/Santiago] app otra vista
+[27-Apr-2022 20:02:27 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:02:28 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:02:28 America/Santiago] app otra vista
+[27-Apr-2022 20:02:28 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:02:29 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:02:29 America/Santiago] app otra vista
+[27-Apr-2022 20:02:29 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:03:05 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:03:05 America/Santiago] app otra vista
+[27-Apr-2022 20:03:06 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:03:12 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:03:12 America/Santiago] app otra vista
+[27-Apr-2022 20:03:12 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:03:28 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:03:28 America/Santiago] app otra vista
+[27-Apr-2022 20:03:28 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:03:30 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:03:30 America/Santiago] app otra vista
+[27-Apr-2022 20:03:30 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:04:06 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:04:06 America/Santiago] APP::construct-> no hay controlador especificado
+[27-Apr-2022 20:04:06 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:04:06 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:04:06 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:04:06 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:04:06 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[27-Apr-2022 20:04:06 America/Santiago] isPublic no existe la sesion
+[27-Apr-2022 20:04:06 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[27-Apr-2022 20:04:06 America/Santiago] Construct::LoginModel
+[27-Apr-2022 20:04:06 America/Santiago] Login::render -> carga el main de login
+[27-Apr-2022 20:04:11 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:04:11 America/Santiago] APP::construct-> no hay controlador especificado
+[27-Apr-2022 20:04:11 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:04:11 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:04:11 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:04:11 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:04:11 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Login
+[27-Apr-2022 20:04:11 America/Santiago] isPublic no existe la sesion
+[27-Apr-2022 20:04:11 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[27-Apr-2022 20:04:11 America/Santiago] Construct::LoginModel
+[27-Apr-2022 20:04:11 America/Santiago] Login::render -> carga el main de login
+[27-Apr-2022 20:04:11 America/Santiago] LOGIN::authenticate 
+[27-Apr-2022 20:04:11 America/Santiago] LoginModel::login->success
+[27-Apr-2022 20:04:11 America/Santiago] SESSIONCONTROLLER::inicialize 
+[27-Apr-2022 20:04:11 America/Santiago] daniher02@gmail.com
+[27-Apr-2022 20:04:11 America/Santiago] daniher02@gmail.com
+[27-Apr-2022 20:04:11 America/Santiago] SESSIONCONTROLLER::autorizeAccess 
+[27-Apr-2022 20:04:11 America/Santiago] CONTROLLER:: redirect
+[27-Apr-2022 20:04:11 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:04:11 America/Santiago] app otra vista
+[27-Apr-2022 20:04:11 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:04:11 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:04:11 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:04:11 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[27-Apr-2022 20:04:11 America/Santiago] existe la sesion
+[27-Apr-2022 20:04:11 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:04:11 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[27-Apr-2022 20:04:11 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[27-Apr-2022 20:04:11 America/Santiago] ROL DEL ACCESS: 1
+[27-Apr-2022 20:04:11 America/Santiago] es privado y autorizado su rol y su estatus
+[27-Apr-2022 20:04:11 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[27-Apr-2022 20:04:11 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[27-Apr-2022 20:04:11 America/Santiago] Contruct::CorrespondenciaModel
+[27-Apr-2022 20:04:14 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:04:14 America/Santiago] app otra vista
+[27-Apr-2022 20:04:14 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:04:31 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:04:31 America/Santiago] app otra vista
+[27-Apr-2022 20:04:31 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:05:08 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:05:08 America/Santiago] app otra vista
+[27-Apr-2022 20:05:08 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:05:19 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:05:19 America/Santiago] app otra vista
+[27-Apr-2022 20:05:19 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:05:26 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:05:26 America/Santiago] app otra vista
+[27-Apr-2022 20:05:26 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:05:35 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:05:35 America/Santiago] app otra vista
+[27-Apr-2022 20:05:35 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:05:41 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:05:41 America/Santiago] app otra vista
+[27-Apr-2022 20:05:41 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:06:16 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:06:16 America/Santiago] app otra vista
+[27-Apr-2022 20:06:16 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:06:27 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:06:27 America/Santiago] app otra vista
+[27-Apr-2022 20:06:27 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:07:33 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:07:33 America/Santiago] app otra vista
+[27-Apr-2022 20:07:33 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:07:43 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:07:43 America/Santiago] app otra vista
+[27-Apr-2022 20:07:43 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:07:50 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:07:50 America/Santiago] app otra vista
+[27-Apr-2022 20:07:50 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:08:04 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:08:04 America/Santiago] app otra vista
+[27-Apr-2022 20:08:04 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:08:11 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:08:11 America/Santiago] app otra vista
+[27-Apr-2022 20:08:11 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:08:22 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:08:22 America/Santiago] app otra vista
+[27-Apr-2022 20:08:22 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:08:24 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:08:24 America/Santiago] app otra vista
+[27-Apr-2022 20:08:24 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:08:53 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:08:53 America/Santiago] app otra vista
+[27-Apr-2022 20:08:53 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:08:55 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:08:55 America/Santiago] app otra vista
+[27-Apr-2022 20:08:55 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:09:08 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:09:08 America/Santiago] app otra vista
+[27-Apr-2022 20:09:08 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:09:35 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:09:35 America/Santiago] app otra vista
+[27-Apr-2022 20:09:35 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:09:37 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:09:37 America/Santiago] APP::construct-> no hay controlador especificado
+[27-Apr-2022 20:09:37 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:09:37 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:09:37 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:09:37 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[27-Apr-2022 20:09:37 America/Santiago] existe la sesion
+[27-Apr-2022 20:09:37 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:09:37 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[27-Apr-2022 20:09:37 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[27-Apr-2022 20:09:37 America/Santiago] Construct::LoginModel
+[27-Apr-2022 20:09:37 America/Santiago] Login::render -> carga el main de login
+[27-Apr-2022 20:09:37 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:09:37 America/Santiago] app otra vista
+[27-Apr-2022 20:09:37 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:09:37 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:09:37 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:09:37 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[27-Apr-2022 20:09:37 America/Santiago] existe la sesion
+[27-Apr-2022 20:09:37 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:09:37 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[27-Apr-2022 20:09:37 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[27-Apr-2022 20:09:37 America/Santiago] ROL DEL ACCESS: 1
+[27-Apr-2022 20:09:37 America/Santiago] es privado y autorizado su rol y su estatus
+[27-Apr-2022 20:09:37 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[27-Apr-2022 20:09:37 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[27-Apr-2022 20:09:37 America/Santiago] Contruct::CorrespondenciaModel
+[27-Apr-2022 20:09:40 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:09:40 America/Santiago] APP::construct-> no hay controlador especificado
+[27-Apr-2022 20:09:40 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:09:40 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:09:40 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:09:40 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[27-Apr-2022 20:09:40 America/Santiago] existe la sesion
+[27-Apr-2022 20:09:40 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:09:40 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Login
+[27-Apr-2022 20:09:40 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[27-Apr-2022 20:09:40 America/Santiago] Construct::LoginModel
+[27-Apr-2022 20:09:40 America/Santiago] Login::render -> carga el main de login
+[27-Apr-2022 20:09:40 America/Santiago] se cierra la sesion
+[27-Apr-2022 20:09:40 America/Santiago] CONTROLLER:: redirect
+[27-Apr-2022 20:09:40 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:09:40 America/Santiago] APP::construct-> no hay controlador especificado
+[27-Apr-2022 20:09:40 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:09:40 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:09:40 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:09:40 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:09:40 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[27-Apr-2022 20:09:40 America/Santiago] isPublic no existe la sesion
+[27-Apr-2022 20:09:40 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[27-Apr-2022 20:09:40 America/Santiago] Construct::LoginModel
+[27-Apr-2022 20:09:40 America/Santiago] Login::render -> carga el main de login
+[27-Apr-2022 20:09:44 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:09:44 America/Santiago] APP::construct-> no hay controlador especificado
+[27-Apr-2022 20:09:44 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:09:44 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:09:44 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:09:44 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:09:44 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[27-Apr-2022 20:09:44 America/Santiago] isPublic no existe la sesion
+[27-Apr-2022 20:09:44 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[27-Apr-2022 20:09:44 America/Santiago] Construct::LoginModel
+[27-Apr-2022 20:09:44 America/Santiago] Login::render -> carga el main de login
+[27-Apr-2022 20:09:46 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:09:46 America/Santiago] app otra vista
+[27-Apr-2022 20:09:46 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:09:48 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:09:48 America/Santiago] APP::construct-> no hay controlador especificado
+[27-Apr-2022 20:09:48 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:09:48 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:09:48 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:09:48 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:09:48 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[27-Apr-2022 20:09:48 America/Santiago] isPublic no existe la sesion
+[27-Apr-2022 20:09:48 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[27-Apr-2022 20:09:48 America/Santiago] Construct::LoginModel
+[27-Apr-2022 20:09:48 America/Santiago] Login::render -> carga el main de login
+[27-Apr-2022 20:09:52 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:09:52 America/Santiago] app otra vista
+[27-Apr-2022 20:09:52 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:09:53 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:09:53 America/Santiago] APP::construct-> no hay controlador especificado
+[27-Apr-2022 20:09:53 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:09:53 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:09:53 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:09:53 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:09:53 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[27-Apr-2022 20:09:53 America/Santiago] isPublic no existe la sesion
+[27-Apr-2022 20:09:53 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[27-Apr-2022 20:09:53 America/Santiago] Construct::LoginModel
+[27-Apr-2022 20:09:53 America/Santiago] Login::render -> carga el main de login
+[27-Apr-2022 20:09:57 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:09:57 America/Santiago] APP::construct-> no hay controlador especificado
+[27-Apr-2022 20:09:57 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:09:57 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:09:57 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:09:57 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:09:57 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Login
+[27-Apr-2022 20:09:57 America/Santiago] isPublic no existe la sesion
+[27-Apr-2022 20:09:57 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[27-Apr-2022 20:09:57 America/Santiago] Construct::LoginModel
+[27-Apr-2022 20:09:57 America/Santiago] Login::render -> carga el main de login
+[27-Apr-2022 20:09:57 America/Santiago] LOGIN::authenticate 
+[27-Apr-2022 20:09:57 America/Santiago] LoginModel::login->success
+[27-Apr-2022 20:09:57 America/Santiago] SESSIONCONTROLLER::inicialize 
+[27-Apr-2022 20:09:57 America/Santiago] daniher02@gmail.com
+[27-Apr-2022 20:09:57 America/Santiago] daniher02@gmail.com
+[27-Apr-2022 20:09:57 America/Santiago] SESSIONCONTROLLER::autorizeAccess 
+[27-Apr-2022 20:09:57 America/Santiago] CONTROLLER:: redirect
+[27-Apr-2022 20:09:57 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:09:57 America/Santiago] app otra vista
+[27-Apr-2022 20:09:57 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:09:57 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:09:57 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:09:57 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[27-Apr-2022 20:09:57 America/Santiago] existe la sesion
+[27-Apr-2022 20:09:57 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:09:57 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[27-Apr-2022 20:09:57 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[27-Apr-2022 20:09:57 America/Santiago] ROL DEL ACCESS: 1
+[27-Apr-2022 20:09:57 America/Santiago] es privado y autorizado su rol y su estatus
+[27-Apr-2022 20:09:57 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[27-Apr-2022 20:09:57 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[27-Apr-2022 20:09:57 America/Santiago] Contruct::CorrespondenciaModel
+[27-Apr-2022 20:10:01 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:10:01 America/Santiago] app otra vista
+[27-Apr-2022 20:10:01 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:10:02 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:10:02 America/Santiago] APP::construct-> no hay controlador especificado
+[27-Apr-2022 20:10:02 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:10:02 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:10:02 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:10:02 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[27-Apr-2022 20:10:02 America/Santiago] existe la sesion
+[27-Apr-2022 20:10:02 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:10:02 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[27-Apr-2022 20:10:02 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[27-Apr-2022 20:10:02 America/Santiago] Construct::LoginModel
+[27-Apr-2022 20:10:02 America/Santiago] Login::render -> carga el main de login
+[27-Apr-2022 20:10:02 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:10:02 America/Santiago] app otra vista
+[27-Apr-2022 20:10:02 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:10:02 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:10:02 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:10:02 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[27-Apr-2022 20:10:02 America/Santiago] existe la sesion
+[27-Apr-2022 20:10:02 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:10:02 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[27-Apr-2022 20:10:02 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[27-Apr-2022 20:10:02 America/Santiago] ROL DEL ACCESS: 1
+[27-Apr-2022 20:10:02 America/Santiago] es privado y autorizado su rol y su estatus
+[27-Apr-2022 20:10:02 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[27-Apr-2022 20:10:02 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[27-Apr-2022 20:10:02 America/Santiago] Contruct::CorrespondenciaModel
+[27-Apr-2022 20:10:14 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:10:14 America/Santiago] app otra vista
+[27-Apr-2022 20:10:14 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:10:14 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:10:14 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:10:14 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[27-Apr-2022 20:10:14 America/Santiago] existe la sesion
+[27-Apr-2022 20:10:14 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:10:14 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[27-Apr-2022 20:10:14 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[27-Apr-2022 20:10:14 America/Santiago] ROL DEL ACCESS: 1
+[27-Apr-2022 20:10:14 America/Santiago] es privado y autorizado su rol y su estatus
+[27-Apr-2022 20:10:14 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[27-Apr-2022 20:10:14 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[27-Apr-2022 20:10:14 America/Santiago] Contruct::CorrespondenciaModel
+[27-Apr-2022 20:10:17 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:10:17 America/Santiago] app otra vista
+[27-Apr-2022 20:10:17 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:10:29 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:10:29 America/Santiago] app otra vista
+[27-Apr-2022 20:10:29 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[27-Apr-2022 20:10:31 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:10:31 America/Santiago] APP::construct-> no hay controlador especificado
+[27-Apr-2022 20:10:31 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:10:31 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:10:31 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:10:31 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[27-Apr-2022 20:10:31 America/Santiago] existe la sesion
+[27-Apr-2022 20:10:31 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:10:31 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[27-Apr-2022 20:10:31 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[27-Apr-2022 20:10:31 America/Santiago] Construct::LoginModel
+[27-Apr-2022 20:10:31 America/Santiago] Login::render -> carga el main de login
+[27-Apr-2022 20:10:31 America/Santiago] inicio de aplicacion web
+[27-Apr-2022 20:10:31 America/Santiago] app otra vista
+[27-Apr-2022 20:10:31 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[27-Apr-2022 20:10:31 America/Santiago] SESSIONCONTROLLER::init 
+[27-Apr-2022 20:10:31 America/Santiago] SESSIONCONTROLLER::validateSession 
+[27-Apr-2022 20:10:31 America/Santiago] SESSIONCONTROLLER::getUserSessionData-> daniher
+[27-Apr-2022 20:10:31 America/Santiago] existe la sesion
+[27-Apr-2022 20:10:31 America/Santiago] SESSIONCONTROLLER::isPublic
+[27-Apr-2022 20:10:31 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[27-Apr-2022 20:10:31 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> Correspondencia
+[27-Apr-2022 20:10:31 America/Santiago] ROL DEL ACCESS: 1
+[27-Apr-2022 20:10:31 America/Santiago] es privado y autorizado su rol y su estatus
+[27-Apr-2022 20:10:31 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[27-Apr-2022 20:10:31 America/Santiago] Contruct:: -> ClientesfrecuentesModel
+[27-Apr-2022 20:10:31 America/Santiago] Contruct::CorrespondenciaModel
