@@ -110,13 +110,14 @@
         var idregion = $('#region').val();
         $.ajax({
             type: 'POST',
-            url: 'getComunas',
+            url: 'Correspondencia/getComunas',
             data: {
                 "idregion":idregion
             },
             success:function(r){
                 $('#comuna').attr('disabled', false);
                 $('#comuna').html(r);
+                console.log(r);
             }
         })
     }

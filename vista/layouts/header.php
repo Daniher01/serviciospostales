@@ -91,7 +91,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="<?php echo constant('URL'); ?>Correspondencia/generar" class="nav-link">
+                <a href="<?php echo constant('URL'); ?>Correspondencia" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Con Nuevo Cliente</p>
                 </a>
