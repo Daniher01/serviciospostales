@@ -26,13 +26,14 @@ class RegionModel extends Model{
 
     public function getIdRegionNombre($idregion){
         try{
-            error_log($idregion);
+            $region = $idregion;
             $query = "SELECT * FROM regiones WHERE idRegiones='$idregion'";
             $datos= $this->db->connect()->query($query);
             $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
             foreach ($rs as $r){
                 $region = $r['regiones'];
             }
+            error_log($region);
             return $region;
 
         }catch (PDOException $e){

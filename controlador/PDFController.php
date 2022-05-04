@@ -46,7 +46,7 @@
                 $checkbox = isset($_POST['checkbox']) ? $_POST['checkbox'] : NULL;
                 //llama al modelo para traer los datos faltantes
                 //id de la comuna
-
+                error_log('id de la region '.$region);
                 $comunaNombre =  $this->comunas->getIdComunaNombre($comuna);
                 //id de la region
                 $this->loadModel('Region'); //TODO
