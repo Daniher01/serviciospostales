@@ -15,7 +15,7 @@
                 <form action="<?php echo constant('URL');?>Departamento/agregar" method="POST">
                 <div class="input-group mb-3">
                     <input required type="text" name="departamento" class="form-control" placeholder="Ingrese Nuevo Departamento" aria-label="Ingrese Nuevo Departamento" aria-describedby="button-addon2">
-                    <button class="btn btn-outline-primary" type="submit" id="button-addon2">Button</button>
+                    <button class="btn btn-outline-primary" type="submit" id="button-addon2">Agregar</button>
                 </div>
                 </form>
                 <table class="table table-bordered">
