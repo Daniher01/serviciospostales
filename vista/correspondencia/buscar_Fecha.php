@@ -42,12 +42,10 @@
                 <table class="table table-bordered">
                   <thead>
                     <tr>
-                      <th >Fecha</th>
                       <th>Destinatario</th>
                       <th >N° Seguimiento</th>
                       <th >Codigo Interno</th>
                       <th >Codigo Barras</th>
-                      <th >Estado</th>
                       <th ></th>
                     </tr>
                   </thead>
@@ -55,12 +53,10 @@
                     <?php 
                         foreach ($this->correspondencia  as $c){
                         echo " <tr>    
-                                <td>".$c['fecha']."</td>
                                 <td>".$c['destinatario']."</td>
                                 <td>".$c['numero_seguimiento']."</td>
                                 <td>".$c['codigo_interno']."</td>
                                 <td>".$c['codigo_barras']."</td>
-                                <td>".$c['estado']."</td>
                                 <td>
                                   <form action='". constant('URL')."Correspondencia/buscarId' method='POST'>
                                   <input type='hidden' value='".$c['numero_seguimiento']."' name='n_correspondencia'>  

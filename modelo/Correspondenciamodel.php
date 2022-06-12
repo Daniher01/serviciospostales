@@ -67,11 +67,10 @@ class CorrespondenciaModel extends Model{
     public function buscarFecha($f_desde, $f_hasta){
         try{
 
-            $query = "SELECT  estado, destinatario, direccion, codigo_barras, codigo_interno, comunascol, regiones, detalle, encomienda, fecha, hora, numero_seguimiento, detalle_movimiento FROM movimiento as m
+            $query = "SELECT DISTINCT numero_seguimiento, destinatario, direccion, codigo_barras, codigo_interno, comunascol, regiones, detalle, encomienda FROM movimiento as m
             INNER JOIN correspondencia as cor on m.correspondencia_codigo_barras = cor.codigo_barras
             INNER JOIN comunas as c on c.idcomunas = cor.comunas_idcomunas
             INNER JOIN regiones as r on r.idregiones = c.regiones_idregiones
-            INNER JOIN estado as e on e.idestado = m.estado_idestado
             INNER JOIN tipo_encomienda as te on te.idtipo_encomienda = cor.tipo_encomienda_idtipo_encomienda
             WHERE fecha  BETWEEN '$f_desde' AND '$f_hasta'
             ORDER BY fecha DESC";
