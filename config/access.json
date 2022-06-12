@@ -42,6 +42,12 @@
             "access":"private",
             "role":1 ,
             "role2":1
+        },
+        {
+            "site":"Ayuda",
+            "access":"public",
+            "role": "",
+            "role2":""
         }
     ],
     "default-sites":{

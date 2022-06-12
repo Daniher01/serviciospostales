@@ -59,6 +59,11 @@
         <a href="<?php echo constant('URL'); ?>NuevoUsuario" >Registrarse</a>
       </p>
 
+      <p class="mb-1">
+        <a >¿Necesitas Ayuda?</a>
+        <a href="<?php echo constant('URL'); ?>Ayuda" >Haz click aqui</a>
+      </p>
+
     </div>
     <!-- /.login-card-body -->
   </div>
