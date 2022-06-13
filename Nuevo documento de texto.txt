@@ -1,7 +1,0 @@
-Database:	pvilches_serverspostal
-Host:	localhost
-Username:	pvilches_serveruser
-Password:	YPN4ewlSDr
-
-Correo: ayudaServiciospostales@gmail.com
-@Serviciospostales

@@ -24817,3 +24817,30 @@ Stack trace:
 [05-May-2022 20:03:48 America/Santiago] SESSIONCONTROLLER::init 
 [05-May-2022 20:03:48 America/Santiago] SESSIONCONTROLLER::validateSession 
 [05-May-2022 20:03:48 America/Santiago] PHP Fatal error:  Cannot declare class UsuarioModel, because the name is already in use in C:\xampp\htdocs\serviciospostales\modelo\Usuariomodel.php on line 150
+[12-Jun-2022 20:35:13 America/Santiago] inicio de aplicacion web
+[12-Jun-2022 20:35:13 America/Santiago] APP::construct-> no hay controlador especificado
+[12-Jun-2022 20:35:13 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[12-Jun-2022 20:35:13 America/Santiago] SESSIONCONTROLLER::init 
+[12-Jun-2022 20:35:13 America/Santiago] SESSIONCONTROLLER::validateSession 
+[12-Jun-2022 20:35:13 America/Santiago] SESSIONCONTROLLER::isPublic
+[12-Jun-2022 20:35:13 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[12-Jun-2022 20:35:13 America/Santiago] isPublic no existe la sesion
+[12-Jun-2022 20:35:13 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[12-Jun-2022 20:35:13 America/Santiago] Construct::LoginModel
+[12-Jun-2022 20:35:13 America/Santiago] Login::render -> carga el main de login
+[12-Jun-2022 21:57:31 America/Santiago] inicio de aplicacion web
+[12-Jun-2022 21:57:31 America/Santiago] APP::construct-> no hay controlador especificado
+[12-Jun-2022 21:57:31 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[12-Jun-2022 21:57:31 America/Santiago] SESSIONCONTROLLER::init 
+[12-Jun-2022 21:57:31 America/Santiago] SESSIONCONTROLLER::validateSession 
+[12-Jun-2022 21:57:32 America/Santiago] ERROR DE CONEXION: SQLSTATE[HY000] [2054] The server requested authentication method unknown to the client
+[12-Jun-2022 21:57:32 America/Santiago] ERROR DE APLICACION: Error: Call to a member function query() on null in C:\xampp\htdocs\serviciospostales\modelo\Usuariomodel.php:47
+Stack trace:
+#0 C:\xampp\htdocs\serviciospostales\clases\sessionController.php(94): UsuarioModel->BuscarUsuarioId(1)
+#1 C:\xampp\htdocs\serviciospostales\clases\sessionController.php(47): SessionController->getUserSessionData()
+#2 C:\xampp\htdocs\serviciospostales\clases\sessionController.php(34): SessionController->validateSession()
+#3 C:\xampp\htdocs\serviciospostales\clases\sessionController.php(20): SessionController->init()
+#4 C:\xampp\htdocs\serviciospostales\controlador\Login.php(7): SessionController->__construct()
+#5 C:\xampp\htdocs\serviciospostales\libs\app.php(46): Login->__construct()
+#6 C:\xampp\htdocs\serviciospostales\index.php(27): App->__construct()
+#7 {main}
