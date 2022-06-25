@@ -171,6 +171,26 @@ class Correspondencia extends SessionController{
         $this->view->render('correspondencia/buscar_Fecha');
     }
 
+    function buscarDestinatario(){
+        if (isset($_POST['destinatario'])){
+            $destinatario = (String)$_POST['destinatario'];
+            $this->view->correspondencia  = $this->model->buscarDestinatario($destinatario);
+        }
+       
+        //redirecciona la pagina
+        $this->view->render('correspondencia/buscar_destinatario');
+    }
+
+    function buscarUsuarioGenerado(){
+        if (isset($_POST['usuario'])){
+            $usuario = (String)$_POST['usuario'];
+            $this->view->correspondencia  = $this->model->buscarUsuarioQueLoGenero($usuario);
+        }
+       
+        //redirecciona la pagina
+        $this->view->render('correspondencia/buscar_usuario_que_lo_genero');
+    }
+
     function addExcel(){
         $this->view->render('correspondencia/correspondenciaMasiva');
     }

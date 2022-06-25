@@ -85,6 +85,45 @@ class CorrespondenciaModel extends Model{
         }
     }
 
+    public function buscarDestinatario($destinatario){
+        try{
+
+            $query = "SELECT DISTINCT numero_seguimiento, destinatario, direccion, codigo_barras, codigo_interno, comunascol, regiones, detalle, encomienda FROM movimiento as m
+            INNER JOIN correspondencia as cor on m.correspondencia_codigo_barras = cor.codigo_barras
+            INNER JOIN comunas as c on c.idcomunas = cor.comunas_idcomunas
+            INNER JOIN regiones as r on r.idregiones = c.regiones_idregiones
+            INNER JOIN tipo_encomienda as te on te.idtipo_encomienda = cor.tipo_encomienda_idtipo_encomienda
+            WHERE destinatario  LIKE '%$destinatario%'
+            ORDER BY fecha DESC";
+            $datos = $this->db->connect()->query($query);
+            $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
+            
+            return $rs;
+
+        }catch (PDOException $e){
+            $e= $e->getMessage();
+            error_log("$e"); 
+        }
+    }
+
+    public function buscarUsuarioQueLoGenero($usuario){
+        try{
+
+            $query = "SELECT  * FROM movimiento as m
+            INNER JOIN correspondencia as cor on m.correspondencia_codigo_barras = cor.codigo_barras       
+            WHERE detalle_movimiento  LIKE '%$usuario%'
+            ORDER BY fecha DESC";
+            $datos = $this->db->connect()->query($query);
+            $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
+            
+            return $rs;
+
+        }catch (PDOException $e){
+            $e= $e->getMessage();
+            error_log("$e"); 
+        }
+    }
+
     public function buscarCodigoMasivo($codigo_masivo){
         try{
 

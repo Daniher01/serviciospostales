@@ -128,6 +128,22 @@
                 </a>
               </li>
             </ul>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="<?php echo constant('URL'); ?>Correspondencia/buscarDestinatario" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Por Destinatario</p>
+                </a>
+              </li>
+            </ul>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="<?php echo constant('URL'); ?>Correspondencia/buscarUsuarioGenerado" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Por Quien fue generado</p>
+                </a>
+              </li>
+            </ul>
           </li>
         <?php if($_SESSION['rol']==1){ ?>
             <li class="nav-header">Administrador</li>
