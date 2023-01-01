@@ -1,0 +1,29 @@
+[01-Jan-2023 16:47:09 America/Santiago] inicio de aplicacion web
+[01-Jan-2023 16:47:09 America/Santiago] APP::construct-> no hay controlador especificado
+[01-Jan-2023 16:47:09 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[01-Jan-2023 16:47:09 America/Santiago] SESSIONCONTROLLER::init 
+[01-Jan-2023 16:47:09 America/Santiago] SESSIONCONTROLLER::validateSession 
+[01-Jan-2023 16:47:09 America/Santiago] SESSIONCONTROLLER::isPublic
+[01-Jan-2023 16:47:09 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> serviciospostales
+[01-Jan-2023 16:47:09 America/Santiago] esta no es publica no existe la sesion
+[01-Jan-2023 16:47:09 America/Santiago] CONTROLLER:: redirect
+[01-Jan-2023 16:47:09 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[01-Jan-2023 16:47:09 America/Santiago] Construct::LoginModel
+[01-Jan-2023 16:47:09 America/Santiago] Login::render -> carga el main de login
+[01-Jan-2023 16:47:17 America/Santiago] inicio de aplicacion web
+[01-Jan-2023 16:47:17 America/Santiago] app otra vista
+[01-Jan-2023 16:47:17 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[01-Jan-2023 16:52:51 America/Santiago] inicio de aplicacion web
+[01-Jan-2023 16:52:51 America/Santiago] app otra vista
+[01-Jan-2023 16:52:51 America/Santiago] ERROR DE APLICACION: no existe el controlador
+[01-Jan-2023 16:55:39 America/Santiago] inicio de aplicacion web
+[01-Jan-2023 16:55:39 America/Santiago] APP::construct-> no hay controlador especificado
+[01-Jan-2023 16:55:39 America/Santiago] contruct:: -> SESSIONCONTROLLER
+[01-Jan-2023 16:55:39 America/Santiago] SESSIONCONTROLLER::init 
+[01-Jan-2023 16:55:39 America/Santiago] SESSIONCONTROLLER::validateSession 
+[01-Jan-2023 16:55:39 America/Santiago] SESSIONCONTROLLER::isPublic
+[01-Jan-2023 16:55:39 America/Santiago] SESSIONCONTROLLER::getCurrentPage -> 
+[01-Jan-2023 16:55:39 America/Santiago] isPublic no existe la sesion
+[01-Jan-2023 16:55:39 America/Santiago] Login::contruct -> LOGINCONTROLLER 
+[01-Jan-2023 16:55:39 America/Santiago] Construct::LoginModel
+[01-Jan-2023 16:55:39 America/Santiago] Login::render -> carga el main de login
