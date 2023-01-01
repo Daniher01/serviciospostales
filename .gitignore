@@ -1,4 +1,6 @@
 ~$Libro1.xlsx
 php-error.log
 config/config.php
+serviciospostales/php-error.log
+serviciospostales/config/config.php
 README.md
