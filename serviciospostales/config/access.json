@@ -1,0 +1,58 @@
+{
+
+    "sites":[
+        {
+            "site":"",
+            "access":"public",
+            "role":"",
+            "role2":2
+        },
+        {
+            "site":"Login",
+            "access":"public",
+            "role":"",
+            "role2":2
+        },
+        {
+            "site":"Correspondencia",
+            "access":"private",
+            "role":1 ,
+            "role2":2
+        },
+        {
+            "site":"PDFController",
+            "access":"private",
+            "role":1,
+            "role2":2 
+        },
+        {
+            "site":"User",
+            "access":"private",
+            "role":1,
+            "role2":2 
+        },
+        {
+            "site":"NuevoUsuario",
+            "access":"public",
+            "role":1 ,
+            "role2":2
+        },
+        {
+            "site":"Departamento",
+            "access":"private",
+            "role":1 ,
+            "role2":1
+        },
+        {
+            "site":"Ayuda",
+            "access":"public",
+            "role": "",
+            "role2":""
+        }
+    ],
+    "default-sites":{
+        "Correspondencia": "Correspondencia",
+        "Login": "Login"
+    }
+
+}
