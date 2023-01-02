@@ -10,7 +10,7 @@ Consiste en la gestión de envio de paquetes en departamentos dentro de la unive
 - Seleccionar "Acceso  a clientes"
 - Iniciar sesión o registrarse según sea el caso
 
-# Tecnologpias utilizadas durante el desarrollo
+# Tecnologías utilizadas durante el desarrollo del proyecto
 
 - PHP 
 - MySQL
