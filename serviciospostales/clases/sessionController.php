@@ -176,7 +176,7 @@ class SessionController extends Controller{
     function logout(){
         error_log('se cierra la sesion');
         $this->session->closeSession();
-        $this->redirect('', []);
+        $this->redirectLogOut('', []);
     }
 
 }

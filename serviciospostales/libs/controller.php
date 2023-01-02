@@ -68,6 +68,24 @@ class Controller{
 
         header('Location: '. constant('URL') .$ruta. $params);
     }
+
+    function redirectLogOut($ruta, $mensajes){
+        error_log('CONTROLLER:: redirect');
+        $data = [];
+        $params = '';
+
+        foreach ($mensajes as $key => $mensaje){
+            array_push($data, $key. '='. $mensaje);
+        }
+
+        $params = join('%', $data);
+
+        if($params != ''){
+            $params = '?'.$params;
+        }
+
+        header('Location: '. constant('INDEX') .$ruta. $params);
+    }
 }
 
 ?>

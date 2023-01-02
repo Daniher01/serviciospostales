@@ -64,6 +64,10 @@
         <a href="<?php echo constant('URL'); ?>Ayuda" >Haz click aqui</a>
       </p>
 
+      <p class="mb-1">
+        <a href="<?php echo constant('INDEX'); ?>" >Ir la inicio</a>
+      </p>
+
     </div>
     <!-- /.login-card-body -->
   </div>
