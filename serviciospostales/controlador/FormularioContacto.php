@@ -10,7 +10,7 @@ class FormularioContacto extends Controller{
         $asunto = $_POST['subject'];
         $mensaje_formulario = $_POST['message'];
 
-        $email ='servicios.postales@hotmail.com';
+        $email ='daniel.hernandez.me@cftsa.cl';
         $html = '<p style="margin:0 0 12px 0;font-size:16px;line-height:24px;font-family:Arial,sans-serif;">Mi mensaje es el siguiente: '.$mensaje_formulario;
 
         /*
@@ -21,7 +21,7 @@ class FormularioContacto extends Controller{
         $this->email = new EMAIL();
         $this->email->sendEmail_formulario($email,null,$email_formulario, $asunto,$estimado_formulario, $html);
 
-        header('Location: '.'http://serviciospostales.cl/serviciospostales/');
+        header('Location: '.constant('INDEX'));
     }
 }
 
