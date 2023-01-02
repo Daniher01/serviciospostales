@@ -111,8 +111,8 @@ class SessionController extends Controller{
     function getCurrentPage(){
         $actualLink = trim("$_SERVER[REQUEST_URI]");
         $url = explode('/', $actualLink);
-        error_log('SESSIONCONTROLLER::getCurrentPage -> '.$url[2]);
-        return $url[2];
+        error_log('SESSIONCONTROLLER::getCurrentPage -> '.$url[3]);
+        return $url[3];
     }
 
     private function redirectDefaultSiteByRole($rol){
