@@ -10,6 +10,14 @@ Consiste en la gestión de envio de paquetes en departamentos dentro de la unive
 - Seleccionar "Acceso  a clientes"
 - Iniciar sesión o registrarse según sea el caso
 
+# Tecnologpias utilizadas durante el desarrollo
+
+- PHP 
+- MySQL
+- JavaScript
+- Boostrap
+- Git
+
 # Contribuciones del proyecto
 ### Desarrollado y Mantenido por:
 > **Daniel Hernandez - Analista Programador**
