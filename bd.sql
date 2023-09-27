@@ -128,6 +128,8 @@ AGREGAR DATOS POR DEFECTO DE:
 - tipo usuario
     - Administrativo
     - Funcionario
+- usuario
+    - algun usuario de prueba    
 - codigo
     - se pueden agregar masivamente
 - departamento
