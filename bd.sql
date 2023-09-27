@@ -115,6 +115,21 @@ ALTER TABLE cliente_frecuentes ADD CONSTRAINT FK_Usuario__clientes_frecuentes FO
 -- Agregar claves foráneas a la tabla Comunas
 ALTER TABLE comunas ADD CONSTRAINT FK_Regiones__comunas FOREIGN KEY (Regiones_idregiones) REFERENCES regiones(idregiones);
 
+--AGREGAR DATOS
+
+
+INSERT INTO regiones (idregiones, regiones) VALUES (1, 'MAULE');
+INSERT INTO comunas (idcomunas, comunasCol, Regiones_idregiones) 
+    VALUES (1, 'TALCA', 1), (2, 'CURICÓ', 1), (3, 'CAUQUENES', 1), (4, 'LINARES', 1);
+INSERT INTO tipo_usuario (idtipo_usuario, usuario) VALUES (1, 'Administrativo'), (2, 'Funcionario');
+INSERT INTO usuario (idusuario, username, password, rut, nombre_usuario, apellido_p, apellido_m, email, tipo_departamento, tipo_usuario_idtipo_usuario)
+    VALUES (1, 'admin', '1234', '1-0', 'usuario por defecto', 'apellido 1', 'apellido 2', 'email@gmail.com', 1, 1);
+INSERT INTO  codigo (codigo, codigo_activo)
+    VALUES ('1234', 'HABILITADO'), ('12345', 'HABILITADO'), ('123456', 'HABILITADO'), ('1234567', 'HABILITADO');
+INSERT INTO departamento (iddepartamento, departamento) VALUES (1, 'RRHH');
+INSERT INTO tipo_encomienda (idTipo_encomienda, encomienda) 
+    VALUES  (1, 'Sobre'), (2, 'balija'), (3, 'Caja');
+
 /*
 AGREGAR DATOS POR DEFECTO DE:
 
