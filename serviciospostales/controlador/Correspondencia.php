@@ -33,7 +33,7 @@ class Correspondencia extends SessionController{
         //variables para mostrar los datos de la correspondencia buscada
         $this->view->destinatario = '';
         $this->view->direccion = '';
-        $this->view->comunascol = '';
+        $this->view->comunasCol = '';
         $this->view->regiones = '';
         $this->view->codigo_barras = '';
         $this->view->detalle = '';
@@ -67,7 +67,7 @@ class Correspondencia extends SessionController{
 
         foreach ($comuna as $c){
 
-            echo '<option value=" '. $c['idComunas'].'  "> '. $c['Comunascol'].' </option>';
+            echo '<option value=" '. $c['idcomunas'].'  "> '. $c['comunasCol'].' </option>';
         }
 
     }
@@ -116,8 +116,8 @@ class Correspondencia extends SessionController{
                 $this->view->var_id = $c['idcliente_frecuentes'];
                 $this->view->var_nombre =$c['nombre'];
                 $this->view->var_direccion =$c['direccion'];
-                $this->view->var_comuna =$c['comunascol'];
-                $this->view->var_comunaid =$c['Comunas_idComunas'];
+                $this->view->var_comuna =$c['comunasCol'];
+                $this->view->var_comunaid =$c['Comunas_idcomunas'];
                 $this->view->var_region =$c['regiones'];
             }
  
@@ -137,7 +137,7 @@ class Correspondencia extends SessionController{
             if (!empty($this->view->correspondencia)){
                 $this->view->destinatario = $this->view->correspondencia[0]['destinatario'];
                 $this->view->direccion = $this->view->correspondencia[0]['direccion'];
-                $this->view->comunascol = $this->view->correspondencia[0]['comunascol'];
+                $this->view->comunasCol = $this->view->correspondencia[0]['comunasCol'];
                 $this->view->regiones = $this->view->correspondencia[0]['regiones'];
                 $this->view->codigo_barras = $this->view->correspondencia[0]['codigo_barras'];
                 $this->view->detalle = $this->view->correspondencia[0]['detalle'];

@@ -91,7 +91,7 @@
                       echo "<tr>
                               <td>".$d['nombre']."</td>
                               <td>".$d['direccion']."</td>
-                              <td>".$d['comunascol']."</td>
+                              <td>".$d['comunasCol']."</td>
                               <td>".$d['regiones']."</td>";
                       echo    " <form action='". constant('URL')."Correspondencia/generarNuevoCliente' method='POST'>
                               <td>

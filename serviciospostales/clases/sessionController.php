@@ -143,7 +143,7 @@ class SessionController extends Controller{
     function inicialize($user){
         error_log('SESSIONCONTROLLER::inicialize ');
         foreach ($user as $u){
-          $this->idusuario =  $u['idUsuario'];
+          $this->idusuario =  $u['idusuario'];
           $this->username = $u['username'];
           $this->rut = $u['rut'];
           $this->nombre_usuario = $u['nombre_usuario'];

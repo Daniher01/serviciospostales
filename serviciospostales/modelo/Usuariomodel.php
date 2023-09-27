@@ -47,7 +47,7 @@ class UsuarioModel extends Model{
             $datos = $this->db->connect()->query($query);
             $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
             foreach ($rs as $r){
-                $this->setId($r['idUsuario']);
+                $this->setId($_idusuario);
                 $this->setUsername($r['username']);
                 $this->setRut($r['rut']);
                 $this->setNombre($r['nombre_usuario']);
@@ -93,7 +93,7 @@ class UsuarioModel extends Model{
             $datos = $this->db->connect()->query($query);
             $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
             foreach($rs as $r){
-                $this->setId($r['idUsuario']);
+                $this->setId($r['idusuario']);
                 $this->setUsername($r['username']);
                 $this->setPassword($r['password']);
                 $this->setRut($r['rut']);

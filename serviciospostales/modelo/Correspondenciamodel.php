@@ -13,7 +13,7 @@ class CorrespondenciaModel extends Model{
         try{
             
             //genera el pdf
-            $query = "INSERT INTO correspondencia (destinatario, direccion, codigo_barras, detalle, codigo_interno, numero_seguimiento, usuario_idusuario, tipo_encomienda_idTipo_encomienda, Comunas_idComunas, codigo_masivo)
+            $query = "INSERT INTO correspondencia (destinatario, direccion, codigo_barras, detalle, codigo_interno, numero_seguimiento, usuario_idusuario, tipo_encomienda_idTipo_encomienda, Comunas_idcomunas, codigo_masivo)
                     VALUES ('$destinatario', '$direccion',$codigo_barras,'$detalle','$codigo_interno','$num_seguimiento', $usuario_idusuario ,$tipoenvio,$comuna, $codigo_grupal)";
             $datos = $this->db->connect()->prepare($query);
             $rs = $datos->execute();
@@ -46,7 +46,7 @@ class CorrespondenciaModel extends Model{
     public function buscarNumOrden($num_seguimiento){
         try{
 
-            $query = "SELECT  estado, destinatario, direccion, codigo_barras, codigo_interno, comunascol, regiones, detalle, encomienda, fecha, hora, numero_seguimiento, detalle_movimiento FROM movimiento as m
+            $query = "SELECT  estado, destinatario, direccion, codigo_barras, codigo_interno, comunasCol, regiones, detalle, encomienda, fecha, hora, numero_seguimiento, detalle_movimiento FROM movimiento as m
                         INNER JOIN correspondencia as cor on m.correspondencia_codigo_barras = cor.codigo_barras
                         INNER JOIN comunas as c on c.idcomunas = cor.comunas_idcomunas
                         INNER JOIN regiones as r on r.idregiones = c.regiones_idregiones
@@ -67,7 +67,7 @@ class CorrespondenciaModel extends Model{
     public function buscarFecha($f_desde, $f_hasta){
         try{
 
-            $query = "SELECT DISTINCT numero_seguimiento, destinatario, direccion, codigo_barras, codigo_interno, comunascol, regiones, detalle, encomienda FROM movimiento as m
+            $query = "SELECT DISTINCT numero_seguimiento, destinatario, direccion, codigo_barras, codigo_interno, comunasCol, regiones, detalle, encomienda FROM movimiento as m
             INNER JOIN correspondencia as cor on m.correspondencia_codigo_barras = cor.codigo_barras
             INNER JOIN comunas as c on c.idcomunas = cor.comunas_idcomunas
             INNER JOIN regiones as r on r.idregiones = c.regiones_idregiones
@@ -88,7 +88,7 @@ class CorrespondenciaModel extends Model{
     public function buscarDestinatario($destinatario){
         try{
 
-            $query = "SELECT DISTINCT numero_seguimiento, destinatario, direccion, codigo_barras, codigo_interno, comunascol, regiones, detalle, encomienda FROM movimiento as m
+            $query = "SELECT DISTINCT numero_seguimiento, destinatario, direccion, codigo_barras, codigo_interno, comunasCol, regiones, detalle, encomienda FROM movimiento as m
             INNER JOIN correspondencia as cor on m.correspondencia_codigo_barras = cor.codigo_barras
             INNER JOIN comunas as c on c.idcomunas = cor.comunas_idcomunas
             INNER JOIN regiones as r on r.idregiones = c.regiones_idregiones
@@ -127,9 +127,9 @@ class CorrespondenciaModel extends Model{
     public function buscarCodigoMasivo($codigo_masivo){
         try{
 
-            $query = "SELECT destinatario, direccion, regiones, Comunascol, detalle_movimiento, codigo_interno, numero_seguimiento, encomienda  FROM correspondencia as cor
-                        INNER JOIN comunas as c on c.idComunas = cor.Comunas_idComunas
-                        INNER JOIN regiones as r on r.idRegiones = c.Regiones_idRegiones
+            $query = "SELECT destinatario, direccion, regiones, comunasCol, detalle_movimiento, codigo_interno, numero_seguimiento, encomienda  FROM correspondencia as cor
+                        INNER JOIN comunas as c on c.idcomunas = cor.Comunas_idcomunas
+                        INNER JOIN regiones as r on r.idregiones = c.Regiones_idregiones
                         INNER JOIN movimiento as m on m.Correspondencia_codigo_barras = cor.codigo_barras
                         INNER JOIN tipo_encomienda as te on te.idTipo_encomienda = cor.Tipo_encomienda_idTipo_encomienda
                         WHERE codigo_masivo = $codigo_masivo";
@@ -149,9 +149,9 @@ class CorrespondenciaModel extends Model{
             $query = "SELECT cor.codigo_barras, cor.destinatario, cor.direccion, com.comunasCol, r.regiones, d.departamento, CONCAT(u.nombre_usuario,' ', u.apellido_p, ' ', u.apellido_m) as nombre_creador, mov.fecha, mov.hora, e.estado 
             FROM movimiento as mov
             INNER JOIN correspondencia as cor on cor.codigo_barras = mov.Correspondencia_codigo_barras
-            INNER JOIN comunas as com on com.idComunas = cor.Comunas_idComunas
-            INNER JOIN regiones as r on r.idRegiones = com.Regiones_idRegiones
-            INNER JOIN usuario as u on u.idUsuario = cor.Usuario_idUsuario
+            INNER JOIN comunas as com on com.idcomunas = cor.Comunas_idcomunas
+            INNER JOIN regiones as r on r.idregiones = com.Regiones_idregiones
+            INNER JOIN usuario as u on u.idusuario = cor.Usuario_idusuario
             INNER JOIN departamento as d on u.tipo_departamento = d.iddepartamento
             INNER JOIN estado as e on mov.Estado_idEstado = e.idEstado
             WHERE fecha  BETWEEN '$f_desde' AND '$f_hasta'";

@@ -29,11 +29,11 @@ class ComunasModel extends Model{
 
     public function getIdComunaNombre($idcomuna){
         try{
-            $query = "SELECT * FROM comunas WHERE idComunas='$idcomuna'";
+            $query = "SELECT * FROM comunas WHERE idcomunas='$idcomuna'";
             $datos= $this->db->connect()->query($query);
             $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
             foreach ($rs as $c){
-                $comuna = $c['Comunascol'];
+                $comuna = $c['comunasCol'];
             }
             return $comuna;
 
@@ -45,7 +45,7 @@ class ComunasModel extends Model{
 
     public function getComunasIdRegion($_idregion){
         try{
-            $query = "SELECT * FROM comunas WHERE Regiones_idRegiones =$_idregion";
+            $query = "SELECT * FROM comunas WHERE Regiones_idregiones =$_idregion";
             $datos= $this->db->connect()->query($query);
             $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
             return $rs;
@@ -58,11 +58,11 @@ class ComunasModel extends Model{
 
     public function getComunaId($nombre_comuna){
         try{
-            $query = "SELECT * FROM comunas WHERE ComunasCol ='$nombre_comuna'";
+            $query = "SELECT * FROM comunas WHERE comunasCol ='$nombre_comuna'";
             $datos= $this->db->connect()->query($query);
             $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
             foreach ($rs as $c){
-                $idcomuna = $c['idComunas'];
+                $idcomuna = $c['idcomunas'];
             }
             return $idcomuna;
             

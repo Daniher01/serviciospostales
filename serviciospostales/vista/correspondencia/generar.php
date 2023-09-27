@@ -43,7 +43,7 @@
                 <?php 
                     foreach ($this->regiones as $region){
                 ?>
-                <option value=" <?php echo $region['idRegiones'] ?> "> <?php echo $region['regiones'] ?></option>
+                <option value=" <?php echo $region['idregiones'] ?> "> <?php echo $region['regiones'] ?></option>
                 <?php     
                     }
                 ?>

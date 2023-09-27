@@ -28,8 +28,8 @@
                   </tr>
                   <tr>
                     <th>Comuna:</th>
-                    <td><?php echo $this->comunascol ?></td>
-                    <input type="hidden" name="comuna" value="<?php echo $this->comunascol?>">
+                    <td><?php echo $this->comunasCol ?></td>
+                    <input type="hidden" name="comuna" value="<?php echo $this->comunasCol?>">
                     <th>Region:</th>
                     <td><?php echo $this->regiones ?></td>
                     <input type="hidden" name="region" value="<?php echo $this->regiones?>">

@@ -153,7 +153,7 @@ class PDF extends FPDF
             $nombre = $d['destinatario'];
             $direccion = $d['direccion'];
             $region = $d['regiones'];
-            $comuna = $d['Comunascol'];
+            $comuna = $d['comunasCol'];
             $detalle_movimiento = $d['detalle_movimiento'];
             $tipo_encomienda = $d['encomienda'];
             $num_seguimiento = $d['numero_seguimiento'];

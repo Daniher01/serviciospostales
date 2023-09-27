@@ -36,7 +36,7 @@
                     //compara la password ingresada con la de la BD
                     if($this->password == $resultado['password']){
                         //se obtienen los datos para asociarlos a la sesion
-                        $query2 = 'SELECT idUsuario, username, password,rut, nombre_usuario, apellido_p, apellido_m, email, tipo_usuario_idtipo_usuario, tipo_departamento FROM usuario  WHERE rut=?';
+                        $query2 = 'SELECT idusuario, username, password,rut, nombre_usuario, apellido_p, apellido_m, email, tipo_usuario_idtipo_usuario, tipo_departamento FROM usuario  WHERE rut=?';
                         //se prepara la consulta
                         $obtieneDatos =$this->db->connect()->prepare($query2);
                         $arrayData = array($this->rut);

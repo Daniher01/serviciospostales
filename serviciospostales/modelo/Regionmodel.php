@@ -27,7 +27,7 @@ class RegionModel extends Model{
     public function getIdRegionNombre($idregion){
         try{
             $region = $idregion;
-            $query = "SELECT * FROM regiones WHERE idRegiones='$idregion'";
+            $query = "SELECT * FROM regiones WHERE idregiones='$idregion'";
             $datos= $this->db->connect()->query($query);
             $rs = $datos->fetchAll(PDO::FETCH_ASSOC);
             foreach ($rs as $r){
