@@ -121,6 +121,7 @@ ALTER TABLE comunas ADD CONSTRAINT FK_Regiones__comunas FOREIGN KEY (Regiones_id
 INSERT INTO regiones (idregiones, regiones) VALUES (1, 'MAULE');
 INSERT INTO comunas (idcomunas, comunasCol, Regiones_idregiones) 
     VALUES (1, 'TALCA', 1), (2, 'CURICÓ', 1), (3, 'CAUQUENES', 1), (4, 'LINARES', 1);
+INSERT INTO estado (idestado, estado) VALUES (1, 'ENVIADO');
 INSERT INTO tipo_usuario (idtipo_usuario, usuario) VALUES (1, 'Administrativo'), (2, 'Funcionario');
 INSERT INTO departamento (iddepartamento, departamento) VALUES (1, 'RRHH');
 INSERT INTO usuario (idusuario, username, password, rut, nombre_usuario, apellido_p, apellido_m, email, tipo_departamento, tipo_usuario_idtipo_usuario)
